@@ -1,23 +1,23 @@
-# TÍTULO DO PROJETO
+# Destino Comum
 
-`CURSO`
+`Análise e Desenvolvmento de Sistemas (ADS)`
 
-`DISCIPLINA`
+`Desenvolvimento de uma Aplicação Interativa`
 
-`SEMESTRE`
+`2024/1`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
 * Nome completo do aluno 1
-* Nome completo do aluno 2
+* Daniel Müller Armond
 * Nome completo do aluno 3
 * Nome completo do aluno 4
 
 ## Orientador
 
-* Nome completo do professor 1
+* José Wilson da Costa
 
 ## Instruções de utilização
 
