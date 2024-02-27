@@ -13,7 +13,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Mariana Dias pereira 
 * Daniel Müller Armond
 * Gabriel de Oliveira Pinto
-* Nome completo do aluno 4
+* Juliano Ricaldoni Alves de Melo
 
 ## Orientador
 
