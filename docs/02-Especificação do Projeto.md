@@ -48,8 +48,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA | 
-|RF-002| A aplicação deve emitir um relatório de tarefas realizadas no mês   | MÉDIA |
+|RF-001| A aplicação deve exibir os dados básicos da cidade escolhida pelo usúario tais como;  Alimentação, transporte, clima e atração turística | ALTA |
+|RF-002| A aplicação deve permitir aos usuários a opção de realizar postagens de perguntas ou dicas referentes aos destinos escolhidos| ALTA |
+|RF-004| A aplicação deve permitir que os demais usuários possam votar em suas perguntas ou dicas favoritas | MÉDIA | 
+|RF-005| A aplicação deve automaticamente avaliar os melhores comentário e os evidenciar em "destaque"| MÉDIA |
+|RF-005| A aplicação deve permitir aos usúarios que possam favoritar seus detinos favoritos | MÉDIA |
+          
 
 ### Requisitos não Funcionais
 
