@@ -46,21 +46,22 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
+|ID    | Descrição de Requisitos Funcionais | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| A aplicação deve exibir os dados básicos da cidade escolhida pelo usúario tais como;  Alimentação, transporte, clima e atração turística | ALTA |
-|RF-002| A aplicação deve permitir aos usuários a opção de realizar postagens de perguntas ou dicas referentes aos destinos escolhidos| ALTA |
+|RF-002| A aplicação deve permitir aos usuários a opção de realizar postagens de perguntas ou dicas referentes aos destinos escolhidos | ALTA |
 |RF-004| A aplicação deve permitir que os demais usuários possam votar em suas perguntas ou dicas favoritas | MÉDIA | 
-|RF-005| A aplicação deve automaticamente avaliar os melhores comentário e os evidenciar em "destaque"| MÉDIA |
+|RF-005| A aplicação deve automaticamente avaliar os melhores comentário e os evidenciar em "destaque" | MÉDIA |
 |RF-006| A aplicação deve permitir aos usúarios que possam favoritar seus detinos favoritos | MÉDIA |
           
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
+|ID     | Descrição de Requisitos Não Funcionais |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser protegido contra acesso não autorizado | ALTA |
-|RNF-002| O Sistema deve ser capaz de trazer informações revelantes sobre a pesquisa de cada destino selecionado como o clima da região, e atração turística| ALTA |
-|RNF-003| O Sistema deve ser capaz de salvar os dados salvos do usúario de maneira individual para que cada usúario mantenha os próprios dados ao deslogar e logar| MÉDIA |
+|RNF-002| O Sistema deve ser capaz de trazer informações revelantes sobre a pesquisa de cada destino selecionado como o clima da região, e atração turística | ALTA |
+|RNF-003| O Sistema deve ser capaz de salvar os dados salvos do usúario de maneira individual para que cada usúario mantenha os próprios dados ao deslogar e logar | ALTA |
+|RNF-004| O Sistema deve funcionar de maneira correta mesmo com vários usúarios utilizando a plataforma ao mesmo tempo| ALTA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
