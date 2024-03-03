@@ -3,16 +3,14 @@
 Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Problema
+O problema presente que este projeto visa sanar é a falta de recursos para os turistas encontrarem informações sobre seus destinos, em um único site, como por exemplo: Clima, Atrações, hotés, voos…
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Clima: muitas pessoas, devido a correria para arrumar as malas, comprar voo, ligar em hotéis, acabam deixando de lado, a quesito do clima..o que por fim, irá prejudicar a viagem do turistas caso ele não tenha levado vestimentas adequadas para o clima.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Atrações: uma das coisas que os turistas mais procuram mas nem sempre encontram de maneira fácil, é sobre as atrações que estarão presentes durante sua viagem, desse medo, quais serão as atrações, o turista consegue planejar seus passeios, além de poder se preparar melhor financeira.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Hotéis e vôos: O quesito de vôos e hotéis não costuma ser de difícil acesso usuário, porém cada site possui sua companhia, o que pode causar acabando uma confusão na escolha, por isso, tendo informação de 2 ou 3 companhia em um único site, o usuário poderá fazer uma análise mais precisa e comparar o preço antes de comprar.
 
 ## Objetivos
 
