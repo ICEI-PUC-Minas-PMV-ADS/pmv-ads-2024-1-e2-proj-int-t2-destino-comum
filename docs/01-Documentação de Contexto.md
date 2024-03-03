@@ -16,9 +16,13 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo é permitir que esses viajantes acessem informações detalhadas sobre destinos turísticos, incluindo clima, atrações, gastronomia local, opções de transporte público e estimativas de gastos. Além disso, nosso aplicativo visa promover a interação entre os usuários, proporcionando uma comunidade onde podem compartilhar experiências, dicas e recomendações de viagem.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Acreditamos que ao simplificar o processo de planejamento de viagens e oferecer uma comunidade envolvente, podemos capacitar esses viajantes a tomar decisões informadas, aproveitar ao máximo suas experiências de viagem e construir conexões significativas com outros entusiastas de viagem.
+
+1- Aprimorar a funcionalidade do aplicativo para garantir que os usuários possam acessar facilmente informações essenciais sobre destinos, incluindo clima, atrações, transporte público e estimativas de gastos.
+
+2- Implementar recursos de personalização e recomendação com base nas preferências individuais dos usuários, oferecendo sugestões de destinos e atividades alinhadas com seus interesses específicos.
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
