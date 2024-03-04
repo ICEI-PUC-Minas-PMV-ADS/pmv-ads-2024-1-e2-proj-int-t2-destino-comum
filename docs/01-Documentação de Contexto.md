@@ -27,9 +27,9 @@ Acreditamos que ao simplificar o processo de planejamento de viagens e oferecer 
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Nosso projeto foi escolhido, devido a importância do desenvolvimento de estratégias digitais para promover destinos turísticos e a necessidade de explorar novas formas de engajar os viajantes, com isso decidimos trabalhar na criação de um site de turismo 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Nosso site, refere- se ao seguinte ao seguinte público alvo: Homens e mulheres entre 45 e 60 anos, casados ou solteiros, com uma renda entre 4 a 6 mil reais. Moradores da capital, que desejam simplificar sua busca por informações dos destinos de suas viagens e também interagir com outros turistas que também foram para o mesmo local e tem por objetivo ajudar os turistas a planejarem melhor sua viagem, dando acesso a algumas informações em um único local, como: voo, hotéis, atrações...
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
