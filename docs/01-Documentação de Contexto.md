@@ -3,12 +3,11 @@
 Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
 ## Problema
-Problema
 O problema presente que este projeto visa sanar é a falta de recursos para os turistas encontrarem informações sobre seus destinos, em um único site, como por exemplo: Clima, Atrações, hotés, voos…
 
 Clima: muitas pessoas, devido a correria para arrumar as malas, comprar voo, ligar em hotéis, acabam deixando de lado, a quesito do clima..o que por fim, irá prejudicar a viagem do turistas caso ele não tenha levado vestimentas adequadas para o clima.
 
-Atrações: uma das coisas que os turistas mais procuram, mas nem sempre encontram de maneira fácil, são informações sobre as atrações que estarão presentes durante sua viagem. Desse modo, o turista consegue planejar melhor seus passeios, além de estar mais prepararado financeiramente.
+Atrações: algo muito procurado pelos turistas, mas que, nem sempre encontram de maneira fácil, são informações sobre as atrações que estarão presentes durante sua viagem. Desse modo, o turista consegue planejar melhor seus passeios, além de estar mais prepararado financeiramente.
 
 Hotéis e vôos: o quesito de vôos e hotéis não costuma ser de difícil acesso usuário, porém cada site possui sua companhia, o que pode causar acabando uma confusão na escolha, por isso, tendo informação de 2 ou 3 empresas em um único site, o usuário poderá fazer uma análise mais precisa e comparar o preço antes de efetuar a compra.
 
