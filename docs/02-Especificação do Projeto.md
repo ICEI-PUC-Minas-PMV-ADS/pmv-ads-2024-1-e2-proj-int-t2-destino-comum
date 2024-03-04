@@ -27,7 +27,7 @@ Hobbies : Leitura, desenho, assistir filmes e séries. <br>
 História: há alguns anos, Ana sofreu um acidente de carro que resultou em lesões na coluna vertebral, deixando-a parcialmente paralisada da cintura para baixo. Apesar dos desafios físicos, Ana é uma pessoa determinada e apaixonada por sua atual profissão. Ela adaptou seu ambiente de trabalho em casa para garantir que tudo esteja acessível e confortável para suas necessidades. <br>
 
 #### Roberto Nascimento <br>
-Idade: 52. <br>
+Idade: 45. <br>
 Ocupação: Policial. <br>
 Hobbies : Treinamento físico, leitura de livros sobre segurança pública, passeios ao ar livre com a família. <br>
 História: Nascimento é um policial dedicado com 15 anos de experiência na força policial local. Desde jovem, ele sempre teve uma vocação para servir e proteger sua comunidade. Seu interesse pela segurança pública começou quando ele testemunhou um crime em sua vizinhança durante a adolescência, o que o motivou a seguir a carreira policial. Marcos é conhecido por sua ética de trabalho exemplar e sua determinação. Ele realiza patrulhas regularmente, respondendo a chamadas de emergência e garantindo a segurança dos cidadãos. Fora do trabalho, Marcos dedica seu tempo livre ao treinamento físico e à leitura de livros sobre táticas policiais e estratégias de segurança para aprimorar suas habilidades profissionais. Além disso, Marcos valoriza muito o tempo passado com sua família e costuma fazer passeios ao ar livre com sua esposa e filhos nos fins de semana, sempre atento à segurança deles e de todos ao seu redor. <br>
