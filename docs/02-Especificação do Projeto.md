@@ -90,7 +90,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-004| A aplicação deve permitir que os demais usuários possam votar em suas perguntas ou dicas favoritas | MÉDIA | 
 |RF-005| A aplicação deve automaticamente avaliar os melhores comentário e os evidenciar em "destaque" | MÉDIA |
 |RF-006| A aplicação deve permitir aos usúarios que possam favoritar seus detinos favoritos | MÉDIA |
-|RF-007| A aplicação deve permitir aos usúarios que possam aplicar filtros que permitam selecionar roteirso de viagens de acordo com a sua disponibilidade orçamentária | BAIXA |
+|RF-007| A aplicação deve permitir aos usúarios que possam aplicar filtros que permitam selecionar roteiros de viagens de acordo com a sua disponibilidade orçamentária | BAIXA |
 |RF-008| A aplicação deve permitir aos usúarios que possam aplicar filtros que forneçaem informaçoes básicas acerca da infraestrutura de locomoção para usuários com mobilidade reduzida | BAIXA |
 |RF-009| A aplicação deve permitir aos usúarios que possam aplicar filtros que forneçaem informaçoes básicas sobre a segurança dos locais a serem visitados | BAIXA |
           
