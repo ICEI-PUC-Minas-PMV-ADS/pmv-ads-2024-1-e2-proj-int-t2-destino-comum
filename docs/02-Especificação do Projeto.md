@@ -45,9 +45,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Usuário do sistema  | Encontrar informações sobre destinos turísticos populares em diferentes cidades          | Planejar minha próxima viagem              |
-|Usuário do sistema  | Ler avaliações e recomendações de outros viajantes sobre atrações turísticas (locais históricos, museus, restaurantes etc) de uma determinada cidade          | Planejar os locais que irei visitar em determinada cidade              |
+|Usuário do sistema  | Ler comentários e respostas de outros viajantes sobre atrações turísticas (locais históricos, museus, restaurantes etc) de uma determinada cidade          | Planejar os locais que irei visitar em determinada cidade              |
 |Usuário do sistema  | Selecionar o tipo de atividade (aventura, caminhada, esportes radicais, atividades para família) que quero fazer em uma determinada cidade| localizar, mais facilmente, as atividades disponíveis em cada região |
-|Usuário do sistema  |Comentar em seções específicas acerca do local visitado.| localizar, mais facilmente, as atividades disponíveis em cada região | Fornecer feedback dos lugares  que visitei |
+|Usuário do sistema  |Comentar em seções específicas acerca do local visitado, como alimentação, transporte, hospedagem e clima | Fornecer feedback dos lugares  que visitei |
 |Usuário do sistema  |Informações  sobre a história e cultura da cidade a ser visitada| localizar, mais facilmente, as atividades disponíveis em cada região | Fornecer feedback dos lugares  que visitei |
 |Usuário do sistema (de orçamento limitado) |Encontrar dicas e guias para viagens econômicas (hospedagens e locais de visitação) | Para compreender melhor o contexto do local antes de visitá-lo |
 |Usuário do sistema (com folga orçamentária) |Encontrar dicas e guias para viagens (hospedagens e locais de visitação) | Para que a viagem seja adequada ao orçamento disponível |
