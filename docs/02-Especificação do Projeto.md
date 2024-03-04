@@ -131,6 +131,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Deve ser desenvolvido um módulo de backend        |
+|03| O projeto deve ser desenvolvido dentro do escopo dos recursos técnicos disponíveis, como linguagens de programação específicas ou ferramentas de desenvolvimento previamente determinadas pela equipe ou pela organização.       |
+|04| Restrições de acesso aos recursos do dispositivo, como GPS e câmera, devem ser consideradas para garantir que o aplicativo funcione corretamente em diferentes dispositivos e sistemas operacionais.       |
+|05| Devido a políticas de privacidade, é necessário garantir que o aplicativo esteja em conformidade com regulamentos de proteção de dados, como a Lei Geral de Proteção de Dados (LGPD), o que pode afetar a coleta e o uso de informações dos usuários.       |
+|06| Restrições de acessibilidade podem surgir caso o aplicativo precise atender às diretrizes de acessibilidade, garantindo que seja acessível para usuários com deficiências visuais, auditivas ou motoras.       |
+|07| Restrições de tempo podem ser impostas por eventos sazonais ou temporários, como feriados, festivais ou eventos esportivos, que podem exigir atualizações específicas no aplicativo ou demandar maior suporte técnico durante esses períodos.       |
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
