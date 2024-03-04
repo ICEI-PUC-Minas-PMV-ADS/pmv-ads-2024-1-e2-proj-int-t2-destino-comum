@@ -42,10 +42,17 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Usuário do sistema  | Encontrar informações sobre destinos turísticos populares em diferentes cidades          | Planejar minha próxima viagem.              |
+|Usuário do sistema  | Ler avaliações e recomendações de outros viajantes sobre atrações turísticas (locais históricos, museus, restaurantes etc) de uma determinada cidade          | Planejar os locais que irei visitar em determinada cidade              |
+|Usuário do sistema  | Selecionar o tipo de atividade (aventura, caminhada, esportes radicais, atividades para família) que quero fazer em uma determinada cidade| localizar, mais facilmente, as atividades disponíveis em cada região |
+|Usuário do sistema  |Comentar em seções específicas acerca do local visitado.| localizar, mais facilmente, as atividades disponíveis em cada região | Fornecer feedback dos lugares  que visitei |
+|Usuário do sistema  |Informações  sobre a história e cultura da cidade a ser visitada| localizar, mais facilmente, as atividades disponíveis em cada região | Fornecer feedback dos lugares  que visitei |
+|Usuário do sistema (de orçamento limitado) |Encontrar dicas e guias para viagens econômicas (hospedagens e locais de visitação) | Para compreender melhor o contexto do local antes de visitá-lo |
+|Usuário do sistema (com folga orçamentária) |Encontrar dicas e guias para viagens (hospedagens e locais de visitação) | Para que a viagem seja adequada ao orçamento disponível |
+|Usuário do sistema (com mobilidade reduzida) |Informações sobre a acessibilidade de atrações turísticas em uma determinada cidade | Para que consiga ter uma boa experiência nos locais a serem visitados |
+|Usuário do sistema (interessado em segurança) |Gostaria de encontrar informações sobre os índices de criminalidade | Para planejar uma viagem tranquila sob o ponto de vista da segurança |
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
