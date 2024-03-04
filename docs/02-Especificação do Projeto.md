@@ -8,14 +8,14 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 #### Nome: Amanda Alves <br> 
-Idade: 28. <br>
+Idade: 46. <br>
 Ocupação: estagiária em análise e desenvolvimento de sistemas. <br>
 Hobbies : Viajar, Ler, Escutar música. <br>
 Praticar esporte. <br>
 História:  Amanda Alves, é uma jovem de 19 anos, apaixonada pelo turismo, e está sempre procurando lugares novos para conhecer.<br>
 
 #### Paulo Gonçalves <br>
-Idade: 40<br>
+Idade: 47<br>
 Ocupação: Dono de uma empresa de carros.<br>
 Hobbies : Acompanhar corridas de carros,  viajar, Acompanhar o mundo de investimentos.<br>
 História: Paulo Gonçalves, é um homem de 40 anos, apaixonado por carros e viajem, está sempre procurando locais novo para visitar. <br>
@@ -27,13 +27,13 @@ Hobbies : Leitura, desenho, assistir filmes e séries. <br>
 História: há alguns anos, Ana sofreu um acidente de carro que resultou em lesões na coluna vertebral, deixando-a parcialmente paralisada da cintura para baixo. Apesar dos desafios físicos, Ana é uma pessoa determinada e apaixonada por sua atual profissão. Ela adaptou seu ambiente de trabalho em casa para garantir que tudo esteja acessível e confortável para suas necessidades. <br>
 
 #### Roberto Nascimento <br>
-Idade: 37. <br>
+Idade: 52. <br>
 Ocupação: Policial. <br>
 Hobbies : Treinamento físico, leitura de livros sobre segurança pública, passeios ao ar livre com a família. <br>
 História: Nascimento é um policial dedicado com 15 anos de experiência na força policial local. Desde jovem, ele sempre teve uma vocação para servir e proteger sua comunidade. Seu interesse pela segurança pública começou quando ele testemunhou um crime em sua vizinhança durante a adolescência, o que o motivou a seguir a carreira policial. Marcos é conhecido por sua ética de trabalho exemplar e sua determinação. Ele realiza patrulhas regularmente, respondendo a chamadas de emergência e garantindo a segurança dos cidadãos. Fora do trabalho, Marcos dedica seu tempo livre ao treinamento físico e à leitura de livros sobre táticas policiais e estratégias de segurança para aprimorar suas habilidades profissionais. Além disso, Marcos valoriza muito o tempo passado com sua família e costuma fazer passeios ao ar livre com sua esposa e filhos nos fins de semana, sempre atento à segurança deles e de todos ao seu redor. <br>
 
 #### Gabriela Torres <br>
-Idade: 44. <br>
+Idade: 51. <br>
 Ocupação: Professora de história. <br>
 Hobbies : Viajar, estudar culturas locais, fotografia, colecionar artefatos históricos. <br>
 História: Gabriela é uma professora de história apaixonada por culturas locais e viagens. Ela leciona história há mais de uma década, inspirando seus alunos a explorar e compreender o mundo por meio do estudo do passado. Sempre que possível, Gabriela aproveita suas férias para viajar e explorar novos lugares, mergulhando na riqueza cultural e histórica de cada destino. Gabriela também é uma entusiasta da fotografia, capturando momentos significativos de suas viagens e colecionando artefatos históricos como lembranças. <br>
