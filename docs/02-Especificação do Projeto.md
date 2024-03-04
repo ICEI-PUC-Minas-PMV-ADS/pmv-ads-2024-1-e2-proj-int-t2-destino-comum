@@ -93,6 +93,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-007| A aplicação deve permitir aos usúarios que possam aplicar filtros que permitam selecionar roteiros de viagens de acordo com a sua disponibilidade orçamentária | BAIXA |
 |RF-008| A aplicação deve permitir aos usúarios que possam aplicar filtros que forneçaem informaçoes básicas acerca da infraestrutura de locomoção para usuários com mobilidade reduzida | BAIXA |
 |RF-009| A aplicação deve permitir aos usúarios que possam aplicar filtros que forneçaem informaçoes básicas sobre a segurança dos locais a serem visitados | BAIXA |
+|RF-010| O sistema deve exibir o valor aproximado da viagem | ALTA |
           
 ### Requisitos não Funcionais
 
@@ -101,7 +102,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| O sistema deve ser protegido contra acesso não autorizado | ALTA |
 |RNF-002| O Sistema deve ser capaz de trazer informações revelantes sobre a pesquisa de cada destino selecionado como o clima da região, e atração turística | ALTA |
 |RNF-003| O Sistema deve ser capaz de salvar os dados salvos do usúario de maneira individual para que cada usúario mantenha os próprios dados ao deslogar e logar | ALTA |
-|RNF-004| O Sistema deve funcionar de maneira correta mesmo com vários usúarios utilizando a plataforma ao mesmo tempo| ALTA |
+|RNF-004| O sistema deve funcionar normalmente mesmo tendo 1000 acessos simultaneamente | ALTA |
+|RNF-005| O sistema deve estar disponível 99% do tempo| ALTA |
+|RNF-006| O cadastro do usuário e armazenamento de suas informações devem seguir as diretrizes da Lei Geral de Proteção de Dados (LGPD) | ALTA |
+|RNF-007| O sistema deve possuir um Design para mobile responsivo | ALTA |
+|RNF-008| A aplicação deve ser compatível com os principais navegadores do mercado | ALTA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
