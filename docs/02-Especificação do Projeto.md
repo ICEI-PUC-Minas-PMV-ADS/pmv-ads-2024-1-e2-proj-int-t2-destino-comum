@@ -48,7 +48,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário do sistema  | Ler comentários e respostas de outros viajantes sobre atrações turísticas (locais históricos, museus, restaurantes etc) de uma determinada cidade          | Planejar os locais que irei visitar em determinada cidade              |
 |Usuário do sistema  | Escrever perguntas e respostas em seções específicas de cada destino | Esclarecer dúvidas e ajudar outros usuários da página  |
 |Usuário do sistema  | Avaliar as perguntas e respostas postadas em seções específicas de cada destino como 'gostei'e 'não gostei' | classificar os comentários pela sua relevância e utilidade |
-|Usuário do sistema  | Definir e acompanhar os comentários das minhas cidades favoritas do site | Me atualizar sobre as informações postadas das minhas cidades de maior interesse |
+|Usuário do sistema  | Definir minhas cidades favoritas do sit e acompanhar os comentários e notícias | Me atualizar sobre as informações postadas das minhas cidades de maior interesse |
 |Usuário do sistema  | Selecionar o tipo de atividade (aventura, caminhada, esportes radicais, atividades para família) que quero fazer em uma determinada cidade| localizar, mais facilmente, as atividades disponíveis em cada região |
 |Usuário do sistema  |Comentar em seções específicas acerca do local visitado, como alimentação, transporte, hospedagem e clima | Fornecer feedback dos lugares  que visitei |
 |Usuário do sistema  |Informações  sobre a história e cultura da cidade a ser visitada| localizar, mais facilmente, as atividades disponíveis em cada região | Fornecer feedback dos lugares  que visitei |
