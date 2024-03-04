@@ -10,10 +10,12 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Mariana Dias pereira 
 * Daniel Müller Armond
+* Flávio Vizeu Stellet Soares
 * Gabriel de Oliveira Pinto
 * Juliano Ricaldoni Alves de Melo
+* Mariana Dias Pereira
+* Rafael Xavier Franco
 
 ## Orientador
 
