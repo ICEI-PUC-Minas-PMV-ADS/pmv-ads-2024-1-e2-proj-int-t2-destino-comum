@@ -3,19 +3,19 @@
 Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
 ## Problema
-O problema presente que este projeto visa sanar é a falta de recursos para os turistas encontrarem informações sobre seus destinos, em um único site, como por exemplo: Clima, Atrações, hotés, voos…
+O problema presente que este projeto visa sanar é a falta de recursos para os turistas encontrarem informações sobre seus destinos, em um único site, como por exemplo: Clima, atrações turísticas, hotés, vôos…
 
-Clima: muitas pessoas, devido a correria para arrumar as malas, comprar voo, ligar em hotéis, acabam deixando de lado, a quesito do clima..o que por fim, irá prejudicar a viagem do turistas caso ele não tenha levado vestimentas adequadas para o clima.
+Clima: muitas pessoas, devido diversos fatores, acabam deixando negligenciando informaçoes acerca clima do clima da região que será visitada. Dessa forma, a experiência do turista caso ele não tenha levado vestimentas adequadas para o clima, pode ser prejudicada.
 
-Atrações: algo muito procurado pelos turistas, mas que, nem sempre encontram de maneira fácil, são informações sobre as atrações que estarão presentes durante sua viagem. Desse modo, o turista consegue planejar melhor seus passeios, além de estar mais prepararado financeiramente.
+Atrações: algo muito procurado pelos turistas, mas que, nem sempre encontram de maneira fácil, são informações sobre as atrações que estarão presentes durante sua viagem. Desse modo, sabendo as principais atrações nos locais a serem visitados, o turista consegue planejar melhor seus passeios, além de estar mais prepararado financeiramente.
 
-Hotéis e vôos: o quesito de vôos e hotéis não costuma ser de difícil acesso usuário, porém cada site possui sua companhia, o que pode causar acabando uma confusão na escolha, por isso, tendo informação de 2 ou 3 empresas em um único site, o usuário poderá fazer uma análise mais precisa e comparar o preço antes de efetuar a compra.
+Hotéis e vôos: informações sobre vôos e hotéis não costumam ser de difícil acesso usuário, porém, cada site possui sua companhia. Isso pode causar certa confusão na escolha. Por isso, tendo-se informação de 2 ou 3 empresas em um único site, o usuário poderá realizar uma análise mais precisa e comparar o preço antes de efetuar a compra.
 
 ## Objetivos
 
 O objetivo é permitir que esses viajantes acessem informações detalhadas sobre destinos turísticos, incluindo: clima, atrações, gastronomia local, opções de transporte público e estimativas de gastos. Além disso, nosso aplicativo visa promover a interação entre os usuários, proporcionando uma comunidade onde podem compartilhar experiências, dicas e recomendações de viagem.
 
-Acreditamos que ao simplificar o processo de planejamento de viagens e oferecer uma comunidade envolvente, podemos capacitar esses viajantes a tomar decisões informadas, aproveitar ao máximo suas experiências de viagem e construir conexões significativas com outros entusiastas de viagem.
+Acredita-se que ao simplificar o processo de planejamento de viagens e oferecer uma comunidade envolvente, pode-se capacitar os viajantes a tomar decisões mais acertivas além de aproveitar ao máximo suas experiências de viagem e construir conexões significativas com outros entusiastas do tema (viagem).
 
 1- Aprimorar a funcionalidade do aplicativo para garantir que os usuários possam acessar, facilmente, informações essenciais sobre destinos, incluindo: clima, atrações, transporte público e estimativas de gastos.
 
