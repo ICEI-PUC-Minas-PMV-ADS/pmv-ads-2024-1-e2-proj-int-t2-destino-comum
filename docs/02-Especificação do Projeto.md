@@ -7,10 +7,24 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
+Nome: Amanda Alves 
+Idade: 28
+Ocupação: estagiária em análise e desenvolvimento de sistemas.
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Hobbies : Viajar, Ler, Escutar música, 
+Praticar esporte..
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+História:  Amanda Alves, é uma jovem de 19 anos, apaixonada pelo turismo, e está sempre procurando lugares novos para conhecer.
+
+
+Paulo Gonçalves
+Idade: 40
+Ocupação: Dono de uma empresa de carros.
+Hobbies : Acompanhar corridas de carros,  viajar, Acompanhar o mundo de investimentos..
+
+História: Paulo Gonçalves, é um homem de 40 anos, apaixonado por carros e viajem, está sempre procurando locais novo para estar visitando 
+
+
 
 > **Links Úteis**:
 > - [Rock Content](https://rockcontent.com/blog/personas/)
