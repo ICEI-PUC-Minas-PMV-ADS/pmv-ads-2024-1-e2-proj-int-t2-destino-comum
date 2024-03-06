@@ -86,7 +86,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição de Requisitos Funcionais | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| A aplicação deve exibir os dados básicos da cidade escolhida pelo usúario tais como;  Alimentação, transporte, clima e atração turística | ALTA |
-|RF-002| A aplicação deve permitir aos usuários a opção de realizar postagens de perguntas ou dicas referentes aos destinos escolhidos | ALTA |
+|RF-002| A aplicação permitirá: cadastrar novo usuário | ALTA |
+|RF-003| A aplicação deve permitir aos usuários a opção de realizar postagens de perguntas ou dicas referentes aos destinos escolhidos | ALTA |
 |RF-004| A aplicação deve permitir que os demais usuários possam votar em suas perguntas ou dicas favoritas | MÉDIA | 
 |RF-005| A aplicação deve automaticamente avaliar os melhores comentário e os evidenciar em "destaque" | MÉDIA |
 |RF-006| A aplicação deve permitir aos usúarios que possam favoritar seus detinos favoritos | MÉDIA |
@@ -94,6 +95,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-008| A aplicação deve permitir aos usúarios que possam aplicar filtros que forneçaem informaçoes básicas acerca da infraestrutura de locomoção para usuários com mobilidade reduzida | BAIXA |
 |RF-009| A aplicação deve permitir aos usúarios que possam aplicar filtros que forneçaem informaçoes básicas sobre a segurança dos locais a serem visitados | BAIXA |
 |RF-010| O sistema deve exibir o valor aproximado da viagem | ALTA |
+
+
           
 ### Requisitos não Funcionais
 
