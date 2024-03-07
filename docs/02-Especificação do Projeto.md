@@ -110,6 +110,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-006| O cadastro do usuário e armazenamento de suas informações devem seguir as diretrizes da Lei Geral de Proteção de Dados (LGPD) | ALTA |
 |RNF-007| Aplicação deve ser responsiva sendo possível seu uso em diferentes dispositivos | ALTA |
 |RNF-008| A aplicação deve ser compatível com os principais navegadores do mercado | ALTA |
+|RNF-008| O sistema deve permitir o cadastro do usuário em 10 minutos | MÉDIA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
