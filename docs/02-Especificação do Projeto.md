@@ -82,17 +82,17 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição de Requisitos Funcionais | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve exibir os dados básicos da cidade escolhida pelo usúario tais como;  Alimentação, transporte, clima e atração turística | ALTA |
+|RF-001| A aplicação deve exibir os dados básicos da cidade escolhida pelo usúario | ALTA |
 |RF-002| A aplicação permitirá: cadastrar novo usuário | ALTA |
-|RF-003| A aplicação deve permitir aos usuários a opção de realizar postagens de perguntas ou dicas referentes aos destinos escolhidos | ALTA |
-|RF-004| A aplicação deve permitir que os demais usuários possam votar em suas perguntas ou dicas favoritas | MÉDIA | 
-|RF-005| A aplicação deve automaticamente avaliar os melhores comentário e os evidenciar em "destaque" | MÉDIA |
-|RF-006| A aplicação deve permitir aos usúarios que possam favoritar seus detinos favoritos | MÉDIA |
-|RF-007| A aplicação deve permitir aos usúarios que possam aplicar filtros que permitam selecionar roteiros de viagens de acordo com a sua disponibilidade orçamentária | BAIXA |
-|RF-008| A aplicação deve permitir aos usúarios que possam aplicar filtros que forneçaem informaçoes básicas acerca da infraestrutura de locomoção para usuários com mobilidade reduzida | BAIXA |
-|RF-009| A aplicação deve permitir aos usúarios que possam aplicar filtros que forneçaem informaçoes básicas sobre a segurança dos locais a serem visitados | BAIXA |
-|RF-010| O sistema deve exibir o valor aproximado da viagem | ALTA |
-
+|RF-003| A aplicação deve permitir aos usuários a opção de escrever e editar as suas perguntas ou dicas referentes aos destinos escolhidos | ALTA |
+|RF-004| A aplicação deve permitir aos usúarios que possam pesquisar as cidades de seu interesse | ALTA |
+|RF-005| A aplicação deve permitir que os demais usuários possam votar em suas perguntas ou dicas favoritas | MÉDIA | 
+|RF-006| A aplicação deve automaticamente avaliar os melhores comentário e os evidenciar em "destaque" | MÉDIA |
+|RF-007| A aplicação deve permitir aos usúarios que possam definir seus destinos favoritos | MÉDIA |
+|RF-008| A aplicação deve permitir aos usúarios reportar comentários impróprios | MÉDIA |
+|RF-009| A aplicação deve permitir que os usuários recebam notificações | MÉDIA |
+|RF-010| A aplicação deve permitir que o administrador bloqueie ou exclua usuários | ALTA |
+|RF-010| A aplicação deve permitir que o administrador exclua comentários reportados como impróprios pelos usuários | ALTA |
 
           
 ### Requisitos não Funcionais
