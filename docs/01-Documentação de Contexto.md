@@ -15,27 +15,23 @@ Hotéis e vôos: informações sobre vôos e hotéis não costumam ser de difíc
 
 O objetivo é permitir que esses viajantes acessem informações detalhadas sobre destinos turísticos, incluindo: clima, atrações, gastronomia local, opções de transporte público e estimativas de gastos. Além disso, nosso aplicativo visa promover a interação entre os usuários, proporcionando uma comunidade onde podem compartilhar experiências, dicas e recomendações de viagem.
 
-Acredita-se que ao simplificar o processo de planejamento de viagens e oferecer uma comunidade envolvente, pode-se capacitar os viajantes a tomar decisões mais acertivas além de aproveitar ao máximo suas experiências de viagem e construir conexões significativas com outros entusiastas do tema (viagem).
+Acredita-se que ao simplificar o processo de planejamento de viagens e oferecer uma comunidade envolvente, pode-se capacitar os viajantes a tomar decisões mais assertivas além de aproveitar ao máximo suas experiências de viagem e construir conexões significativas com outros entusiastas do tema (viagem).
 
-1- Aprimorar a funcionalidade do aplicativo para garantir que os usuários possam acessar, facilmente, informações essenciais sobre destinos, incluindo: clima, atrações, transporte público e estimativas de gastos.
-
-2- Implementar recursos de personalização e recomendação com base nas preferências individuais dos usuários, oferecendo sugestões de destinos e atividades alinhadas com seus interesses específicos.
+Aprimorar a funcionalidade do aplicativo para garantir que os usuários possam acessar, facilmente, informações essenciais sobre destinos, incluindo: clima, atrações, transporte público e estimativas de gastos.
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Este projeto foi escolhido devido à importância do desenvolvimento de estratégias digitais para promover destinos turísticos e a necessidade de explorar novas formas de engajar os viajantes. Dessa forma, decidiu-se criar de um site de turismo.
-
-O site refere- se ao seguinte ao seguinte público alvo: homens e mulheres entre 45 e 60 anos, casados ou solteiros, com uma renda entre 4 a 6 mil reais. Moradores da capital, que desejam simplificar sua busca por informações dos destinos de suas viagens e também interagir com outros turistas que também foram para o mesmo local e tem por objetivo ajudar os turistas a planejarem melhor sua viagem, dando acesso a algumas informações em um único local, como: voo, hotéis, atrações...
+Este projeto foi escolhido devido à importância do desenvolvimento de estratégias digitais para promover destinos turísticos e a necessidade de explorar novas formas de engajar os viajantes. Dessa forma, decidiu-se por criar uma rede social voltada para a troca de informações e experiências entre os usuários.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
+O site refere- se ao seguinte ao seguinte público alvo: homens e mulheres entre 20 e 45 anos, casados ou solteiros, com uma renda entre 4 a 15 mil reais. Moradores da capital, que desejam simplificar sua busca por informações dos destinos de suas viagens e também interagir com outros turistas que foram para o mesmo local e tem por objetivo ajudar outros usuários a planejarem melhor sua viagem, dando acesso a algumas informações em um único local, como: voo, hotéis, pontos turísticos, clima e alimentação
 
-Homens e mulheres entre 45 e 60 anos, casados ou solteiros, com uma renda ente 4 a 6 mil reais. Moradores da capital, que desejam simplificar sua busca por informações dos destinos de suas viagens e também interagir com outros turistas que também foram para o mesmo local.
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
