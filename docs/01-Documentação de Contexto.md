@@ -1,6 +1,6 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Este projeto surge como resposta a uma necessidade latente no universo das viagens, visando simplificar o planejamento para os viajantes ao oferecer uma plataforma abrangente que reúna informações cruciais em um único local. Ao abordar questões como clima, atrações, hospedagem e transporte, nosso objetivo é capacitar os viajantes, especialmente homens e mulheres entre 20 e 45 anos, casados ou solteiros, com uma renda entre 4 a 15 mil reais e residentes na capital, a tomar decisões informadas e desfrutar ao máximo de suas experiências. Com um foco na interação entre os usuários e na promoção de destinos turísticos, este projeto visa não apenas facilitar o processo de planejamento, mas também enriquecer as jornadas dos viajantes, permitindo-lhes explorar novos horizontes com confiança e entusiasmo renovados.
 
 ## Problema
 O problema presente que este projeto visa sanar é a falta de recursos para os turistas encontrarem informações sobre seus destinos, em um único site, como por exemplo: Clima, atrações turísticas, hotés, vôos…
