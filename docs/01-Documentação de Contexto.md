@@ -1,9 +1,11 @@
 # Introdução
 
-O atual projeto surge como resposta a uma necessidade latente. Isto é, visa simplificar o planejamento de viagens ao oferecer uma plataforma que reúne diversas informações em um único local. Questões como clima, atrações, hospedagem e transporte são abordados na plataforma, tendo-se como objetivo capacitar viajantes a tomar decisões mais assertivas e desfrutar ao máximo de suas experiências nos locais (cidades) que sarão visitadas. Com foco na interação entre usuários e na promoção de destinos turísticos , por meio do fornecimento das informações supramencionadas (clima, hospedagem, etc), este projeto tem como intuito não apenas facilitar o processo de planejamento das viagens, mas também enriquecer as jornadas dos viajantes, permitindo-lhes explorar novos lugares sob novos olhares e perspectivas.
+O atual projeto surge como resposta a uma necessidade latente. Isto é, visa simplificar o planejamento de viagens ao oferecer uma plataforma que reúne diversas informações em um único local. Questões como clima, atrações, hospedagem e transporte são abordados na plataforma, tendo-se como objetivo capacitar viajantes a tomar decisões mais assertivas e desfrutar ao máximo de suas experiências nos locais (cidades) que serão visitadas. 
+
+Com foco na interação entre usuários e na promoção de destinos turísticos, por meio do fornecimento das informações supramencionadas (clima, hospedagem, etc), este projeto tem como intuito não apenas facilitar o processo de planejamento das viagens, mas também enriquecer as jornadas dos viajantes, permitindo-lhes explorar novos lugares sob novos olhares e perspectivas.
 
 ## Problema
-O problema presente que este projeto visa sanar é a falta de recursos para os turistas encontrarem informações sobre seus destinos, em um único site, como por exemplo: Clima, atrações turísticas, hotés, vôos…
+O problema presente que este projeto visa sanar é a falta de recursos para os turistas encontrarem informações sobre seus destinos, em um único site, como por exemplo: Clima, atrações turísticas, hotés e vôos.
 
 Clima: muitas pessoas, devido diversos fatores, acabam deixando negligenciando informaçoes acerca clima do clima da região que será visitada. Dessa forma, a experiência do turista caso ele não tenha levado vestimentas adequadas para o clima, pode ser prejudicada.
 
