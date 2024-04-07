@@ -10,20 +10,23 @@ Por exemplo:
 
 
 | **Caso de Teste** 	| **01 – Buscar cidade** |
-| Requisito Associado 	| RF-001 - A aplicação deve apresentar, na página principal, a funcionalidade de pesquisa de cidades e receber informações das cidades. |
-| Objetivo do Teste 	| Verificar se o sistema retornar as devídas informações da cidade. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site l<br> - Clicar em "Pesquisar" <br> - informar o nome da cidade <br> clicar em "Buscar" |
-| Critério de Êxito | - Exibir informações da cidade para o usuario. |
+|----------------------:|------------------------|
+| Requisito Associado 	| - RF-001 - A aplicação deve apresentar, na página principal, a funcionalidade de pesquisa de cidades e receber informações das cidades. |
+| Objetivo do Teste 	| - Verificar se o sistema retornar as devídas informações da cidade. |
+| Passos 	            | - Acessar o navegador <br> - Informar o endereço do site l<br> - Clicar em "Pesquisar" <br> - informar o nome da cidade <br> clicar em "Buscar" |
+| Critério de Êxito     | - Exibir informações da cidade para o usuario. |
+
 | **Caso de Teste** 	| **02 – Cadastrar perfil** |
-| Requisito Associado 	| RF-002 - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
-| Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site l<br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios com suas informações <br> - <br> - Clicar em "Registrar" |
-|Critério de Êxito | - O cadastro foi realizado com sucesso e salvo no banco de dados. |
+| Requisito Associado 	| - RF-002 - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
+| Objetivo do Teste 	| - Verificar se o usuário consegue se cadastrar na aplicação. |
+| Passos 	            | - Acessar o navegador <br> - Informar o endereço do site l<br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios com suas informações <br> - <br> - Clicar em "Registrar" |
+|Critério de Êxito      | - O cadastro foi realizado com sucesso e salvo no banco de dados. |
+
 | **Caso de Teste** 	| **03 – Efetuar login** |
-|Requisito Associado | RF-002 - A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail. |
-| Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
-| Passos 	| - Acessar o site da aplicação <br> - Clicar no botão "Login" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
-|Critério de Êxito | - O login foi realizado com sucesso. |
+|Requisito Associado    | - RF-003 - A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail. |
+| Objetivo do Teste 	| - Verificar se o usuário consegue realizar login. |
+| Passos 	            | - Acessar o site da aplicação <br> - Clicar no botão "Login" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
+|Critério de Êxito      | - O login foi realizado com sucesso. |
 
  
 > **Links Úteis**:
