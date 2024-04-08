@@ -38,7 +38,6 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 A divisão de papéis entre os membros do grupo foi definida da seguinte forma:
 
-
 - Scrum Master: Flavio Vizeu Stellet Soares.
 - Product Owner: Daniel Müller Armond.
 - Equipe de Desenvolvimento: Rafael Xavier Franco, Gabriel de Oliveira Pinto, Juliano Ricaldoni Alves de Melo.
@@ -55,9 +54,12 @@ A divisão de papéis entre os membros do grupo foi definida da seguinte forma:
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub, estruturado com as seguintes etapas de desenvolvimento:
 
 - Product Backlog: recebe as tarefas a serem trabalhadas e representa o Backlog do produto. Todas as atividades identificadas no decorrer do projeto são incorporadas a esta lista.
-- To Do: esta lista representa o Sprint Backlog que está sendo trabalhado.
-- In progress: lista das tarefas iniciadas.
+- To Do: esta lista representa as tarefas definidas pelo PO e equipe de desenvolvimento para atendimento para backlog da sprint em andamento.
+- In progress: lista das tarefas iniciadas na sprint atual
 - Done: nesta lista são colocadas as tarefas finalizadas e as que passaram pelos testes e controle de qualidade, prontas para serem entregues aos usuários.
+
+O quadro KanBan da equipe no Githube está disponível no endereço https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/901 e apresenta a seguinte configuração neste momento:
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/144973239/0a1d34e2-ed9f-4903-ab48-1a570399df56)
 
  
 > **Links Úteis**:
@@ -70,15 +72,20 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+| AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
+|-------------------------------------|------------------------------------|----------------------------------------|
+| Repositório de código fonte         | GitHub                             | [https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-g3-nutrilife/tree/main/codigo-fonte/README.md |
+| Documentos do projeto               | GitHub                             | [https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-g3-nutrilife/tree/main |
+| Projeto de Interface e WireFrames   | Figma                              | https://www.figma.com/file/Sie5hM3txB0TXzpLW4JtZQ/index?type=design&node-id=0%3A1&mode=design&t=KNFo5Fpas2vKOO5h-1 |
+| Gerenciamento do Projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/666 |
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
+- Editor de código: VS Code
+- Ferramentas de comunicação: Teams e WhastApp
+- Ferramentas de desenho de tela: Canva e Figma
+
+O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. 
+As ferramentas de comunicação utilizadas possuem a agilidade e ferramentas utilizadas pela equipe. 
+Por fim, para criar diagramas utilizamos o Canva e Figma por melhor captar as necessidades da nossa solução.
 
 Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
  
