@@ -76,7 +76,7 @@ As ferramentas empregadas no projeto são:
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/tree/main/src |
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/tree/main/docs |
-| Projeto de Interface e WireFrames   | Figma                              | https://www.canva.com/design/DAGBXHStF1w/UsngpCwYH_7A1fUdXXT91A/edit |
+| Projeto de Interface e WireFrames   | Canva                              | https://www.canva.com/design/DAGBXHStF1w/UsngpCwYH_7A1fUdXXT91A/edit |
 | Gerenciamento do Projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/901 |
 
 - Editor de código: VS Code
