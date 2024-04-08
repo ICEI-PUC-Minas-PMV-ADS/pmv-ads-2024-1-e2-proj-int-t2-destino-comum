@@ -74,10 +74,10 @@ As ferramentas empregadas no projeto são:
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | [https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-g3-nutrilife/tree/main/codigo-fonte/README.md |
-| Documentos do projeto               | GitHub                             | [https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-g3-nutrilife/tree/main |
-| Projeto de Interface e WireFrames   | Figma                              | https://www.figma.com/file/Sie5hM3txB0TXzpLW4JtZQ/index?type=design&node-id=0%3A1&mode=design&t=KNFo5Fpas2vKOO5h-1 |
-| Gerenciamento do Projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/666 |
+| Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/tree/main/src |
+| Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/tree/main/docs |
+| Projeto de Interface e WireFrames   | Figma                              | https://www.canva.com/design/DAGBXHStF1w/UsngpCwYH_7A1fUdXXT91A/edit |
+| Gerenciamento do Projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/901 |
 
 - Editor de código: VS Code
 - Ferramentas de comunicação: Teams e WhastApp
