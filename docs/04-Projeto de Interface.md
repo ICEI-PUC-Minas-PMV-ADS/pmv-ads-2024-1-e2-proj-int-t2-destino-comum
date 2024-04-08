@@ -78,6 +78,29 @@ Uma vez escolhido o tipo de destino e a cidade, o usuário é direcionado à pá
 
 ![4 - cidade escolhida](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/c502eb4d-2a97-4bfb-bb54-ff13ae25414f)
 
+### Tela Clima
+Na tela "Cidade Escolhida", caso o usuário selecione "Clima", ele será direcionado a uma tela contendo comentários, de diversos outros usuários, sobre o clima da região. Os comentários são ranqueados conforme a quantidade de "likes" recebida. Isto é, os melhores comentários, cinco estrelas, aparecem acima dos comentários de "quatro estrelas". Nesta tela, o usuário poderá clicar em "comentário" para escrever suas observações sobre o tema (clima). Lembrando que o cliente somente poderá tecer algum comentário caso esteja logado na plataforma.
+
+![5 - clima](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/6ef65270-4a6e-4861-8091-9f1773ec03b3)
+
+### Tela Pontos Turísticos
+
+Na tela "Cidade Escolhida", caso o usuário selecione "Pontos Turísticos", ele será direcionado a uma tela contendo comentários, de diversos outros usuários, sobre os pontos turísticos daquela região. Os comentários são ranqueados conforme a quantidade de "likes" recebida. Isto é, os melhores comentários, cinco estrelas, aparecem acima dos comentários de "quatro estrelas". Nesta tela, o usuário poderá clicar em "comentário" para escrever suas observações sobre o tema. Lembrando que o cliente somente poderá tecer algum comentário caso esteja logado na plataforma.
+
+ ![6 pontos turisticos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/4eea1f6e-7d14-456d-a264-b06366222009)
+
+
+### Tela Alimentação
+Na tela "Cidade Escolhida", caso o usuário selecione "Alimentação", ele será direcionado a uma tela contendo comentários, de diversos outros usuários, sobre locais para se alimentar naquela região. Os comentários são ranqueados conforme a quantidade de "likes" recebida. Isto é, os melhores comentários, cinco estrelas, aparecem acima dos comentários de "quatro estrelas". Nesta tela, o usuário poderá clicar em "comentário" para escrever suas observações sobre o tema. Lembrando que o cliente somente poderá tecer algum comentário caso esteja logado na plataforma.
+
+![7 alimentacao](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/21da5f8f-5df0-411e-acc0-4b467a532d1d)
+
+
+### Tela Redigir Comentário
+Caso o usuário esteja logado, ele poderá comentar sobre os temas (clima, pontos turísticos e alimentação) da cidade escolhida. Clicando em "SALVAR", o comentário é publicado. Caso o usuário não esteja logado à plataforma, ele será redirecionado para a tela de login. 
+
+![8 - comentario](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/d0ac8ebc-fbe5-453c-bbf4-725f6f7cb625)
+
 
 
 
