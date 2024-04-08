@@ -36,7 +36,14 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+A divisão de papéis entre os membros do grupo foi definida da seguinte forma:
+
+
+- Scrum Master: Flavio Vizeu Stellet Soares.
+- Product Owner: Daniel Müller Armond.
+- Equipe de Desenvolvimento: Rafael Xavier Franco, Gabriel de Oliveira Pinto, Juliano Ricaldoni Alves de Melo.
+- Equipe de Design: Mariana Dias Pereira.
+
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu 
@@ -45,7 +52,13 @@ Apresente a divisão de papéis entre os membros do grupo.
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub, estruturado com as seguintes etapas de desenvolvimento:
+
+- Product Backlog: recebe as tarefas a serem trabalhadas e representa o Backlog do produto. Todas as atividades identificadas no decorrer do projeto são incorporadas a esta lista.
+- To Do: esta lista representa o Sprint Backlog que está sendo trabalhado.
+- In progress: lista das tarefas iniciadas.
+- Done: nesta lista são colocadas as tarefas finalizadas e as que passaram pelos testes e controle de qualidade, prontas para serem entregues aos usuários.
+
  
 > **Links Úteis**:
 > - [Project management, made simple](https://github.com/features/project-management/)
