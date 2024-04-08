@@ -63,9 +63,21 @@ A tela de home-page mostra, basicamente, todo o conteúdo do site que pode ser a
 
 ### Tela Tipo de Destino
 
-Nesta tela, o usuário pode navegar pelas opções de destinos para encontrar um tipo de viagem requerida por ele. Ou seja, ele pode escolher entre aventura, romance ou diversão em família e descobrir uma variedade de cidades com diversas dicas de outros viajantes.
+Nesta tela, o usuário pode navegar pelas opções de destinos para encontrar um tipo de viagem requerida por ele. Ou seja, ele pode escolher entre aventura, romance ou diversão em família e descobrir uma variedade de cidades com diversas dicas de outros viajantes. Para acessar as cidades, basta clicar no ícone "CIDADES"disponibilizado em cada tipo de destino.
 
 ![2 tipos de destino](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/3719ee16-086a-46a3-83d3-183561518102)
+
+### Tela Tipo de Destino Escolhido
+
+Uma vez escolhido o tipo de destino, será aberta uma tela (tipo de destino escolhido) contendo uma foto e uma breve descrição das cidades. Clicando na foto da cidade, o usuário é direcionado à página do respectivo local.
+
+![3 - Tipo de Destino Escolhido](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/60f97e6b-3539-434d-9766-36f7cd66532e)
+
+### Tela Cidade Escolhida
+Uma vez escolhido o tipo de destino e a cidade, o usuário é direcionado à página da respectiva localidade. Nesta tela haverá uma descrição da cidade. Ademais, o usuário poderá selecionar o tipo de informação - clima, pontos turístios e alimentação - que deseja obter daquele centro urbano. Lembrando que todas essas informações serão fornecidas por outros viajantes que já visitaram aquele local.
+
+![4 - cidade escolhida](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/c502eb4d-2a97-4bfb-bb54-ff13ae25414f)
+
 
 
 
