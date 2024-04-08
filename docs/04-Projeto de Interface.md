@@ -102,6 +102,19 @@ Caso o usuário esteja logado, ele poderá comentar sobre os temas (clima, ponto
 ![8 - comentario](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/d0ac8ebc-fbe5-453c-bbf4-725f6f7cb625)
 
 
+### Tela Login
+Nesta tela, o usuário irá fornecer as suas credenciais de acesso (email e senha) para efetuar o login. Caso não seja cadastrado, ele pode clicar em "Cadastrar-se".
+
+![9 - login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/52667329-0f90-4c57-afe3-dc5c90ae3799)
+
+### Cadastro
+
+Nesta tela, o usuário irá fornecer e-mail e cadastrar uma senha para que o cadastro de usuário seja efetuado. Caso o cadastro seja realizado com sucesso, uma mensagem aparecerá na tela. Caso haja divergência no email cadastrado e na senha cadastrada, as seguintes mensagens seræo disponibilizadas: "Os emails não coincidem, por favor, digite os emails iguais!"; "As senhas não coincidem, por favor, digite as senhas iguais!"
+
+![10 cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/e8d88538-afdd-4067-900d-97b654a6ac32)
+![13](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/33a77479-1c17-48ca-af25-99272fc7d8ef)
+![12 email cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/65fcbf7d-f3cf-4efa-af9a-3a170026265b)
+
 
 
 
