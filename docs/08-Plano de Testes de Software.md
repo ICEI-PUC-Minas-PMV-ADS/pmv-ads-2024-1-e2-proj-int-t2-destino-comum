@@ -30,7 +30,21 @@ Por exemplo:
 | Passos 	            | - Acessar o site da aplicação <br> - Clicar no botão "Login" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
 | Critério de Êxito     | - O login foi realizado com sucesso. |
 
- 
+| **Caso de Teste** 	| **04 – Escrever comentário** |
+|-----------------------|-------------------------------------------------------------------------------------------------------------------------|
+| Requisito Associado   | - RF-004 - A aplicação deve apresentar a opção de escrever comemtários nas cidades procuradas. |
+| Objetivo do Teste 	| - Verificar se o usuário é capaz de deixa um comentário visível na página procurada. |
+| Passos 	            | - Acessar o site da aplicação <br> - Clicar no botão "Pesquisar" <br> - Digitar o mnome de uma cidade <br> - Clicar em "Buscar" <br> - Clicar na opção "Escrever comentário" <br> - Escrever o seu cometário <br> - Clicar em confirmar. |
+| Critério de Êxito     | - Vizualizar seu comentário na página selecionada. |
+
+| **Caso de Teste** 	| **05 – Favoritar cidade** |
+|-----------------------|-------------------------------------------------------------------------------------------------------------------------|
+| Requisito Associado   | - RF-003 - A aplicação deve possuir opção de favoritar cidade. |
+| Objetivo do Teste 	| - Verificar se o usuário consegue realizar login. |
+| Passos 	            | - Acessar o site da aplicação <br> - Clicar no botão "Login" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
+| Critério de Êxito     | - O login foi realizado com sucesso. |
+
+
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
 > - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
