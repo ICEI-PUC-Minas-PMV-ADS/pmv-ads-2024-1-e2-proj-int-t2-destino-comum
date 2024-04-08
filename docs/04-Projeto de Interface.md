@@ -61,6 +61,13 @@ A tela de home-page mostra, basicamente, todo o conteúdo do site que pode ser a
 
 ![1 Home](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/165479c6-a8d0-445c-b132-709e6157a825)
 
+### Tela Tipo de Destino
+
+Nesta tela, o usuário pode navegar pelas opções de destinos para encontrar um tipo de viagem requerida por ele. Ou seja, ele pode escolher entre aventura, romance ou diversão em família e descobrir uma variedade de cidades com diversas dicas de outros viajantes.
+
+![2 tipos de destino](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/3719ee16-086a-46a3-83d3-183561518102)
+
+
 
 
 
