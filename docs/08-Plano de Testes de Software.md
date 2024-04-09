@@ -62,8 +62,15 @@ Por exemplo:
 |-----------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Requisito Associado   | - RF-010 - A aplicação deve possibitar a opção de excluir usúario. |
 | Objetivo do Teste 	| - Verificar se o usúario de Admin é capaz de excluir usúarios. |
-| Passos 	            | - Acessar o site da aplicação <br> - Clicar em "Login" <br> - Clicar em "Admin" <br> - Realizar login inserindo email e senha <br> -Clicar em "Buscar" - <br> Digitar o nome da cidade <br> - Clicar em "Excluir usúario". |
-| Critério de Êxito     | - Comentário reportado. |
+| Passos 	            | - Acessar o site da aplicação <br> - Clicar em "Login" <br> - Clicar em "Admin" <br> - Realizar login inserindo email e senha <br> -Clicar em "Buscar" <br> - Digitar o nome da cidade <br> - Clicar em "Excluir usúario". |
+| Critério de Êxito     | - Usúario exclúido. |
+
+| **Caso de Teste Admin** 	| **09 – excluir Comentário** |
+|-----------------------|-------------------------------------------------------------------------------------------------------------------------|
+| Requisito Associado   | - RF-011 - A aplicação deve possibitar a opção de excluir comentarios. |
+| Objetivo do Teste 	| - Verificar se o usúario de Admin é capaz de excluir usúarios. |
+| Passos 	            | - Acessar o site da aplicação <br> - Clicar em "Login" <br> - Clicar em "Admin" <br> - Realizar login inserindo email e senha <br> -Clicar em "Buscar" <br> - Digitar o nome da cidade <br> - Clicar em "Excluir comentário". |
+| Critério de Êxito     | - Comentario exclúido. |
 
 
 > **Links Úteis**:
