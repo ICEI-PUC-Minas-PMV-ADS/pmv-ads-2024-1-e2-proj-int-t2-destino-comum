@@ -24,7 +24,7 @@ Por exemplo:
 | Critério de Êxito     | - O cadastro foi realizado com sucesso e salvo no banco de dados. |
 
 | **Caso de Teste** 	| **03 – Efetuar login** |
-|                       |               |
+|-----------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Requisito Associado   | - RF-003 - A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail. |
 | Objetivo do Teste 	| - Verificar se o usuário consegue realizar login. |
 | Passos 	            | - Acessar o site da aplicação <br> - Clicar no botão "Login" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
@@ -44,6 +44,26 @@ Por exemplo:
 | Passos 	            | - Acessar o site da aplicação <br> - Digitar o nome de uma cidade no botão "Pesquisar" <br> - Clicar em "Buscar" <br> - Selecionar botão curtir ao lado de algum comentário |
 | Critério de Êxito     | - Incrementar o contador em 1 do comentário. |
 
+| **Caso de Teste** 	| **06 – favoritar cidade** |
+|-----------------------|-------------------------------------------------------------------------------------------------------------------------|
+| Requisito Associado   | - RF-007 - A aplicação deve possibitar a opção de curtir comentários. |
+| Objetivo do Teste 	| - Verificar se o usúario é capaz de curtir comentário. |
+| Passos 	            | - Acessar o site da aplicação <br> - Digitar o nome de uma cidade no botão "Pesquisar" <br> - Clicar em "Buscar" <br> - Selecionar botão "favoritar" no site da cidade |
+| Critério de Êxito     | - Cidade adicionada na sua lista de favoritos. |
+
+| **Caso de Teste** 	| **07 – reportar Comentário** |
+|-----------------------|-------------------------------------------------------------------------------------------------------------------------|
+| Requisito Associado   | - RF-008 - A aplicação deve possibitar a opção de reportar usúario. |
+| Objetivo do Teste 	| - Verificar se o usúario é capaz de reportar usúarios. |
+| Passos 	            | - Acessar o site da aplicação <br> - Digitar o nome de uma cidade no botão "Pesquisar" <br> - Clicar em "Buscar" <br> - Selecionar a opção "Reportar usúario" ao lado do comentário do usúario. |
+| Critério de Êxito     | - Comentário reportado. |
+
+| **Caso de Teste Admin** 	| **08 – excluir Usúario** |
+|-----------------------|-------------------------------------------------------------------------------------------------------------------------|
+| Requisito Associado   | - RF-010 - A aplicação deve possibitar a opção de excluir usúario. |
+| Objetivo do Teste 	| - Verificar se o usúario de Admin é capaz de excluir usúarios. |
+| Passos 	            | - Acessar o site da aplicação <br> - Clicar em "Login" <br> - Clicar em "Admin" <br> - Realizar login inserindo email e senha <br> -Clicar em "Buscar" - <br> Digitar o nome da cidade <br> - Clicar em "Excluir usúario". |
+| Critério de Êxito     | - Comentário reportado. |
 
 
 > **Links Úteis**:

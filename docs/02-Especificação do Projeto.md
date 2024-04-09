@@ -91,7 +91,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-007| A aplicação deve permitir aos usúarios que possam definir seus destinos favoritos | MÉDIA |
 |RF-008| A aplicação deve permitir aos usúarios reportar comentários impróprios | MÉDIA |
 |RF-009| A aplicação deve permitir que os usuários recebam notificações | MÉDIA |
-|RF-010| A aplicação deve permitir que o administrador bloqueie ou exclua usuários | ALTA |
+|RF-010| A aplicação deve permitir que o administrador exclua usuários | ALTA |
 |RF-011| A aplicação deve permitir que o administrador exclua comentários reportados como impróprios pelos usuários | ALTA |
 
           
