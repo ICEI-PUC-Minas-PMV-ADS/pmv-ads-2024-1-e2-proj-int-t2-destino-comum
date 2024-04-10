@@ -15,13 +15,26 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 ## Modelo ER (Projeto Conceitual)
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
+<s> O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
 Sugestão de ferramentas para geração deste artefato: LucidChart e Draw.io.
 
 A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
 
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
+> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento) </s>
+
+Para a confecção deste diagrama, foi utilizada a ferramenta "brModelo". 
+
+Neste diagrama é possível perceber que:
+- Um usuário pode fazer diversos comentários, mas um comentário está relacionado a um único usuário (usuário específico);
+- Um administrador pode editar/excluir/etc diverssos comentários, e um comentário pode ser editado por pelo menos um administrador;
+- Uma cidade pode ter diverssos comentários, mas um comentário em específico está relacionado a uma única cidade; e
+- Cada usuário pode pesquisar zero ou mais cidades e cada cidade pode ser acessada por zero ou mais usuários.
+
+Isso pode ser melhor visto na figura abaixo.
+
+![DiagramaConceitual_PUC](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/a08cc49a-94b0-4af8-9ff5-d2a1146ce7c2)
+
 
 ## Projeto da Base de Dados
 
