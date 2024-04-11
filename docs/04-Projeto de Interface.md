@@ -36,9 +36,7 @@ O diagrama apresentado na Figura 1 (abaixo) mostra o fluxo de interação do usu
 
 ## Wireframes
 
-<s> ![Exemplo de Wireframe](img/wireframe-example.png)
-
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+<s>São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
 > **Links Úteis**:
 > - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
@@ -59,61 +57,42 @@ Conforme fluxo de telas do projeto, apresentado no item anterior (Figura 1), as 
 
 A tela de home-page mostra, basicamente, todo o conteúdo do site que pode ser acessado. Isto é, é possível acessar  "CIDADES E TIPOS DE DESTINO" bem como efetuar o login. A figura principal da tela inicial traz uma mensagem, que diz: “ Conecete-se com aventuras e inspirações de viajanetes".
 
-![1 Home](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/165479c6-a8d0-445c-b132-709e6157a825)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/144973239/5a91fce8-c866-455b-b8bd-a9d29da3e110)
 
 ### Tela Tipo de Destino
 
 Nesta tela, o usuário pode navegar pelas opções de destinos para encontrar um tipo de viagem requerida por ele. Ou seja, ele pode escolher entre aventura, romance ou diversão em família e descobrir uma variedade de cidades com diversas dicas de outros viajantes. Para acessar as cidades, basta clicar no ícone "CIDADES"disponibilizado em cada tipo de destino.
 
-![2 tipos de destino](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/3719ee16-086a-46a3-83d3-183561518102)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/144973239/c7992919-b16a-413c-aac8-4a5159c0fcf5)
 
 ### Tela Tipo de Destino Escolhido
 
 Uma vez escolhido o tipo de destino, será aberta uma tela (tipo de destino escolhido) contendo uma foto e uma breve descrição das cidades. Clicando na foto da cidade, o usuário é direcionado à página do respectivo local.
 
-![3 - Tipo de Destino Escolhido](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/60f97e6b-3539-434d-9766-36f7cd66532e)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/144973239/24c09011-3cbd-488d-af17-db1ed7f06f4e)
 
 ### Tela Cidade Escolhida
 Uma vez escolhido o tipo de destino e a cidade, o usuário é direcionado à página da respectiva localidade. Nesta tela haverá uma descrição da cidade. Ademais, o usuário poderá selecionar o tipo de informação - clima, pontos turístios e alimentação - que deseja obter daquele centro urbano. Lembrando que todas essas informações serão fornecidas por outros viajantes que já visitaram aquele local.
 
-![4 - cidade escolhida](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/c502eb4d-2a97-4bfb-bb54-ff13ae25414f)
-
-### Tela Clima
-Na tela "Cidade Escolhida", caso o usuário selecione "Clima", ele será direcionado a uma tela contendo comentários, de diversos outros usuários, sobre o clima da região. Os comentários são ranqueados conforme a quantidade de "likes" recebida. Isto é, os melhores comentários, cinco estrelas, aparecem acima dos comentários de "quatro estrelas". Nesta tela, o usuário poderá clicar em "comentário" para escrever suas observações sobre o tema (clima). Lembrando que o cliente somente poderá tecer algum comentário caso esteja logado na plataforma.
-
-![5 - clima](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/6ef65270-4a6e-4861-8091-9f1773ec03b3)
-
-### Tela Pontos Turísticos
-
-Na tela "Cidade Escolhida", caso o usuário selecione "Pontos Turísticos", ele será direcionado a uma tela contendo comentários, de diversos outros usuários, sobre os pontos turísticos daquela região. Os comentários são ranqueados conforme a quantidade de "likes" recebida. Isto é, os melhores comentários, cinco estrelas, aparecem acima dos comentários de "quatro estrelas". Nesta tela, o usuário poderá clicar em "comentário" para escrever suas observações sobre o tema. Lembrando que o cliente somente poderá tecer algum comentário caso esteja logado na plataforma.
-
- ![6 pontos turisticos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/4eea1f6e-7d14-456d-a264-b06366222009)
-
-
-### Tela Alimentação
-Na tela "Cidade Escolhida", caso o usuário selecione "Alimentação", ele será direcionado a uma tela contendo comentários, de diversos outros usuários, sobre locais para se alimentar naquela região. Os comentários são ranqueados conforme a quantidade de "likes" recebida. Isto é, os melhores comentários, cinco estrelas, aparecem acima dos comentários de "quatro estrelas". Nesta tela, o usuário poderá clicar em "comentário" para escrever suas observações sobre o tema. Lembrando que o cliente somente poderá tecer algum comentário caso esteja logado na plataforma.
-
-![7 alimentacao](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/21da5f8f-5df0-411e-acc0-4b467a532d1d)
-
-
-### Tela Redigir Comentário
-Caso o usuário esteja logado, ele poderá comentar sobre os temas (clima, pontos turísticos e alimentação) da cidade escolhida. Clicando em "SALVAR", o comentário é publicado. Caso o usuário não esteja logado à plataforma, ele será redirecionado para a tela de login. 
-
-![8 - comentario](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/d0ac8ebc-fbe5-453c-bbf4-725f6f7cb625)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/144973239/0147198d-8d1e-49ae-86ff-50ed3faa5a83)
 
 
 ### Tela Login
 Nesta tela, o usuário irá fornecer as suas credenciais de acesso (email e senha) para efetuar o login. Caso não seja cadastrado, ele pode clicar em "Cadastrar-se".
 
-![9 - login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/52667329-0f90-4c57-afe3-dc5c90ae3799)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/144973239/f3983e7b-f20a-421f-8983-2d2573d587c9)
 
 ### Cadastro
 
 Nesta tela, o usuário irá fornecer e-mail e cadastrar uma senha para que o cadastro de usuário seja efetuado. Caso o cadastro seja realizado com sucesso, uma mensagem aparecerá na tela. Caso haja divergência no email cadastrado e na senha cadastrada, as seguintes mensagens seræo disponibilizadas: "Os emails não coincidem, por favor, digite os emails iguais!"; "As senhas não coincidem, por favor, digite as senhas iguais!"
 
-![10 cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/e8d88538-afdd-4067-900d-97b654a6ac32)
-![13](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/33a77479-1c17-48ca-af25-99272fc7d8ef)
-![12 email cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/65fcbf7d-f3cf-4efa-af9a-3a170026265b)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/144973239/1ea90bfa-70aa-430d-bcc5-80956c2a6bd0)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/144973239/31797729-da1d-487a-96da-154a1334aaa8)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/144973239/3f075b4a-43ea-40d9-8875-66427b397ad0)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/144973239/00cc97fe-36f8-46b5-91e1-4c91e206929d)
 
 
 
