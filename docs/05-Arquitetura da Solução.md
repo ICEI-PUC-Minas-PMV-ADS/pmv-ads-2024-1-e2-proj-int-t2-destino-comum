@@ -35,7 +35,7 @@ Para a confecção deste diagrama, foi utilizada a ferramenta "brModelo".
 
 Neste diagrama é possível perceber que:
 - Um usuário pode fazer diversos comentários, mas um comentário está relacionado a um único usuário (usuário específico);
-- Um administrador pode editar/excluir/etc diverssos comentários, e um comentário pode ser editado por pelo menos um administrador;
+- Um administrador pode excluir diverssos comentários, e um comentário pode ser editado por pelo menos um administrador;
 - Uma cidade pode ter diverssos comentários, mas um comentário em específico está relacionado a uma única cidade; e
 - Cada usuário pode pesquisar zero ou mais cidades e cada cidade pode ser acessada por zero ou mais usuários.
 
