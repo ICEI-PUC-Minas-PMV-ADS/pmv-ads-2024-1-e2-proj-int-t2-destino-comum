@@ -41,7 +41,9 @@ Neste diagrama é possível perceber que:
 
 Isso pode ser melhor visto na figura abaixo.
 
-![DiagramaConceitual_PUC](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/a08cc49a-94b0-4af8-9ff5-d2a1146ce7c2)
+![DiagramaConceitual_PUC](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/72438f02-36c1-4e6d-968c-4cf88ca88e92)
+
+
 
 
 ## Projeto da Base de Dados
@@ -49,6 +51,9 @@ Isso pode ser melhor visto na figura abaixo.
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
  
 Para mais informações, consulte o microfundamento "Modelagem de Dados".
+
+![DiagramaLogico_PUC](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/4d0dd901-1eb5-4e4c-8587-1970676dba88)
+
 
 ## Tecnologias Utilizadas
 
