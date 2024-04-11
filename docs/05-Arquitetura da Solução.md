@@ -6,6 +6,12 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 ## Diagrama de Classes
 
+O diagrama de classes mostra as classes e métodos que são usados no programa:
+
+![diagramaDeClasses_PUC](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/blob/main/docs/img/Diagrama%20de%20classes.png)
+
+Este diagrama foi feito no programa Astah UML.
+
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
