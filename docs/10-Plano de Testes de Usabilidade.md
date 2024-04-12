@@ -8,14 +8,8 @@ Para cada voluntário do teste, é fundamental coletar e apresentar todos os dad
 
 As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
 
-| **Usuário** 	| **01 – Tarefa** | **02 – Tarefa** | **03 – Tempo de realização da tarefa** | **04 – Cliques	** |  **05 – Facilidade de Uso(1-5)** | **06 – Feedback Detalhado** |
-|-----------------------|-------------------------------------------------------------------------------------------------------------------------|
-| João Fernandes 	| - 1. Criar nova conta de usuário na aplicação | 3 minutos | 10 cliques | 4 | Processo de registro foi fácil, mas o formulário era um pouco longo.| 
-| Objetivo do Teste 	| - Verificar se o sistema retornar as devídas informações da cidade. |
-| Passos 	            | - Acessar o navegador <br> - Informar o endereço do site l<br> - Clicar em "Pesquisar" <br> - informar o nome da cidade <br> clicar em "Buscar" |
-| Critério de Êxito     | - Exibir informações da cidade para o usuario. |
 
-| Usuário | Tarefa                                             | Tempo (min) | Cliques | Facilidade de Uso (1-5) | Feedback Detalhado                                                                                        |
+| Usuário 1 | Tarefa                                             | Tempo (min) | Cliques | Facilidade de Uso (1-5) | Feedback Detalhado                                                                                        |
 |---------|----------------------------------------------------|-------------|---------|-------------------------|------------------------------------------------------------------------------------------------------------|
 | João Fernandes       | Criar nova conta de usuário na aplicação          | 3           | 10      | 4                       | Processo de registro foi fácil, mas o formulário era um pouco longo.                                      |
 | João Fernandes       | Realizar o login na aplicação                     | 1           | 3       | 5                       | O login foi rápido e sem problemas.                                                                        |
@@ -24,14 +18,22 @@ As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Test
 | João Fernandes       | Votar em perguntas ou dicas favoritas            | 2           | 7       | 5                       | O processo de votação foi intuitivo e fácil.                                                               |
 
 
+| Usuário 2 | Tarefa                                             | Tempo (min) | Cliques | Facilidade de Uso (1-5) | Feedback Detalhado                                                                                        |
+|---------|----------------------------------------------------|-------------|---------|-------------------------|------------------------------------------------------------------------------------------------------------|
+| Natalia Oliveira       | Criar nova conta de usuário na aplicação          | 4           | 10      | 4                       | Processo de registro foi fácil, mas o formulário era um pouco longo.                                      |
+| Natalia Oliveira       | Realizar o login na aplicação                     | 1           | 3       | 5                       | O login foi rápido e sem problemas.                                                                        |
+| Natalia Oliveira       | Pesquisar por cidades de interesse na aplicação   | 2           | 5       | 4                       | Encontrei todas as informações que precisava facilmente.                                                   |
+| Natalia Oliveira       | Escrever e editar perguntas ou dicas             | 5           | 15      | 3                       | Tive dificuldades para encontrar a opção de edição.                                                        |
+| Natalia Oliveira       | Votar em perguntas ou dicas favoritas            | 2           | 7       | 5                       | O processo de votação foi intuitivo e fácil.   
+
+
 | Usuário | Tarefa                                             | Tempo (min) | Cliques | Facilidade de Uso (1-5) | Feedback Detalhado                                                                                        |
 |---------|----------------------------------------------------|-------------|---------|-------------------------|------------------------------------------------------------------------------------------------------------|
-| João Fernandes       | Criar nova conta de usuário na aplicação          | 3           | 10      | 4                       | Processo de registro foi fácil, mas o formulário era um pouco longo.                                      |
-| João Fernandes       | Realizar o login na aplicação                     | 1           | 3       | 5                       | O login foi rápido e sem problemas.                                                                        |
-| João Fernandes       | Pesquisar por cidades de interesse na aplicação   | 2           | 5       | 4                       | Encontrei todas as informações que precisava facilmente.                                                   |
-| João Fernandes       | Escrever e editar perguntas ou dicas             | 5           | 15      | 3                       | Tive dificuldades para encontrar a opção de edição.                                                        |
-| João Fernandes       | Votar em perguntas ou dicas favoritas            | 2           | 7       | 5                       | O processo de votação foi intuitivo e fácil.   
-
+| 3       | Pesquisar por cidades de interesse na aplicação   | 3           | 9       | 4                       | Encontrei todas as informações relevantes, mas a interface poderia ser mais intuitiva.                   |
+| 3       | Escrever e editar perguntas ou dicas             | 4           | 12      | 3                       | A funcionalidade de edição é um pouco confusa, especialmente para iniciantes.                            |
+| 3       | Votar em perguntas ou dicas favoritas            | 2           | 6       | 5                       | O sistema de votação é simples e fácil de usar.                                                           |
+| 3       | Reportar comentários impróprios                   | 2           | 4       | 4                       | Encontrei a opção de reportar facilmente, mas seria útil receber uma confirmação após o relatório.       |
+| 3       | Receber notificações                              | 1           | 2       | 5                       | As notificações chegam de forma rápida e clara.                                                           |
 
                                                                                                     
 
