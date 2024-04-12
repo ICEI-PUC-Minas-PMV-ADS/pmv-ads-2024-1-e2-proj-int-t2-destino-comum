@@ -33,7 +33,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Test
 | João Fernandes       | Votar em perguntas ou dicas favoritas            | 2           | 7       | 5                       | O processo de votação foi intuitivo e fácil.   
 
 
-                                                                                                       |
+                                                                                                    
 
 > **Links Úteis**:
 > - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
