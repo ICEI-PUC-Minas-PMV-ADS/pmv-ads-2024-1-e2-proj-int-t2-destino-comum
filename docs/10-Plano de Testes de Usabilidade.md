@@ -32,6 +32,32 @@ As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Test
 | 5       | ...                                                | ...         | ...     | ...                     | ...                                                                                                        |
 
 
+| **Usuário 1** |                  |                                             |             |         |                          |                                                                                                    |
+|---------------|------------------|---------------------------------------------|-------------|---------|--------------------------|----------------------------------------------------------------------------------------------------|
+| Tarefa        | Tempo (min)      | Cliques                                     | Facilidade  |         |                          | Feedback Detalhado                                                                                 |
+|               |                  |                                             | de Uso (1-5)|         |                          |                                                                                                    |
+| Criar nova    | 3                | 10                                          | 4           |         |                          | Processo de registro foi fácil, mas o formulário era um pouco longo.                              |
+| conta de      |                  |                                             |             |         |                          |                                                                                                    |
+| usuário na    |                  |                                             |             |         |                          |                                                                                                    |
+| aplicação     |                  |                                             |             |         |                          |                                                                                                    |
+| Realizar o    | 1                | 3                                           | 5           |         |                          | O login foi rápido e sem problemas.                                                              |
+| login na      |                  |                                             |             |         |                          |                                                                                                    |
+| aplicação     |                  |                                             |             |         |                          |                                                                                                    |
+| Pesquisar     | 2                | 5                                           | 4           |         |                          | Encontrei todas as informações que precisava facilmente.                                           |
+| por cidades   |                  |                                             |             |         |                          |                                                                                                    |
+| de interesse  |                  |                                             |             |         |                          |                                                                                                    |
+| na aplicação  |                  |                                             |             |         |                          |                                                                                                    |
+| Escrever e    | 5                | 15                                          | 3           |         |                          | Tive dificuldades para encontrar a opção de edição.                                               |
+| editar        |                  |                                             |             |         |                          |                                                                                                    |
+| perguntas ou  |                  |                                             |             |         |                          |                                                                                                    |
+| dicas         |                  |                                             |             |         |                          |                                                                                                    |
+| Votar em      | 2                | 7                                           | 5           |         |                          | O processo de votação foi intuitivo e fácil.                                                      |
+| perguntas ou  |                  |                                             |             |         |                          |                                                                                                    |
+| dicas         |                  |                                             |             |         |                          |                                                                                                    |
+| favoritas     |                  |                                             |             |         |                          |                                                                                                    |
+
+
+
 > **Links Úteis**:
 > - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
 > - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
