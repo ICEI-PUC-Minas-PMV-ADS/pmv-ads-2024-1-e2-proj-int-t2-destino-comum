@@ -8,6 +8,13 @@ Para cada voluntário do teste, é fundamental coletar e apresentar todos os dad
 
 As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
 
+| **Usuário** 	| **01 – Tarefa** | **02 – Tarefa** | **03 – Tempo de realização da tarefa** | **04 – Cliques	** |  **05 – Facilidade de Uso(1-5)** | **06 – Feedback Detalhado** |
+|-----------------------|-------------------------------------------------------------------------------------------------------------------------|
+| João Fernandes 	| - 1. Criar nova conta de usuário na aplicação | 3 minutos | 10 cliques | 4 | Processo de registro foi fácil, mas o formulário era um pouco longo. 
+| Objetivo do Teste 	| - Verificar se o sistema retornar as devídas informações da cidade. |
+| Passos 	            | - Acessar o navegador <br> - Informar o endereço do site l<br> - Clicar em "Pesquisar" <br> - informar o nome da cidade <br> clicar em "Buscar" |
+| Critério de Êxito     | - Exibir informações da cidade para o usuario. |
+
 > **Links Úteis**:
 > - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
 > - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
