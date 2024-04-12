@@ -27,13 +27,29 @@ As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Test
 | Natalia Oliveira       | Votar em perguntas ou dicas favoritas            | 2           | 7       | 5                       | O processo de votação foi intuitivo e fácil.   
 
 
+| Usuário 3 | Tarefa                                             | Tempo (min) | Cliques | Facilidade de Uso (1-5) | Feedback Detalhado                                                                                        |
+|---------|----------------------------------------------------|-------------|---------|-------------------------|------------------------------------------------------------------------------------------------------------|
+| Felipe Dressler       | Pesquisar por cidades de interesse na aplicação   | 3           | 9       | 4                       | Encontrei todas as informações relevantes, mas a interface poderia ser mais intuitiva.                   |
+| Felipe Dressler       | Escrever e editar perguntas ou dicas             | 4           | 12      | 3                       | A funcionalidade de edição é um pouco confusa, especialmente para iniciantes.                            |
+| Felipe Dressler       | Votar em perguntas ou dicas favoritas            | 2           | 6       | 5                       | O sistema de votação é simples e fácil de usar.                                                           |
+| Felipe Dressler       | Reportar comentários impróprios                   | 2           | 4       | 4                       | Encontrei a opção de reportar facilmente, mas seria útil receber uma confirmação após o relatório.       |
+| Felipe Dressler       | Receber notificações                              | 1           | 2       | 5                       | As notificações chegam de forma rápida e clara.                                                           |
+
 | Usuário | Tarefa                                             | Tempo (min) | Cliques | Facilidade de Uso (1-5) | Feedback Detalhado                                                                                        |
 |---------|----------------------------------------------------|-------------|---------|-------------------------|------------------------------------------------------------------------------------------------------------|
-| 3       | Pesquisar por cidades de interesse na aplicação   | 3           | 9       | 4                       | Encontrei todas as informações relevantes, mas a interface poderia ser mais intuitiva.                   |
-| 3       | Escrever e editar perguntas ou dicas             | 4           | 12      | 3                       | A funcionalidade de edição é um pouco confusa, especialmente para iniciantes.                            |
-| 3       | Votar em perguntas ou dicas favoritas            | 2           | 6       | 5                       | O sistema de votação é simples e fácil de usar.                                                           |
-| 3       | Reportar comentários impróprios                   | 2           | 4       | 4                       | Encontrei a opção de reportar facilmente, mas seria útil receber uma confirmação após o relatório.       |
-| 3       | Receber notificações                              | 1           | 2       | 5                       | As notificações chegam de forma rápida e clara.                                                           |
+| Guilherme Martins       | Realizar o login na aplicação                     | 2           | 6       | 4                       | O login foi fácil, mas levei um tempo para encontrar o botão de "Entrar".                                 |
+| Guilherme Martins       | Pesquisar por cidades de interesse na aplicação   | 4           | 10      | 3                       | A função de pesquisa é um pouco confusa e os resultados não são muito precisos.                           |
+| Guilherme Martins       | Escrever e editar perguntas ou dicas             | 5           | 18      | 2                       | Tive dificuldades para editar minhas perguntas e o processo de escrita não é muito intuitivo.            |
+| Guilherme Martins       | Votar em perguntas ou dicas favoritas            | 1           | 3       | 5                       | O sistema de votação é simples e fácil de entender.                                                       |
+| Guilherme Martins       | Receber notificações                              | 1           | 2       | 5                       | As notificações são claras e informativas.                                                                |
+
+| Usuário | Tarefa                                             | Tempo (min) | Cliques | Facilidade de Uso (1-5) | Feedback Detalhado                                                                                        |
+|---------|----------------------------------------------------|-------------|---------|-------------------------|------------------------------------------------------------------------------------------------------------|
+| Alexia Louise       | Criar nova conta de usuário na aplicação          | 3           | 8       | 4                       | O processo de registro foi simples e rápido, mas fiquei um pouco confuso com algumas opções.              |
+| Alexia Louise       | Realizar o login na aplicação                     | 1           | 3       | 5                       | O login foi rápido e sem problemas.                                                                        |
+| Alexia Louise       | Pesquisar por cidades de interesse na aplicação   | 3           | 7       | 4                       | Encontrei as informações que procurava, mas a navegação poderia ser mais intuitiva.                        |
+| Alexia Louise       | Escrever e editar perguntas ou dicas             | 4           | 15      | 3                       | A funcionalidade de edição é um pouco confusa e demorei para encontrar onde fazer as alterações.          |
+| Alexia Louise       | Votar em perguntas ou dicas favoritas            | 1           | 5       | 5                       | O processo de votação foi simples e direto.                                                               |
 
                                                                                                     
 
