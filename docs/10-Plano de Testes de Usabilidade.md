@@ -51,6 +51,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Test
 | Alexia Louise       | Escrever e editar perguntas ou dicas             | 4           | 15      | 3                       | A funcionalidade de edição é um pouco confusa e demorei para encontrar onde fazer as alterações.          |
 | Alexia Louise       | Votar em perguntas ou dicas favoritas            | 1           | 5       | 5                       | O processo de votação foi simples e direto.                                                               |
 
+| Relatorio do teste de  
 | Convidado | Tarefa                                             | Facilidade de Uso (1-5) | Feedback Detalhado                                                                                        | Tempo (min) | Cliques | Remotos | Número de Erros | Quantidades de Tarefas | Data      |
 |-----------|----------------------------------------------------|-------------------------|------------------------------------------------------------------------------------------------------------|-------------|---------|---------|-----------------|------------------------|-----------|
 | 1         | Criar nova conta de usuário na aplicação          | 4                       | Processo de registro foi fácil, mas o formulário era um pouco longo.                                      | 3           | 10      | Sim     | 1               | 1                      | 2022-04-01|
@@ -59,7 +60,8 @@ As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Test
 | 1         | Escrever e editar perguntas ou dicas             | 3                       | Tive dificuldades para encontrar a opção de edição.                                                        | 5           | 15      | Sim     | 2               | 1                      | 2022-04-01|
 | 1         | Votar em perguntas ou dicas favoritas            | 5                       | O processo de votação foi intuitivo e fácil.                                                               | 2           | 7       | Sim     | 0               | 1                      | 2022-04-01|
 
-                                                                                                    
+ | Relatorio do Teste de Usabilidade |
+ | Projeto: |
 
 > **Links Úteis**:
 > - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
