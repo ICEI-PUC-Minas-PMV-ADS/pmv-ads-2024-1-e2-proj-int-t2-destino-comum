@@ -10,7 +10,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Test
 
 | **Usuário** 	| **01 – Tarefa** | **02 – Tarefa** | **03 – Tempo de realização da tarefa** | **04 – Cliques	** |  **05 – Facilidade de Uso(1-5)** | **06 – Feedback Detalhado** |
 |-----------------------|-------------------------------------------------------------------------------------------------------------------------|
-| João Fernandes 	| - 1. Criar nova conta de usuário na aplicação | 3 minutos | 10 cliques | 4 | Processo de registro foi fácil, mas o formulário era um pouco longo. 
+| João Fernandes 	| - 1. Criar nova conta de usuário na aplicação | 3 minutos | 10 cliques | 4 | Processo de registro foi fácil, mas o formulário era um pouco longo.| 
 | Objetivo do Teste 	| - Verificar se o sistema retornar as devídas informações da cidade. |
 | Passos 	            | - Acessar o navegador <br> - Informar o endereço do site l<br> - Clicar em "Pesquisar" <br> - informar o nome da cidade <br> clicar em "Buscar" |
 | Critério de Êxito     | - Exibir informações da cidade para o usuario. |
