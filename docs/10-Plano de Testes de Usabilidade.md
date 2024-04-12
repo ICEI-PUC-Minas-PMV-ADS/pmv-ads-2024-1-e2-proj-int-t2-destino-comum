@@ -25,9 +25,17 @@ As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Test
 
 
 
+
                                                                                            |
 
-
+| 2       | Criar nova conta de usuário na aplicação          | 4           | 12      | 3                       | O formulário de registro era confuso, precisei de algumas tentativas para completá-lo corretamente.        |
+| 2       | Realizar o login na aplicação                     | 2           | 5       | 4                       | O login foi fácil, mas a página inicial demorou um pouco para carregar.                                    |
+| 2       | Pesquisar por cidades de interesse na aplicação   | 3           | 8       | 4                       | A função de pesquisa funcionou bem e os resultados foram relevantes.                                        |
+| 2       | Escrever e editar perguntas ou dicas             | 6           | 20      | 2                       | Encontrei dificuldades para editar uma pergunta após publicá-la.                                           |
+| 2       | Votar em perguntas ou dicas favoritas            | 1           | 4       | 5                       | Votar foi simples e direto ao ponto.                                                                       |
+| 3       | ...                                                | ...         | ...     | ...                     | ...                                                                                                        |
+| 4       | ...                                                | ...         | ...     | ...                     | ...                                                                                                        |
+| 5       | ...                                                | ...         | ...     | ...                     | ...                                                                                                        |
 
 > **Links Úteis**:
 > - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
