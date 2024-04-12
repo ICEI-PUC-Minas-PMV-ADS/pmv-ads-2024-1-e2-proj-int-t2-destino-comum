@@ -51,6 +51,14 @@ As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Test
 | Alexia Louise       | Escrever e editar perguntas ou dicas             | 4           | 15      | 3                       | A funcionalidade de edição é um pouco confusa e demorei para encontrar onde fazer as alterações.          |
 | Alexia Louise       | Votar em perguntas ou dicas favoritas            | 1           | 5       | 5                       | O processo de votação foi simples e direto.                                                               |
 
+| Convidado | Tarefa                                             | Facilidade de Uso (1-5) | Feedback Detalhado                                                                                        | Tempo (min) | Cliques | Remotos | Número de Erros | Quantidades de Tarefas | Data      |
+|-----------|----------------------------------------------------|-------------------------|------------------------------------------------------------------------------------------------------------|-------------|---------|---------|-----------------|------------------------|-----------|
+| 1         | Criar nova conta de usuário na aplicação          | 4                       | Processo de registro foi fácil, mas o formulário era um pouco longo.                                      | 3           | 10      | Sim     | 1               | 1                      | 2022-04-01|
+| 1         | Realizar o login na aplicação                     | 5                       | O login foi rápido e sem problemas.                                                                        | 1           | 3       | Sim     | 0               | 1                      | 2022-04-01|
+| 1         | Pesquisar por cidades de interesse na aplicação   | 4                       | Encontrei todas as informações que precisava facilmente.                                                   | 2           | 5       | Sim     | 0               | 1                      | 2022-04-01|
+| 1         | Escrever e editar perguntas ou dicas             | 3                       | Tive dificuldades para encontrar a opção de edição.                                                        | 5           | 15      | Sim     | 2               | 1                      | 2022-04-01|
+| 1         | Votar em perguntas ou dicas favoritas            | 5                       | O processo de votação foi intuitivo e fácil.                                                               | 2           | 7       | Sim     | 0               | 1                      | 2022-04-01|
+
                                                                                                     
 
 > **Links Úteis**:
