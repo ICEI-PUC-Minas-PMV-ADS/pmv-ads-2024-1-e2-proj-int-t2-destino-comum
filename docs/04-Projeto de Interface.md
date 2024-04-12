@@ -74,7 +74,8 @@ Uma vez escolhido o tipo de destino, será aberta uma tela (tipo de destino esco
 ### Tela Cidade Escolhida
 Uma vez escolhido o tipo de destino e a cidade, o usuário é direcionado à página da respectiva localidade. Nesta tela haverá uma descrição da cidade. Ademais, o usuário poderá selecionar o tipo de informação - clima, pontos turístios e alimentação - que deseja obter daquele centro urbano. Lembrando que todas essas informações serão fornecidas por outros viajantes que já visitaram aquele local.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/144973239/0147198d-8d1e-49ae-86ff-50ed3faa5a83)
+![Queenstown](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/e36f9e5f-579f-4048-855f-f1bc310aadbf)
+
 
 
 ### Tela Login
