@@ -32,7 +32,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 </s>
 
-O diagrama apresentado na Figura 1 (abaixo) mostra o fluxo de interação do usuário por meio das telas do sistema. Cada uma das telas da figura supramencionada é detalhada na seção de Wireframes a seguir. Destaca-se que o nome escolhido para o portal é "ABCD" , pois ...
+O diagrama apresentado na Figura 1 (abaixo) mostra o fluxo de interação do usuário por meio das telas do sistema. Cada uma das telas da figura supramencionada é detalhada na seção de Wireframes a seguir. Destaca-se que o nome escolhido para o portal é "Destino Comum, conexão viajante" , pois transmite a ideia de um lugar que todos podem compartilhar experiências de viagens anteriores e explorar juntos novos destinos, independentemente de origens ou interesses diversos, criando uma sensação de inclusão e abertura para todos os viajantes.
 
 ## Wireframes
 
