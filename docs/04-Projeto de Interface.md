@@ -36,7 +36,8 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 
 A tela de home-page mostra, basicamente, todo o conteúdo do site que pode ser acessado. Isto é, é possível acessar  "CIDADES E TIPOS DE DESTINO" bem como efetuar o login. A figura principal da tela inicial traz uma mensagem, que diz: “ Conecete-se com aventuras e inspirações de viajanetes".
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/144973239/5a91fce8-c866-455b-b8bd-a9d29da3e110)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/144973239/b381e36a-8c10-449e-b12c-e509df608549)
+
 
 ### Tela Tipo de Destino
 
@@ -75,6 +76,9 @@ Nesta tela, o usuário irá fornecer e-mail e cadastrar uma senha para que o cad
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/144973239/00cc97fe-36f8-46b5-91e1-4c91e206929d)
 
 
+### Página do usuário
+Após finalização do cadastro e login, será apresentada tela com os dados basicos do usuário, lista de comentários realizados e cidades favoritas.
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/144973239/e99688f5-376e-4d3e-913f-91c84f174c6e)
 
 
 
