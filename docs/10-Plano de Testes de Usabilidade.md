@@ -34,12 +34,104 @@ As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Test
 | Receber notificações            | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 9 | Feedback detalhado do usuário sobre a tarefa 9 | Minutagem do usuário para finalizar a tarefa 9 | Contando quantos cliques o usuário precisou para concluir a tarefa 9 | Usuário irá informar quantos erros teve ao realizar a tarefa 9 |
 
 
+| Relatório do Teste de Usabilidade do usuário 2|
+|-----------------------------------|
+| **Projeto:**   Destino Comum                   |
+| **Fase:**            1             |
+| **Data:**        00/00/0000                 |
+| **Moderador:**  Gabriel Oliveira   |
+| **Usuário:**       |
+| **Quantidade de Tarefas:** 5|
+| **Remoto ou Presencial:** |
 
 
 
+| Tarefas                                             | Facilidade de Uso (1-5) | Feedback Detalhado                                                                                        | Tempo (min) | Cliques | Número de Erros |
+|----------------------------------------------------|-------------------------|------------------------------------------------------------------------------------------------------------|-------------|---------|-----------------|
+| Criar nova conta de usuário na aplicação          | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 1 | Feedback detalhado do usuário sobre a tarefa 1 | Minutagem do usuário para finalizar a tarefa 1 | Contando quantos cliques o usuário precisou para concluir a tarefa 1 | Usuário irá informar quantos erros teve ao realizar a tarefa 1 |
+| Realizar o login na aplicação                     | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 2 | Feedback detalhado do usuário sobre a tarefa 2 | Minutagem do usuário para finalizar a tarefa 2 | Contando quantos cliques o usuário precisou para concluir a tarefa 2 | Usuário irá informar quantos erros teve ao realizar a tarefa 2 |
+| Pesquisar por cidades de interesse na aplicação   | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 3 | Feedback detalhado do usuário sobre a tarefa 3 | Minutagem do usuário para finalizar a tarefa 3 | Contando quantos cliques o usuário precisou para concluir a tarefa 3 | Usuário irá informar quantos erros teve ao realizar a tarefa 3 |
+| Escrever e editar perguntas ou dicas             | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 4 | Feedback detalhado do usuário sobre a tarefa 4 | Minutagem do usuário para finalizar a tarefa 4 | Contando quantos cliques o usuário precisou para concluir a tarefa 4 | Usuário irá informar quantos erros teve ao realizar a tarefa 4 |
+| Votar em perguntas ou dicas favoritas            | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 5 | Feedback detalhado do usuário sobre a tarefa 5 | Minutagem do usuário para finalizar a tarefa 5 | Contando quantos cliques o usuário precisou para concluir a tarefa 5 | Usuário irá informar quantos erros teve ao realizar a tarefa 5 |
+| Editar perguntas ou dicas            | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 6 | Feedback detalhado do usuário sobre a tarefa 6 | Minutagem do usuário para finalizar a tarefa 6 | Contando quantos cliques o usuário precisou para concluir a tarefa 6 | Usuário irá informar quantos erros teve ao realizar a tarefa 6 |
+| Definir destinos favoritos            | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 7 | Feedback detalhado do usuário sobre a tarefa 7 | Minutagem do usuário para finalizar a tarefa 7 | Contando quantos cliques o usuário precisou para concluir a tarefa 7 | Usuário irá informar quantos erros teve ao realizar a tarefa 7 |
+| Reportar comentários impróprios             | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 8 | Feedback detalhado do usuário sobre a tarefa 8 | Minutagem do usuário para finalizar a tarefa 8 | Contando quantos cliques o usuário precisou para concluir a tarefa 8 | Usuário irá informar quantos erros teve ao realizar a tarefa 8 |
+| Receber notificações            | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 9 | Feedback detalhado do usuário sobre a tarefa 9 | Minutagem do usuário para finalizar a tarefa 9 | Contando quantos cliques o usuário precisou para concluir a tarefa 9 | Usuário irá informar quantos erros teve ao realizar a tarefa 9 |
+
+
+| Relatório do Teste de Usabilidade do usuário 3|
+|-----------------------------------|
+| **Projeto:**   Destino Comum                   |
+| **Fase:**            1             |
+| **Data:**        00/00/0000                 |
+| **Moderador:**  Gabriel Oliveira   |
+| **Usuário:**       |
+| **Quantidade de Tarefas:** 5|
+| **Remoto ou Presencial:** |
 
 
 
+| Tarefas                                             | Facilidade de Uso (1-5) | Feedback Detalhado                                                                                        | Tempo (min) | Cliques | Número de Erros |
+|----------------------------------------------------|-------------------------|------------------------------------------------------------------------------------------------------------|-------------|---------|-----------------|
+| Criar nova conta de usuário na aplicação          | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 1 | Feedback detalhado do usuário sobre a tarefa 1 | Minutagem do usuário para finalizar a tarefa 1 | Contando quantos cliques o usuário precisou para concluir a tarefa 1 | Usuário irá informar quantos erros teve ao realizar a tarefa 1 |
+| Realizar o login na aplicação                     | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 2 | Feedback detalhado do usuário sobre a tarefa 2 | Minutagem do usuário para finalizar a tarefa 2 | Contando quantos cliques o usuário precisou para concluir a tarefa 2 | Usuário irá informar quantos erros teve ao realizar a tarefa 2 |
+| Pesquisar por cidades de interesse na aplicação   | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 3 | Feedback detalhado do usuário sobre a tarefa 3 | Minutagem do usuário para finalizar a tarefa 3 | Contando quantos cliques o usuário precisou para concluir a tarefa 3 | Usuário irá informar quantos erros teve ao realizar a tarefa 3 |
+| Escrever e editar perguntas ou dicas             | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 4 | Feedback detalhado do usuário sobre a tarefa 4 | Minutagem do usuário para finalizar a tarefa 4 | Contando quantos cliques o usuário precisou para concluir a tarefa 4 | Usuário irá informar quantos erros teve ao realizar a tarefa 4 |
+| Votar em perguntas ou dicas favoritas            | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 5 | Feedback detalhado do usuário sobre a tarefa 5 | Minutagem do usuário para finalizar a tarefa 5 | Contando quantos cliques o usuário precisou para concluir a tarefa 5 | Usuário irá informar quantos erros teve ao realizar a tarefa 5 |
+| Editar perguntas ou dicas            | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 6 | Feedback detalhado do usuário sobre a tarefa 6 | Minutagem do usuário para finalizar a tarefa 6 | Contando quantos cliques o usuário precisou para concluir a tarefa 6 | Usuário irá informar quantos erros teve ao realizar a tarefa 6 |
+| Definir destinos favoritos            | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 7 | Feedback detalhado do usuário sobre a tarefa 7 | Minutagem do usuário para finalizar a tarefa 7 | Contando quantos cliques o usuário precisou para concluir a tarefa 7 | Usuário irá informar quantos erros teve ao realizar a tarefa 7 |
+| Reportar comentários impróprios             | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 8 | Feedback detalhado do usuário sobre a tarefa 8 | Minutagem do usuário para finalizar a tarefa 8 | Contando quantos cliques o usuário precisou para concluir a tarefa 8 | Usuário irá informar quantos erros teve ao realizar a tarefa 8 |
+| Receber notificações            | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 9 | Feedback detalhado do usuário sobre a tarefa 9 | Minutagem do usuário para finalizar a tarefa 9 | Contando quantos cliques o usuário precisou para concluir a tarefa 9 | Usuário irá informar quantos erros teve ao realizar a tarefa 9 |
+
+
+| Relatório do Teste de Usabilidade do usuário 4|
+|-----------------------------------|
+| **Projeto:**   Destino Comum                   |
+| **Fase:**            1             |
+| **Data:**        00/00/0000                 |
+| **Moderador:**  Gabriel Oliveira   |
+| **Usuário:**       |
+| **Quantidade de Tarefas:** 5|
+| **Remoto ou Presencial:** |
+
+
+
+| Tarefas                                             | Facilidade de Uso (1-5) | Feedback Detalhado                                                                                        | Tempo (min) | Cliques | Número de Erros |
+|----------------------------------------------------|-------------------------|------------------------------------------------------------------------------------------------------------|-------------|---------|-----------------|
+| Criar nova conta de usuário na aplicação          | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 1 | Feedback detalhado do usuário sobre a tarefa 1 | Minutagem do usuário para finalizar a tarefa 1 | Contando quantos cliques o usuário precisou para concluir a tarefa 1 | Usuário irá informar quantos erros teve ao realizar a tarefa 1 |
+| Realizar o login na aplicação                     | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 2 | Feedback detalhado do usuário sobre a tarefa 2 | Minutagem do usuário para finalizar a tarefa 2 | Contando quantos cliques o usuário precisou para concluir a tarefa 2 | Usuário irá informar quantos erros teve ao realizar a tarefa 2 |
+| Pesquisar por cidades de interesse na aplicação   | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 3 | Feedback detalhado do usuário sobre a tarefa 3 | Minutagem do usuário para finalizar a tarefa 3 | Contando quantos cliques o usuário precisou para concluir a tarefa 3 | Usuário irá informar quantos erros teve ao realizar a tarefa 3 |
+| Escrever e editar perguntas ou dicas             | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 4 | Feedback detalhado do usuário sobre a tarefa 4 | Minutagem do usuário para finalizar a tarefa 4 | Contando quantos cliques o usuário precisou para concluir a tarefa 4 | Usuário irá informar quantos erros teve ao realizar a tarefa 4 |
+| Votar em perguntas ou dicas favoritas            | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 5 | Feedback detalhado do usuário sobre a tarefa 5 | Minutagem do usuário para finalizar a tarefa 5 | Contando quantos cliques o usuário precisou para concluir a tarefa 5 | Usuário irá informar quantos erros teve ao realizar a tarefa 5 |
+| Editar perguntas ou dicas            | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 6 | Feedback detalhado do usuário sobre a tarefa 6 | Minutagem do usuário para finalizar a tarefa 6 | Contando quantos cliques o usuário precisou para concluir a tarefa 6 | Usuário irá informar quantos erros teve ao realizar a tarefa 6 |
+| Definir destinos favoritos            | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 7 | Feedback detalhado do usuário sobre a tarefa 7 | Minutagem do usuário para finalizar a tarefa 7 | Contando quantos cliques o usuário precisou para concluir a tarefa 7 | Usuário irá informar quantos erros teve ao realizar a tarefa 7 |
+| Reportar comentários impróprios             | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 8 | Feedback detalhado do usuário sobre a tarefa 8 | Minutagem do usuário para finalizar a tarefa 8 | Contando quantos cliques o usuário precisou para concluir a tarefa 8 | Usuário irá informar quantos erros teve ao realizar a tarefa 8 |
+| Receber notificações            | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 9 | Feedback detalhado do usuário sobre a tarefa 9 | Minutagem do usuário para finalizar a tarefa 9 | Contando quantos cliques o usuário precisou para concluir a tarefa 9 | Usuário irá informar quantos erros teve ao realizar a tarefa 9 |
+
+
+| Relatório do Teste de Usabilidade do usuário 5|
+|-----------------------------------|
+| **Projeto:**   Destino Comum                   |
+| **Fase:**            1             |
+| **Data:**        00/00/0000                 |
+| **Moderador:**  Gabriel Oliveira   |
+| **Usuário:**       |
+| **Quantidade de Tarefas:** 5|
+| **Remoto ou Presencial:** |
+
+
+
+| Tarefas                                             | Facilidade de Uso (1-5) | Feedback Detalhado                                                                                        | Tempo (min) | Cliques | Número de Erros |
+|----------------------------------------------------|-------------------------|------------------------------------------------------------------------------------------------------------|-------------|---------|-----------------|
+| Criar nova conta de usuário na aplicação          | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 1 | Feedback detalhado do usuário sobre a tarefa 1 | Minutagem do usuário para finalizar a tarefa 1 | Contando quantos cliques o usuário precisou para concluir a tarefa 1 | Usuário irá informar quantos erros teve ao realizar a tarefa 1 |
+| Realizar o login na aplicação                     | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 2 | Feedback detalhado do usuário sobre a tarefa 2 | Minutagem do usuário para finalizar a tarefa 2 | Contando quantos cliques o usuário precisou para concluir a tarefa 2 | Usuário irá informar quantos erros teve ao realizar a tarefa 2 |
+| Pesquisar por cidades de interesse na aplicação   | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 3 | Feedback detalhado do usuário sobre a tarefa 3 | Minutagem do usuário para finalizar a tarefa 3 | Contando quantos cliques o usuário precisou para concluir a tarefa 3 | Usuário irá informar quantos erros teve ao realizar a tarefa 3 |
+| Escrever e editar perguntas ou dicas             | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 4 | Feedback detalhado do usuário sobre a tarefa 4 | Minutagem do usuário para finalizar a tarefa 4 | Contando quantos cliques o usuário precisou para concluir a tarefa 4 | Usuário irá informar quantos erros teve ao realizar a tarefa 4 |
+| Votar em perguntas ou dicas favoritas            | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 5 | Feedback detalhado do usuário sobre a tarefa 5 | Minutagem do usuário para finalizar a tarefa 5 | Contando quantos cliques o usuário precisou para concluir a tarefa 5 | Usuário irá informar quantos erros teve ao realizar a tarefa 5 |
+| Editar perguntas ou dicas            | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 6 | Feedback detalhado do usuário sobre a tarefa 6 | Minutagem do usuário para finalizar a tarefa 6 | Contando quantos cliques o usuário precisou para concluir a tarefa 6 | Usuário irá informar quantos erros teve ao realizar a tarefa 6 |
+| Definir destinos favoritos            | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 7 | Feedback detalhado do usuário sobre a tarefa 7 | Minutagem do usuário para finalizar a tarefa 7 | Contando quantos cliques o usuário precisou para concluir a tarefa 7 | Usuário irá informar quantos erros teve ao realizar a tarefa 7 |
+| Reportar comentários impróprios             | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 8 | Feedback detalhado do usuário sobre a tarefa 8 | Minutagem do usuário para finalizar a tarefa 8 | Contando quantos cliques o usuário precisou para concluir a tarefa 8 | Usuário irá informar quantos erros teve ao realizar a tarefa 8 |
+| Receber notificações            | Usuário vai dar uma nota de (1 a 5) para a facilidade da tarefa 9 | Feedback detalhado do usuário sobre a tarefa 9 | Minutagem do usuário para finalizar a tarefa 9 | Contando quantos cliques o usuário precisou para concluir a tarefa 9 | Usuário irá informar quantos erros teve ao realizar a tarefa 9 |
 
 
 > **Links Úteis**:
