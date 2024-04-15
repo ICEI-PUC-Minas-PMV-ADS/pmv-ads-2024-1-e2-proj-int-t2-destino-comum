@@ -27,9 +27,14 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 O diagrama apresentado nas figuras (abaixo) mostram o fluxo de interação do usuário por meio das telas do sistema. Cada uma das telas da figura supramencionada é detalhada na seção de Wireframes a seguir. Destaca-se que o nome escolhido para o portal é "Destino Comum, conexão viajante", pois transmite a ideia de um lugar que todos podem compartilhar experiências de viagens anteriores e explorar juntos novos destinos, independentemente de origens ou interesses diversos, criando uma sensação de inclusão e abertura para todos os viajantes.
 
-### Diagrama de Fluxo (Busca Ciddade e Comentários)
+### Diagrama de Fluxo (Busca Cidade e Comentários)
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/144973239/a9856529-282d-4bf5-b200-6c55ad1d14b9)
+
+### Diagrama de Fluxo (Login e Tela de Usuário)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/144973239/0ecb580b-3b7e-440e-829e-5ecd8450e6ca)
+
 
 ## Wireframes
 
