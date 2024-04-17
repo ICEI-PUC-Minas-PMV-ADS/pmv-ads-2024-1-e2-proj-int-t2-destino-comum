@@ -32,7 +32,8 @@ Neste diagrama é possível perceber que:
 
 Isso pode ser melhor visto na figura abaixo.
 
-![DiagramaConceitual_PUC](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/72438f02-36c1-4e6d-968c-4cf88ca88e92)
+![DiagramaConceitual_PUC](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/82e1b757-2b95-41a5-9347-5188d9f2e002)
+
 
 
 
@@ -46,8 +47,9 @@ A entidade "Fiscaliza" foi adicionada ao modelo, pois a relação entre as entid
 
 Por sua vez, A entidade "Pesquisa e Acessa" foi adicionada ao modelo, pois a relação entre as entidades "Usuario" e "Cidade" é (0,N) : (0,N). A entidade "Pesquisa e Acessa" possui como chave primária e estrangeira as chaves primárias das outras duas tabelas ("Usuario" e "Cidade"). Tudo isso pode ser visto na figura abaixo.
 
+![DiagramaLogico_PUC](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/9b5e0175-7e71-45b7-8472-88f4039c05e5)
 
-![DiagramaLogico_PUC](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/4d0dd901-1eb5-4e4c-8587-1970676dba88)
+
 
 
 ## Tecnologias Utilizadas
