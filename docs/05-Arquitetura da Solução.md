@@ -45,7 +45,7 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 Para a confecção deste modelo lógico, foi utilizada a ferramenta "brModelo". 
 A entidade "Fiscaliza" foi adicionada ao modelo, pois a relação entre as entidades "Comentario" e "Adminsitrador" é (0,N) : (1,N). A entidade "Fiscaliza" possui como chave primária e estrangeira as chaves primárias das outras duas tabelas ("Comentário" e "Administrador").
 
-Por sua vez, A entidade "Pesquisa e Acessa" foi adicionada ao modelo, pois a relação entre as entidades "Usuario" e "Cidade" é (0,N) : (0,N). A entidade "Pesquisa e Acessa" possui como chave primária e estrangeira as chaves primárias das outras duas tabelas ("Usuario" e "Cidade"). Tudo isso pode ser visto na figura abaixo.
+Por sua vez, A entidade "Pesquisa e Acessa" foi adicionada ao modelo, pois a relação entre as entidades "Usuario" e "Cidade" é (0,N) : (0,N). A entidade "PesquisaAcessa" possui como chave primária e estrangeira as chaves primárias das outras duas tabelas ("Usuario" e "Cidade"). Tudo isso pode ser visto na figura abaixo.
 
 ![DiagramaLogico_PUC](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/9b5e0175-7e71-45b7-8472-88f4039c05e5)
 
