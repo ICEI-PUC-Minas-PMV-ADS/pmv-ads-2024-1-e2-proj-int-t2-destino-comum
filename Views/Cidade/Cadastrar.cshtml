@@ -1,0 +1,77 @@
+﻿@model CidadeModel
+
+@{
+    ViewData["Title"] = "Cadastrar Cidade";
+}
+
+
+<div class="container bg-dark p-5 rounded-5">
+    <div class="mb-5 text-center">
+        <h1 class="text-light">Cadastro de Cidades</h1>
+    </div>
+
+    <form method="post" asp-controller="Cidade" asp-action="Cadastrar">
+
+
+        <div class="mb-3">
+            <label for="Nome" class="form-label text-light">Nome da Cidade</label>
+            <input type="text" class="form-control text-light" asp-for="Nome" id="Nome" placeholder="insira o nome da cidade">
+            <span class="text-danger" asp-validation-for="Nome"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="Pais" class="form-label text-light">País da Cidade</label>
+            <input type="text" class="form-control text-light" asp-for="Pais" id="Pais" placeholder="insira o nome do país">
+            <span class="text-danger" asp-validation-for="Pais"></span>
+        </div>
+        <div class="mb-3">
+            <label for="Descricao" class="form-label text-light" >Descrição da Cidade</label>
+            <input type="text" class="form-control text-light" asp-for="Descricao" id="Descricao" placeholder="insira uma breve descrição da cidade">
+            <span class="text-danger" asp-validation-for="Descricao"></span>
+        </div>
+        <div class="mb-3">
+            <label for="TipoDestino" class="form-label text-light">Tipo de Destino</label>
+            <select asp-for="TipoDestino" class="form-control" id="TipoDestino">
+                <option value="">Selecione o tipo de destino</option>
+                <option value="ViagemDeAventura">Viagem de Aventura</option>
+                <option value="ViagemRomantica">Viagem Romântica</option>
+                <option value="ViagemEmFamilia">Viagem em Família</option>
+            </select>
+            <span class="text-danger" asp-validation-for="TipoDestino"></span>
+        </div>
+        <div class="mb-3">
+            <label for="DataUltimaAtualizacao" class="form-label text-light">Data da Última Atualização</label>
+            <input type="datetime-local" class="form-control text-light" asp-for="DataUltimaAtualizacao" id="DataUltimaAtualizaca" placeholder="insira a data da última atualização">
+            <span class="text-danger" asp-validation-for="DataUltimaAtualizacao"></span>
+        </div>
+        <div class="mb-3">
+            <label for="Clima" class="form-label text-light">Clima</label>
+            <input type="text" class="form-control text-light" asp-for="Clima" id="Clima" placeholder="insira informações sobre o clima da cidade">
+            <span class="text-danger" asp-validation-for="Clima"></span>
+        </div>
+        <div class="mb-3">
+            <label for="Alimentacao" class="form-label text-light">Alimentação</label>
+            <input type="text" class="form-control text-light" asp-for="Alimentacao" id="Alimentacao" placeholder="insira informações sobre a alimentação">
+            <span class="text-danger" asp-validation-for="Alimentacao"></span>
+        </div>
+        <div class="mb-3">
+            <label for="Transporte" class="form-label text-light">Transporte</label>
+            <input type="text" class="form-control text-light" asp-for="Transporte" id="Transporte" placeholder="insira informações sobre o transporte">
+            <span class="text-danger" asp-validation-for="Transporte"></span>
+        </div>
+        <div class="mb-3">
+            <label for="Acessibilidade" class="form-label text-light">Acessibilidade</label>
+            <input type="text" class="form-control text-light" asp-for="Acessibilidade" id="Acessibilidade" placeholder="insira informações sobre acessibilidade">
+            <span class="text-danger" asp-validation-for="Acessibilidade"></span>
+        </div>
+
+        <div class="d-flex gap-5 mt-5">
+            <a class="btn btn-primary w-50" asp-controller="Cidade" asp-action="Index">Voltar</a>
+            <button type="submit" class="btn btn-success w-50">Adicionar</button>
+
+        </div>
+
+        
+
+    </form>
+</div>
