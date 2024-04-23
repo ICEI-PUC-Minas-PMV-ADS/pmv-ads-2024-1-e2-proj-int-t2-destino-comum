@@ -31,11 +31,8 @@
         </div>
         <div class="mb-3">
             <label for="TipoDestino" class="form-label text-light">Tipo de Destino</label>
-            <select asp-for="TipoDestino" class="form-control" id="TipoDestino">
-                <option value="">Selecione o tipo de destino</option>
-                <option value="ViagemDeAventura">Viagem de Aventura</option>
-                <option value="ViagemRomantica">Viagem Romântica</option>
-                <option value="ViagemEmFamilia">Viagem em Família</option>
+            <select asp-for="TipoDestino" class="form-control" id="TipoDestino" asp-items= "Html.GetEnumSelectList<Destino>()">
+                <option value="">Selecione o tipo</option>
             </select>
             <span class="text-danger" asp-validation-for="TipoDestino"></span>
         </div>

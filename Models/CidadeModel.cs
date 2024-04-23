@@ -22,7 +22,7 @@ namespace DestinoComum.Models
 
         [Required(ErrorMessage = "Obrigatório fornecer o tipo de destino")]
         [Display(Name = "Tipo de Destino")]
-        public string TipoDestino { get; set; }
+        public Destino TipoDestino { get; set; }
 
         public DateTime? DataUltimaAtualizacao { get; set; } = DateTime.Now;
 
@@ -39,6 +39,18 @@ namespace DestinoComum.Models
 
         public string Acessibilidade { get; set; }
 
+    }
+
+    public enum Destino
+    {
+        [Display(Name = "Viagem de Aventura")]
+        ViagemAventura,
+
+        [Display(Name = "Viagem Romântica")]
+        ViagemRomantica,
+
+        [Display(Name = "Viagem em Família")]
+        ViagemFamilia
     }
 
 

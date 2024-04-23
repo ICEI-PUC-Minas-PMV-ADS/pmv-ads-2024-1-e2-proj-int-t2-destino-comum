@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace DestinoComum.Migrations
 {
     /// <inheritdoc />
-    public partial class M01TabelaCidades : Migration
+    public partial class M01TabelaCidade : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -32,6 +32,24 @@ namespace DestinoComum.Migrations
                 {
                     table.PrimaryKey("PK_Cidades", x => x.IdCidade);
                 });
+
+            migrationBuilder.CreateTable(
+                name: "Usuarios",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Tipo = table.Column<int>(type: "int", nullable: false),
+                    NomeUsuario = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Senha = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ConfirmarSenha = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CPF = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Usuarios", x => x.Id);
+                });
         }
 
         /// <inheritdoc />
@@ -39,6 +57,9 @@ namespace DestinoComum.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Cidades");
+
+            migrationBuilder.DropTable(
+                name: "Usuarios");
         }
     }
 }

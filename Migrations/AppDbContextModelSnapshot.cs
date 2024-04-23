@@ -57,9 +57,8 @@ namespace DestinoComum.Migrations
                     b.Property<string>("PontoTuristico")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("TipoDestino")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("TipoDestino")
+                        .HasColumnType("int");
 
                     b.Property<string>("Transporte")
                         .HasColumnType("nvarchar(max)");

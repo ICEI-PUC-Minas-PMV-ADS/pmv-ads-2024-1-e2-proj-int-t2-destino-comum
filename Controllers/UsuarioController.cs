@@ -12,14 +12,22 @@ namespace DestinoComum.Controllers
         {
             _db = db;
         }
+
+        public async Task<IActionResult> Index()
+        {
+            return View(await _db.Usuarios.ToListAsync());
+        }
+
+       /* public IActionResult AcessDenied()
+        {
+            return View();
+        }
+       */
+
         public IActionResult Login()
         {
             return View();
         }
-
-
-
-
 
         public IActionResult Cadastrar()
         {

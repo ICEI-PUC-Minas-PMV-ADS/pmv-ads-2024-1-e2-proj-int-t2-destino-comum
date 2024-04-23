@@ -5,7 +5,9 @@ namespace DestinoComum.Models
 {
     public enum TipoUsuario
     {
+        [Display(Name = "Padrão")]
         Padrao,
+
         Administrador
     }
     [Table("Usuarios")]
