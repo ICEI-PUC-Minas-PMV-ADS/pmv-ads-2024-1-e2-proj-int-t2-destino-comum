@@ -38,16 +38,16 @@ namespace DestinoComum.Controllers
             return View(cidade);
         }
 
-        public IActionResult Excluir(int id) 
+        public IActionResult Excluir(int id)
         {
-            if(id==null || id == 0)
+            if (id == null || id == 0)
             {
                 return NotFound();
             }
 
-            CidadeModel cidade = _db.Cidades.FirstOrDefault(x=> x.IdCidade == id);
+            CidadeModel cidade = _db.Cidades.FirstOrDefault(x => x.IdCidade == id);
 
-            if (cidade == null) 
+            if (cidade == null)
             {
                 return NotFound();
             }
@@ -69,21 +69,21 @@ namespace DestinoComum.Controllers
         }
 
         [HttpPost]
-        public IActionResult Editar(CidadeModel cidade) 
-        { 
-            if (ModelState.IsValid) 
-            { 
+        public IActionResult Editar(CidadeModel cidade)
+        {
+            if (ModelState.IsValid)
+            {
                 _db.Cidades.Update(cidade);
                 _db.SaveChanges();
 
-                return RedirectToAction("Index");   
-            } 
+                return RedirectToAction("Index");
+            }
 
             return View(cidade);
         }
 
         [HttpPost]
-        public IActionResult Excluir(CidadeModel cidade) 
+        public IActionResult Excluir(CidadeModel cidade)
         {
             if (cidade == null)
             {

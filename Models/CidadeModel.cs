@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DestinoComum.Models
 {
-    [Table ("Cidades")]
+    [Table("Cidades")]
     public class CidadeModel
     {
         [Key]
