@@ -1,5 +1,7 @@
 ﻿using DestinoComum.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace DestinoComum.Controllers
 {
@@ -53,6 +55,27 @@ namespace DestinoComum.Controllers
             }
 
             return View(cidade);
+        }
+
+        // Agrupar as cidades pelo TipoDestino
+        public async Task<IActionResult> Destino()
+        {
+
+            var cidadesAgrupadas = await _db.Cidades
+                .GroupBy(c => c.TipoDestino)
+                .ToListAsync();
+
+            return View(cidadesAgrupadas);
+        }
+
+        // Pagina destino detalhada
+        public async Task<IActionResult> DestinoDetalhe(Destino destino)
+        {
+            var cidades = await _db.Cidades
+                .Where(c => c.TipoDestino == destino) 
+                .ToListAsync();
+
+            return View(cidades);
         }
 
         [HttpPost]
