@@ -1,0 +1,29 @@
+﻿@model List<CidadeModel> // Substitua "SuaAplicacao.Models.Cidade" pelo caminho correto do seu modelo de cidade
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Descrição das Cidades</title>
+</head>
+<body>
+    <h1>Descrição das Cidades</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Descrição</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var cidade in Model)
+            {
+                <tr>
+                    <td>@cidade.Nome</td>
+                    <td>@cidade.Descricao</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>
