@@ -91,8 +91,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-007| A aplicação deve permitir aos usúarios que possam definir seus destinos favoritos | MÉDIA |
 |RF-008| A aplicação deve permitir aos usúarios reportar comentários impróprios | MÉDIA |
 |RF-009| A aplicação deve permitir que os usuários recebam notificações | MÉDIA |
-|RF-010| A aplicação deve permitir que o administrador exclua usuários | ALTA |
+|RF-010| A aplicação deve permitir que o administrador consulte quais usuários estão cadastrados e exclua usuários | ALTA |
 |RF-011| A aplicação deve permitir que o administrador exclua comentários reportados como impróprios pelos usuários | ALTA |
+|RF-012| A aplicação deve permitir que o administrador crie, edite e exclua as cidades | ALTA |
+|RF-013| A aplicação deve permitir que o usuário consulte as cidades e estas estejam agrupadas segundo o seu tipo de destino e por ordem alfabética| ALTA |
+|RF-014| Quando o usuário clicar na cidade que deseja acessar, a aplicação deve fornecer a descrição detalhada da cidade | ALTA |
 
           
 ### Requisitos não Funcionais
