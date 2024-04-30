@@ -8,9 +8,9 @@ A tabela a seguir determina a correlação entre o artefato produzido e o requis
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
-|RF-012|  A aplicação deve permitir que o administrador crie, edite e exclua as cidades | <s> tarefas.shtml / tarefas.cs / controllertarefas.cs<s> | 
-|RF-013|  A aplicação deve permitir que o usuário consulte as cidades e estas estejam agrupadas segundo o seu tipo de destino e por ordem alfabética  | <s> relatorio.shtml <s> |
-|RF-014|  Quando o usuário clicar na cidade que deseja acessar, a aplicação deve fornecer a descrição detalhada da cidade  |  |
+|RF-012|  A aplicação deve permitir que o administrador crie, edite e exclua as cidades | Cidade.shtml / CidadeModel.cs / CidadeController.cs | 
+|RF-013|  A aplicação deve permitir que o usuário consulte as cidades e estas estejam agrupadas segundo o seu tipo de destino e por ordem alfabética  | Destino.shtml / CidadeController.cs |
+|RF-014|  Quando o usuário clicar na cidade que deseja acessar, a aplicação deve fornecer a descrição detalhada da cidade  | DestinoDetalhe.shtml / CidadeController.cs |
 
 
 
