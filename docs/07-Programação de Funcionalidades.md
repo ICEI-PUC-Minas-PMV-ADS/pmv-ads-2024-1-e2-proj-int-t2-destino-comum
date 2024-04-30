@@ -8,8 +8,11 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | tarefas.shtml / tarefas.cs / controllertarefas.cs | 
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês   | relatorio.shtml |
+|RF-012|  A aplicação deve permitir que o administrador crie, edite e exclua as cidades | <s> tarefas.shtml / tarefas.cs / controllertarefas.cs<s> | 
+|RF-013|  A aplicação deve permitir que o usuário consulte as cidades e estas estejam agrupadas segundo o seu tipo de destino e por ordem alfabética  | <s> relatorio.shtml <s> |
+|RF-014|  Quando o usuário clicar na cidade que deseja acessar, a aplicação deve fornecer a descrição detalhada da cidade  |  |
+
+
 
 # Instruções de acesso
 
