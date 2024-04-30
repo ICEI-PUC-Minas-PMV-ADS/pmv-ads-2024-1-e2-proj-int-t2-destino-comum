@@ -9,6 +9,16 @@
 ### Página Tipos de Destino
 ![Tipos de Destino](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/8e212a0a-b8fd-454e-91ea-ad568b664f07)
 
+### Página Tipos de Destino Escolhido
+![Destino Escolhido](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/9e65757b-4d50-410e-a941-4b4e648a2756)
+
+### Página Cidade Escolhida
+![Cidade Escolhida](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/ac38d89d-18c0-48ad-9e90-3c8a96d984b2)
+
+### Página Cadastro e Login
+![Cadastro e Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/a25b0b78-782d-4834-a978-7d39e0ca3502)
+
+
 
 
 ## Tipografia
