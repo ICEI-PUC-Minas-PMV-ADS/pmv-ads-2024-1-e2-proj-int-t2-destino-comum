@@ -1,0 +1,88 @@
+﻿@model IEnumerable<CidadeModel>
+
+@if(TempData["MensagemSucesso"] != null)
+{
+    <div class="alert alert-success text-dark" role="alert">
+        @TempData["MensagemSucesso"]
+    </div>
+}
+
+@if (TempData["MensagemErro"] != null)
+{
+    <div class="alert alert-danger text-dark" role="alert">
+        @TempData["MensagemErro"]
+    </div>
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-itens-center mb-3">
+        <h1>Lista de Cidades</h1>
+        <a class="btn btn-success" asp-controller="Cidade" asp-action="Exportar">Exportar</a>
+        <a class="btn btn-success" asp-controller="Cidade" asp-action="Cadastrar"><i class="bi bi-plus-circle"></i>Cadastrar Cidade</a>
+    </div>
+
+    <table class="table table-hover">
+    
+        <table id="cidades" class="table">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Capa</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">País</th>
+                    <th scope="col">Descrição</th>
+                    <th scope="col">Tipo de Destino</th>
+                    <th scope="col">Data da Última Atualização</th>
+                    <th scope="col">Clima</th>
+                    <th scope="col">Ponto Turístico</th>
+                    <th scope="col">Alimentação</th>
+                    <th scope="col">Transporte</th>
+                    <th scope="col">Acessibilidade</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @if(Model !=null)
+                {
+                    @foreach(var cidade in Model)
+                    {
+                    <tr>
+                            <th scope="row">@cidade.IdCidade</th>
+
+                            @if(cidade.Capa != null)
+                            {
+                                <td>
+                                    <img src="~/Imagem/@cidade.Capa" style="width:50px; height:50 px" />
+                                </td>
+                            }
+                            else
+                            {
+                                <td>
+                                    <img src="~/Img/@cidade.Capa" style="width=50px; height =50 px" />
+                                </td>
+                            }
+
+                            <td>@cidade.Nome</td>
+                            <td>@cidade.Pais</td>
+                            <td>@cidade.Descricao</td>
+                            <td>@cidade.TipoDestino</td>
+                            <td>@cidade.DataUltimaAtualizacao</td>
+                            <td>@cidade.Clima</td>
+                            <td>@cidade.PontoTuristico</td>
+                            <td>@cidade.Alimentacao</td>
+                            <td>@cidade.Transporte</td>
+                            <td>@cidade.Acessibilidade</td>
+                            <td>
+                                <a asp-controller="Cidade" asp-action="Detalhes" asp-route-id="@cidade.IdCidade" class="btn-warning btn"><i class="bi bi-file-earmark-zip"></i> Detalhes</a>
+                                <a asp-controller="Cidade" asp-action="Editar" asp-route-id="@cidade.IdCidade" class="btn-info btn"><i class="bi bi-pencil"></i> Editar</a>
+                                <a asp-controller="Cidade" asp-action="Excluir" asp-route-id="@cidade.IdCidade" class="btn btn-danger">Excluir</a>
+                            </td>
+                        </tr>
+                    }
+                }
+
+            </tbody>
+        </table>
+
+    </table>
+</div>
