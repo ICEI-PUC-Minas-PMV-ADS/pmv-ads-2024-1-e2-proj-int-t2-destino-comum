@@ -1,7 +1,9 @@
 ﻿using DestinoComum2.Dto.Usuario;
 using DestinoComum2.Models;
 using DestinoComum2.Service.Autenticacao;
+using DocumentFormat.OpenXml.Office2010.Excel;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 using SQLitePCL;
 using System.Data;
 
@@ -84,10 +86,40 @@ namespace DestinoComum2.Service.UsuarioService
             //}
         }
 
-        public async Task<UsuarioModel> MudarSituacaoUsuario(int id)
+        public async Task<UsuarioModel> Editar(UsuarioEditarDto usuarioEditarDto)
         {
             try 
             {
+                var usuarioEditarBanco = await _context.Usuarios.FirstOrDefaultAsync(usuarioBanco => usuarioBanco.Id == usuarioEditarDto.Id  );
+
+                if (usuarioEditarBanco != null)
+                {
+                    usuarioEditarBanco.NomeCompleto = usuarioEditarDto.NomeCompleto;
+                    usuarioEditarBanco.Usuario = usuarioEditarDto.Usuario;
+                    usuarioEditarBanco.Email = usuarioEditarDto.Email;
+                    usuarioEditarBanco.Perfil = usuarioEditarDto.Perfil;
+                    usuarioEditarBanco.CPF = usuarioEditarDto.CPF;
+                    usuarioEditarBanco.DataUltimaAtualizacao = DateTime.Now;
+
+                    _context.Update(usuarioEditarBanco);
+                    await _context.SaveChangesAsync();
+
+                    return usuarioEditarBanco;
+                }
+
+                return usuarioEditarBanco;
+            }
+
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
+        public async Task<UsuarioModel> MudarSituacaoUsuario(int id)
+        {
+            //try 
+            //{
                 var usuarioMudarSituacao = await _context.Usuarios.FirstOrDefaultAsync(usuarioBanco => usuarioBanco.Id == id);
 
                 if (usuarioMudarSituacao != null)
@@ -112,11 +144,11 @@ namespace DestinoComum2.Service.UsuarioService
                 return usuarioMudarSituacao;
 
 
-            }
-            catch (Exception ex)
-            {
-                throw new Exception(ex.Message);
-            }
+            //}
+            //catch (Exception ex)
+            //{
+            //    throw new Exception(ex.Message);
+            //}
         }
 
         public async Task<bool> VerificaSeExisteUsuarioEmail(UsuarioCriacaoDto usuarioCriacaoDto)

@@ -45,6 +45,39 @@ namespace DestinoComum2.Controllers
 
         }
 
+        [HttpGet]
+        public async Task<ActionResult> Editar (int? id)
+        {
+            if(id != null)
+            {
+                var usuario = await _usuarioInterface.BuscarUsuarioPorId(id);
+
+                var usuarioEditado = new UsuarioEditarDto
+                {
+                    NomeCompleto = usuario.NomeCompleto,
+                    Email = usuario.Email,
+                    Usuario=usuario.Usuario,
+                    Id = usuario.Id,
+                    CPF = usuario.CPF,
+                    Perfil = usuario.Perfil,
+                };
+                if (usuarioEditado.Perfil == PerfilEnum.Cliente)
+                {
+                    ViewBag.Perfil = PerfilEnum.Cliente;
+                }
+                else 
+                {
+                    ViewBag.Perfil = PerfilEnum.Administrador;
+                }
+
+                return View(usuarioEditado);
+                }
+
+
+            
+            return RedirectToAction("Index");
+        }
+
 
 
 
@@ -102,19 +135,40 @@ namespace DestinoComum2.Controllers
                     {
                         return RedirectToAction("Index", "Funcionario");
                     }
-                    else { return RedirectToAction("Index","Cliente", new { Id = "0" }); }
-
-                
-
+                    else 
+                    { 
+                        return RedirectToAction("Index","Cliente", new { Id = "0" }); 
+                    }
             }
             else
             {
                 return RedirectToAction("Index");
             }
+        }
 
+        [HttpPost]
+        public async Task<ActionResult> Editar (UsuarioEditarDto usuarioEditarDto)
+        {
+            if(ModelState.IsValid)
+            {
+                var usuario = await _usuarioInterface.Editar(usuarioEditarDto);
+                TempData["MensagemSucesso"] = "Usuário editado com sucesso";
 
+                if(usuario.Perfil != PerfilEnum.Cliente)
+                {
+                    return RedirectToAction("Index", "Funcionario");
+                }
+                else
+                {
+                    return RedirectToAction("Index", "Cliente", new {Id="0"});
 
-
+                }
+            }
+            else
+            {
+                TempData["MensagemErro"] = "Verifique os dados preenchidos";
+                return View(usuarioEditarDto);
+            }
         }
 
 

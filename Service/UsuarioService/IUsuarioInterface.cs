@@ -10,6 +10,8 @@ namespace DestinoComum2.Service.UsuarioService
         Task<UsuarioCriacaoDto> Cadastrar(UsuarioCriacaoDto usuarioCriacaoDto);
         Task<UsuarioModel> BuscarUsuarioPorId(int? id );
         Task<UsuarioModel> MudarSituacaoUsuario(int id);
+        Task<UsuarioModel> Editar(UsuarioEditarDto usuarioEditarDto);
+
 
 
 

@@ -27,42 +27,42 @@
 
                 <div class="mb-1">
                     <label>Nome Completo</label>
-                    <input asp-for="NomeCompleto" type="text" class="form-control shadow-none" />
+                    <input asp-for="NomeCompleto" type="text" class="form-control shadow-none" disabled />
                 </div>
 
                 <div class="mb-1">
                     <label>Usuário</label>
-                    <input asp-for="Usuario" type="text" class="form-control shadow-none" />
+                    <input asp-for="Usuario" type="text" class="form-control shadow-none" disabled />
                 </div>
 
                 <div class="mb-1">
                     <label>CPF</label>
-                    <input asp-for="CPF" type="text" class="form-control shadow-none" />
+                    <input asp-for="CPF" type="text" class="form-control shadow-none" disabled />
                 </div>
 
                 <div class="mb-1">
                     <label>E-mail</label>
-                    <input asp-for="Email" type="email" class="form-control shadow-none" />
+                    <input asp-for="Email" type="email" class="form-control shadow-none" disabled />
                 </div>
 
                 <div class="mb-1">
                     <label>Perfil</label>
-                    <input asp-for="Perfil" type="text" class="form-control shadow-none" />
+                    <input asp-for="Perfil" type="text" class="form-control shadow-none" disabled />
                 </div>
 
                 <div class="mb-1">
                     <label>Situação</label>
-                    <input value="@(Model.Situacao == true ? "Ativo": "Inativo") type="text" class="form-control shadow-none" />
+                    <input value="@(Model.Situacao == true ? "Ativo": "Inativo")" type="text" class="form-control shadow-none" />
                 </div>
 
                 <div class="mb-1">
                     <label>Data de Cadastro</label>
-                    <input asp-for="DataCadastro" type="text" class="form-control shadow-none" />
+                    <input asp-for="DataCadastro" type="text" class="form-control shadow-none" disabled />
                 </div>
 
                 <div class="mb-1">
                     <label>Data de Alteração do Cadastro</label>
-                    <input asp-for="DataUltimaAtualizacao" type="text" class="form-control shadow-none" />
+                    <input asp-for="DataUltimaAtualizacao" type="text" class="form-control shadow-none" disabled />
                 </div>
 
 
@@ -87,12 +87,6 @@
                         <button type="submit" class="btn btn-danger w-100 mx-1 mt-2"><i class="bi bi-x"></i>Inativar Usuário</button>
                     }
                 </div>
-
-
-
-
-
-
             </form>
 
 
