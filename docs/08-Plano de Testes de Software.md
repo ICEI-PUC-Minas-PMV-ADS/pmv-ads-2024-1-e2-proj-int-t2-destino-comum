@@ -22,11 +22,17 @@ Por exemplo:
 | Passos 	            | - Acessar o navegador <br> - Informar o endereço do site l<br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios com suas informações <br> - <br> - Clicar em "Registrar" |
 | Critério de Êxito     | - O cadastro foi realizado com sucesso e salvo no banco de dados. |
 |   |    |
-| **Caso de Teste** 	| **03 – Efetuar login** |
-| Requisito Associado   | - RF-003 - A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail. |
+| **Caso de Teste** 	| **03 – Efetuar login logout** |
+| Requisito Associado   | - RF-003 - A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail, e logout |
 | Objetivo do Teste 	| - Verificar se o usuário consegue realizar login. |
 | Passos 	            | - Acessar o site da aplicação <br> - Clicar no botão "Login" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
 | Critério de Êxito     | - O login foi realizado com sucesso. |
+|   |    |
+| **Caso de Teste** 	| **03 – Efetuar logout** |
+| Requisito Associado   | - RF-003 - A aplicação deve possuir opção de realizar logout |
+| Objetivo do Teste 	| - Verificar se o usuário consegue realizar logout. |
+| Passos 	            | - Uma vez logado no sistema, o usuário deve clicar em "sair" |
+| Critério de Êxito     | - O logout foi realizado com sucesso. |
 |   |    |
 | **Caso de Teste** 	| **04 – Escrever comentário** |
 | Requisito Associado   | - RF-004 - A aplicação deve apresentar a opção de escrever comemtários nas cidades procuradas. |
