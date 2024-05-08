@@ -6,12 +6,27 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 
 | **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
+|	Requisito Associado 	| RF-002 - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
 |Registro de evidência | www.teste.com.br/drive/ct-01 |
 
-| **Caso de Teste** 	| **CT-02 – Realizar login** 	|
+| **Caso de Teste** 	| **CT-02 – Realizar login e logout** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00Y - A aplicação deve permitir que um usuário previamente cadastrado faça login |
+|	Requisito Associado 	| RF-003 - A aplicação permitirá o usuário a realizar login e logout |
+|Registro de evidência | www.teste.com.br/drive/ct-02 |
+
+| **Caso de Teste** 	| **CT-03 – O administrador poderá consultar os usuários cadastrados e poderá excluí-los** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-010 - A aplicação deve permitir que o administrador consulte quais usuários estão cadastrados e permitirá excluí-los |
+|Registro de evidência | www.teste.com.br/drive/ct-02 |
+
+| **Caso de Teste** 	| **CT-04 – O administrador poderá ativar ou inativar o acesso de usuários cadastrados** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-015 - A aplicação deve permitir que o administrador ative ou inative o acesso de usuários cadastrados |
+|Registro de evidência | www.teste.com.br/drive/ct-02 |
+
+| **Caso de Teste** 	| **CT-05 – O administrador poderá criar, editar, excluir e ver detalhes das cidades** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-012 - A aplicação deve permitir que o administrador crie, edite e exclua as cidades |
 |Registro de evidência | www.teste.com.br/drive/ct-02 |
 
 ## Avaliação
