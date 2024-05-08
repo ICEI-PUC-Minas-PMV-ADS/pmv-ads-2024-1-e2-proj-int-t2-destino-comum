@@ -23,13 +23,13 @@ Por exemplo:
 | Critério de Êxito     | - O cadastro foi realizado com sucesso e salvo no banco de dados. |
 |   |    |
 | **Caso de Teste** 	| **03 – Efetuar login logout** |
-| Requisito Associado   | - RF-003 - A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail, e logout |
+| Requisito Associado   | - RF-003 - A aplicação permitirá: usuário a realizar login e logout |
 | Objetivo do Teste 	| - Verificar se o usuário consegue realizar login. |
 | Passos 	            | - Acessar o site da aplicação <br> - Clicar no botão "Login" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
 | Critério de Êxito     | - O login foi realizado com sucesso. |
 |   |    |
 | **Caso de Teste** 	| **03 – Efetuar logout** |
-| Requisito Associado   | - RF-003 - A aplicação deve possuir opção de realizar logout |
+| Requisito Associado   | - RF-003 -  A aplicação permitirá: usuário a realizar login e logout |
 | Objetivo do Teste 	| - Verificar se o usuário consegue realizar logout. |
 | Passos 	            | - Uma vez logado no sistema, o usuário deve clicar em "sair" |
 | Critério de Êxito     | - O logout foi realizado com sucesso. |
@@ -61,7 +61,7 @@ Por exemplo:
 | **Caso de Teste Admin** 	| **08 – excluir Usúario** |
 | Requisito Associado   | - RF-010 - A aplicação deve possibitar a opção de excluir usúario. |
 | Objetivo do Teste 	| - Verificar se o usúario de Admin é capaz de excluir usúarios. |
-| Passos 	            | - Acessar o site da aplicação <br> - Clicar em "Login" <br> - Clicar em "Admin" <br> - Realizar login inserindo email e senha <br> -Clicar em "Buscar" <br> - Digitar o nome da cidade <br> - Clicar em "Excluir usúario". |
+| Passos 	            | - Acessar o site da aplicação <br> - Clicar em "Login" <br> - Realizar login inserindo email e senha de administrador <br> - Buscar o nome do usuário <br> - Clicar em "Excluir usúario". |
 | Critério de Êxito     | - Usúario exclúido. |
 |   |    |
 | **Caso de Teste Admin** 	| **09 – excluir Comentário** |
@@ -73,8 +73,8 @@ Por exemplo:
 | **Caso de Teste Admin** 	| **10 – ativar ou inativar Usúario** |
 | Requisito Associado   | - RF-015 - A aplicação deve possibitar a opção de ativar ou inativar o usúario temporariamente. |
 | Objetivo do Teste 	| - Verificar se o usúario Admin é capaz de ativar ou inativar os usúarios. |
-| Passos 	            | - Acessar o site da aplicação <br> - Clicar em "Login" <br> - Clicar em "Admin" <br> - Realizar login de Administrador inserindo email e senha <br> -Clicar em "Clientes" <br> - Procurar pelo nome do usuário <br> - Clicar em "Detalhes". <br> - Selecionar a opção "Ativar/Inativar Usuário"|
-| Critério de Êxito     | - Usúario ativado com sucesso. |
+| Passos 	            | - Acessar o site da aplicação <br> - Clicar em "Login" <br> - Clicar em "Admin" <br> - Realizar login de Administrador inserindo email e senha <br> - Clicar em "Clientes" <br> - Procurar pelo nome do usuário <br> - Clicar em "Detalhes". <br> - Selecionar a opção "Ativar/Inativar Usuário"|
+| Critério de Êxito     | - Usúario ativado/inativado com sucesso. |
 |   |    |
 | **Caso de Teste Admin** 	| **11 – criar, editar e excluir as cidades** |
 | Requisito Associado   | - RF-012 - A aplicação deve permitir que o administrador crie, edite e exclua as cidades. |
