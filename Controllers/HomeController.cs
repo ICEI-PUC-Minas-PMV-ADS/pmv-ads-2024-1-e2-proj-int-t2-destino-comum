@@ -1,3 +1,4 @@
+using DestinoComum.Service.CidadeService;
 using DestinoComum2.Dto.Home;
 using DestinoComum2.Models;
 using DestinoComum2.Service.HomeService;
@@ -12,16 +13,18 @@ namespace DestinoComum2.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly ISessaoInterface _sessaoInterface;
         private readonly IHomeInterface _homeInterface;
+        private readonly ICidadedeInterface _cidadedeInterface;
 
-
-        public HomeController(ILogger<HomeController> logger, ISessaoInterface sessaoInterface, IHomeInterface homeInterface)
+        public HomeController(ILogger<HomeController> logger, ISessaoInterface sessaoInterface, IHomeInterface homeInterface, ICidadedeInterface cidadedeInterface)
         {
             _logger = logger;
             _sessaoInterface = sessaoInterface;
             _homeInterface = homeInterface;
+            _cidadedeInterface = cidadedeInterface;
         }
+       
         [HttpGet]
-        public IActionResult Index()
+        public async Task<ActionResult> Index(string pesquisar = null)
         {
             var usuarioSessao = _sessaoInterface.BuscarSessao();
             if (usuarioSessao != null)
@@ -33,7 +36,17 @@ namespace DestinoComum2.Controllers
                 ViewBag.LayoutPagina = "_LayoutDeslogada";
             }
 
-            return View();
+            if(pesquisar == null)
+            {
+                var cidadesBanco = await _cidadedeInterface.BuscarCidades();
+                return View(cidadesBanco);
+            }
+            else
+            {
+                var cidadesBanco = await _cidadedeInterface.BuscarCidadesFiltro(pesquisar);
+                return View(cidadesBanco);
+            }
+
         }
 
         [HttpGet]

@@ -157,6 +157,18 @@ namespace DestinoComum.Service.CidadeService
             return nomeCaminhoDaImagem;
         }
 
+        public async Task<List<CidadeModel>> BuscarCidadesFiltro(string pesquisar)
+        {
+            try 
+            {
+                var cidades = await _context.Cidades.Where(cidade => cidade.Nome.Contains(pesquisar)).ToListAsync();
+                return cidades;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
     }
 
 
