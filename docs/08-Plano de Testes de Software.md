@@ -69,8 +69,8 @@ Por exemplo:
 | Objetivo do Teste 	| - Verificar se o usúario Admin é capaz de ativar ou inativar os usúarios. |
 | Passos 	            | - Acessar o site da aplicação <br> - Clicar em "Login" <br> - Clicar em "Admin" <br> - Realizar login de Administrador inserindo email e senha <br> -Clicar em "Clientes" <br> - Procurar pelo nome do usuário <br> - Clicar em "Detalhes". <br> - Selecionar a opção "Ativar/Inativar Usuário"|
 | Critério de Êxito     | - Usúario ativado com sucesso. |
-
-| **Caso de Teste Admin** 	| **11 – ativar ou inativar Usúario** |
+|   |    |
+| **Caso de Teste Admin** 	| **11 – criar, editar e excluir as cidades** |
 | Requisito Associado   | - RF-012 - A aplicação deve permitir que o administrador crie, edite e exclua as cidades. |
 | Objetivo do Teste 	| - Verificar se o usúario Admin é capaz de criar, editar e excluir as cidades. |
 | Passos 	            | - Acessar o site da aplicação <br> - Clicar em "Login" <br> - Realizar login de Administrador inserindo email e senha <br> -Clicar em "Cidades" <br> - Procurar pela cidade <br> - Clicar em "Cadastrar Cidade", "Editar Cidade" , "Detalhes" ou "Escluir Cidades" conforme o que o administrador deseja realizar. <br> - Selecionar a opção "Editar/Cadastrar/Escluir Cidade"|
