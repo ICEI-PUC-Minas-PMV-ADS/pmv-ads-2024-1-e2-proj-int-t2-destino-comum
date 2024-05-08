@@ -84,7 +84,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| A aplicação deve permitir aos usúarios que possam pesquisar as cidades de seu interesse | ALTA |
 |RF-002| A aplicação permitirá: cadastrar novo usuário | ALTA |
-|RF-003| A aplicação permitirá: usuário e realizar login | ALTA |
+|RF-003| A aplicação permitirá: usuário e realizar login e logout | ALTA |
 |RF-004| A aplicação deve permitir aos usuários a opção de escrever e editar as suas perguntas ou dicas referentes aos destinos escolhidos | ALTA |
 |RF-005| A aplicação deve permitir que os demais usuários possam votar em suas perguntas ou dicas favoritas | MÉDIA | 
 |RF-006| A aplicação deve automaticamente avaliar os melhores comentário e os evidenciar em "destaque" | MÉDIA |
