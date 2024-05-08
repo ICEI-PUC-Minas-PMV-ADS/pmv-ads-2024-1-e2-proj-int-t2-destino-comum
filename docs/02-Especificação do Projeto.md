@@ -97,6 +97,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-013| A aplicação deve permitir que o usuário consulte as cidades e estas estejam agrupadas segundo o seu tipo de destino e por ordem alfabética| ALTA |
 |RF-014| Quando o usuário clicar na cidade que deseja acessar, a aplicação deve fornecer a descrição detalhada da cidade | ALTA |
 |RF-015| A aplicação deve permitir que o administrador ative ou inative o acesso de usuários cadastrados| ALTA |
+|RF-016| A aplicação deve conter perfis de gestor (administrador) e cliente (usuário comum)| ALTA |
+
 
 
           
