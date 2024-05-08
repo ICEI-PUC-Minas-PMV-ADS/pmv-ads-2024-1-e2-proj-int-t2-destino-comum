@@ -17,7 +17,7 @@ Por exemplo:
 | Critério de Êxito     | - Exibir informações da cidade para o usuario. |
 |   |    |
 | **Caso de Teste** 	| **02 – Cadastrar perfil** |
-| Requisito Associado 	| - RF-002 - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários comuns ou com perfil de administrador para que esses consigam criar e gerenciar seu perfil. |
+| Requisito Associado 	| - RF-002 - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários comuns, ou com perfil de administrador, para que esses consigam criar e gerenciar seu perfil. |
 | Objetivo do Teste 	| - Verificar se o usuário consegue se cadastrar na aplicação. |
 | Passos 	            | - Acessar o navegador <br> - Informar o endereço do site l<br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios com suas informações <br> - <br> - Clicar em "Registrar" |
 | Critério de Êxito     | - O cadastro foi realizado com sucesso e salvo no banco de dados. |
