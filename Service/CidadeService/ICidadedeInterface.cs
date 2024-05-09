@@ -10,6 +10,7 @@ namespace DestinoComum.Service.CidadeService
         Task<CidadeModel> Cadastrar(CidadeCriacaoDto cidadeCriacaoDto, IFormFile foto );
         Task<CidadeModel> BuscarCidadePorId(int? id);
         Task<CidadeModel> Editar(CidadeEdicaoDto cidadeCriacaoDto, IFormFile foto);
+        Task<List<CidadeModel>> BuscarCidadesFiltro(string pesquisar);
 
 
 

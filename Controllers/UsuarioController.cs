@@ -24,6 +24,7 @@ namespace DestinoComum2.Controllers
         public ActionResult Cadastrar(int? id) 
         { 
             ViewBag.Perfil = PerfilEnum.Administrador;
+            ViewBag.Id = id;
 
             if(id != null) 
             {

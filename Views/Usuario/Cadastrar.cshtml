@@ -63,3 +63,32 @@
     <a asp-action="Index">Back to List</a>
 </div>
 
+<<<<<<< HEAD
+=======
+            @if (ViewBag.Perfil == PerfilEnum.Cliente && ViewBag.Id == 0)
+            {
+                <a class="btn btn-info w-50" asp-controller="Cliente" asp-action="Index" asp-route-id="0"><i class="bi bi-arrow-left-circle"></i>Voltar</a>
+            }
+            else if (ViewBag.Perfil == PerfilEnum.Cliente && ViewBag.Id != 0)
+            {
+                <a class="btn btn-info w-50" asp-controller="Home" asp-action="Login" asp-route-id="0"><i class="bi bi-arrow-left-circle"></i>Voltar</a>
+            }
+            else
+            {
+                <a class="btn btn-info w-50" asp-controller="Funcionario" asp-action="Index" asp-route-id="0"><i class="bi bi-arrow-left-circle"></i>Voltar</a>
+            }
+
+
+
+        </div>
+
+
+
+
+
+    </form>
+
+
+
+</div>
+>>>>>>> fb7320942d9f3479a070e49b927eeca1c08437a6
