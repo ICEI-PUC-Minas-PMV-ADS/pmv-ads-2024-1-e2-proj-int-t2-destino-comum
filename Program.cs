@@ -6,6 +6,8 @@ using DestinoComum2.Service.UsuarioService;
 using DestinoComum2.Service.Autenticacao;
 using DestinoComum2.Service.SessaoService;
 using DestinoComum2.Service.HomeService;
+using DestinoComum2.Service.ComentarioService;
+using DestinoComum2.Service.RelatorioService;
 //using DestinoComum2.Service.CidadeService;
 
 
@@ -34,6 +36,8 @@ builder.Services.AddScoped<IUsuarioInterface, UsuarioService>();
 builder.Services.AddScoped<IAutenticacaoInterface, AutenticacaoService>();
 builder.Services.AddScoped<ISessaoInterface, SessaoService>();
 builder.Services.AddScoped<IHomeInterface, HomeService>();
+builder.Services.AddScoped<IComentarioInterface, ComentarioService>();
+builder.Services.AddScoped<IRelatorioInterface, RelatorioService>();
 
 
 

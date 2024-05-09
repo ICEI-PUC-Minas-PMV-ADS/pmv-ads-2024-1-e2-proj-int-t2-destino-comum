@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using DestinoComum2.Dto;
+using DestinoComum2.Dto.Relatorio;
 using DestinoComum2.Models;
 
 namespace DestinoComum2.Profiles
@@ -11,6 +12,9 @@ namespace DestinoComum2.Profiles
             CreateMap<CidadeCriacaoDto, CidadeModel>();
             CreateMap<CidadeModel, CidadeEdicaoDto>();
             CreateMap<CidadeEdicaoDto, CidadeModel>();
+            CreateMap<CidadeModel, CidadeRelatorioDto>();
+            CreateMap<UsuarioModel, UsuarioRelatorioDto>();
+
         }
     }
 }

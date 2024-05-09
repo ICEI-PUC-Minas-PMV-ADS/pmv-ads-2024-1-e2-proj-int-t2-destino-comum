@@ -53,6 +53,9 @@ namespace DestinoComum2.Models
         [Display(Name = "Data da Alteração do Cadastro")]
         public DateTime? DataUltimaAtualizacao { get; set; } = DateTime.Now;
 
+        //O usuário pode fazer diversos comentários
+        public List<ComentarioModel> Comentarios { get; set; }
+
 
     }
 }

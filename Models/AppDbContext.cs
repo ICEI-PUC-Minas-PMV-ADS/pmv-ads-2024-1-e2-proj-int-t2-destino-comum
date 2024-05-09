@@ -8,7 +8,7 @@ namespace DestinoComum2.Models
 
         public DbSet<CidadeModel> Cidades { get; set; }
         public DbSet<UsuarioModel> Usuarios { get; set; }
-        //public DbSet<ComentarioModel> Comentarios { get; set; }
+        public DbSet<ComentarioModel> Comentarios { get; set; }
 
 
 

@@ -1,7 +1,11 @@
 ﻿@using DestinoComum2
 @model UsuarioModel
 
-<a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Cidades TESTE</a>
+<a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><br />
+    <img src="~/img/Logo.png" alt="Logo Destino Comum" style="max-height: 40px; width: auto;" />
+
+
+</a>
 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
         aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -22,12 +26,12 @@
                 </a>
 
                 <ul class="dropdown-menu flex-grow-1 bg-primary">
-                    <li><a class="nav-link dropdown-item text-light" asp-controller="Funcionario" asp-action="Index">Usuários</a></li>
+                    <li><a class="nav-link dropdown-item text-light" asp-controller="Funcionario" asp-action="Index">Administradores</a></li>
                     <li><a class="nav-link dropdown-item text-light" asp-controller="Cliente" asp-action="Index" asp-route-id="0">Clientes</a></li>
                     <div class="dropdown-divider"></div>
                     <li><a class="nav-link dropdown-item text-light" asp-controller="Cidade" asp-action="Index">Cidades</a></li>
                     <div class="dropdown-divider"></div>
-                    <li><a class="nav-link dropdown-item text-light" asp-controller="Relatório" asp-action="Index">Relatórios</a></li>
+                    <li><a class="nav-link dropdown-item text-light" asp-controller="Relatorio" asp-action="Index">Relatórios</a></li>
                 </ul>
             }
         </li>

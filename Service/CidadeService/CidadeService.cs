@@ -169,6 +169,59 @@ namespace DestinoComum.Service.CidadeService
                 throw new Exception(ex.Message);
             }
         }
+
+        public async Task<ComentarioModel> BuscarCidadePorId(int? id, UsuarioModel usuarioSessao)
+        {
+            try
+            {
+                //Usuario Deslogado
+                if(usuarioSessao == null)
+                {
+                    var comentarioSemUsuario = await _context.Comentarios.Include(cidade=> cidade.Cidade).FirstOrDefaultAsync(comentario => comentario.CidadeComentarioId == id);
+
+                    if(comentarioSemUsuario == null)
+                    {
+                        var cidade = await BuscarCidadePorId(id);
+
+                        var comentarioBanco = new ComentarioModel()
+                        {
+                            Cidade = cidade,
+                            Usuario = null,
+                        };
+                        return comentarioBanco;
+                    }
+                    return comentarioSemUsuario;
+                }
+
+                var comentario = await _context.Comentarios
+                    .Include(cidade => cidade.Cidade)
+                    .Include(usuario => usuario.Usuario)
+                    .FirstOrDefaultAsync(comentario => comentario.CidadeComentarioId== id && comentario.DataComentario != null && comentario.Usuario.Id == usuarioSessao.Id);
+
+                if(comentario == null)
+                {
+                    var cidade = await BuscarCidadePorId (id);
+                    var comentarioBanco = new ComentarioModel()
+                    {
+                        Cidade = cidade,
+                        Usuario = usuarioSessao,
+                    };
+
+                    return comentarioBanco;
+                }
+
+                return comentario;
+
+            }
+
+            catch (Exception ex) 
+            {
+                throw new Exception(ex.Message);
+            }
+
+
+
+        }
     }
 
 

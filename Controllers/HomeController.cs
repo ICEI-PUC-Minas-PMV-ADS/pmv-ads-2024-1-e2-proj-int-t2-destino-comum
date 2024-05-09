@@ -68,6 +68,35 @@ namespace DestinoComum2.Controllers
             return RedirectToAction("Login", "Home");
         }
 
+        [HttpGet]
+        public async Task<ActionResult>Detalhes(int? id)
+        {
+            var usuarioSessao = _sessaoInterface.BuscarSessao();
+            if (usuarioSessao != null) 
+            { 
+                ViewBag.UsuarioLogado = usuarioSessao.Id;
+                ViewBag.LayoutPagina = "_Layout";
+
+            }
+            else 
+            {
+                ViewBag.LayoutPagina = "_LayoutDeslogada";
+            }
+
+            var cidade = await _cidadedeInterface.BuscarCidadePorId(id, usuarioSessao);
+
+            if(cidade.Usuario != null)
+            {
+                if(cidade.Usuario.Comentarios == null)
+                {
+                    ViewBag.Comentarios = "SemComentarios";
+                }
+            }
+
+            return View(cidade);
+
+        }
+
 
 
 
