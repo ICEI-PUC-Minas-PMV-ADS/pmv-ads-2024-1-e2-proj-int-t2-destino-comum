@@ -42,6 +42,9 @@ namespace DestinoComum2.Models
 
         public string Acessibilidade { get; set; } = string.Empty;
 
+        //O usuário pode fazer diversos comentários sobre a cidade
+        public List<ComentarioModel> Comentarios { get; set; }
+
     }
 
 
