@@ -17,7 +17,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | **Caso de Teste** 	| **CT-03 – Realizar login e logout** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-003 - A aplicação permitirá o usuário a realizar login e logout |
-|Registro de evidência | www.teste.com.br/drive/ct-02 |
+|Registro de evidência |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/65678416-4661-4289-a73c-76d372023eae|
 
 | **Caso de Teste** 	| **CT-04 – O administrador poderá consultar os usuários cadastrados e poderá excluí-los** 	|
 |:---:	|:---:	|
