@@ -22,12 +22,12 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | **Caso de Teste** 	| **CT-04 – O administrador poderá consultar os usuários cadastrados e poderá excluí-los** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-010 - A aplicação deve permitir que o administrador consulte quais usuários estão cadastrados e permitirá excluí-los |
-|Registro de evidência | www.teste.com.br/drive/ct-02 |
+|Registro de evidência | - Consultar usuários cadastrados: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/5e9277c9-ef92-40d5-b133-046e7a7e50e1 |
 
 | **Caso de Teste** 	| **CT-05 – O administrador poderá ativar ou inativar o acesso de usuários cadastrados** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-015 - A aplicação deve permitir que o administrador ative ou inative o acesso de usuários cadastrados |
-|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/80b2b0b0-12de-4b61-ab0b-7b16d6b98da0|
+|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/80b2b0b0-12de-4b61-ab0b-7b16d6b98da0 <br> - Excluir usuários: FALTA IMPLEMENTAR|
 
 
 
