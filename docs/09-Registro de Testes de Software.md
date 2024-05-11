@@ -15,9 +15,6 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 |Registro de evidência | Perfil Administrador vs Usuário Comum: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/6b3ef409-b886-4648-b38b-bce2afe17a75 |
 
 
-
-
-
 | **Caso de Teste** 	| **CT-03 – Realizar login e logout** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-003 - A aplicação permitirá o usuário a realizar login e logout |
@@ -30,18 +27,10 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 |
 
 
-
-
-
-
-
-
 | **Caso de Teste** 	| **CT-05 – O administrador poderá ativar ou inativar o acesso de usuários cadastrados** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-015 - A aplicação deve permitir que o administrador ative ou inative o acesso de usuários cadastrados |
 |Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/80b2b0b0-12de-4b61-ab0b-7b16d6b98da0 <br> - Excluir usuários: FALTA IMPLEMENTAR|
-
-
 
 
 | **Caso de Teste** 	| **CT-06 – O administrador poderá criar, editar, excluir e ver detalhes das cidades** 	|
@@ -49,15 +38,11 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 |	Requisito Associado 	| RF-012 - A aplicação deve permitir que o administrador crie, edite e exclua as cidades |
 |Registro de evidência | - Criar cidade: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/f04f2beb-4d2c-4b20-aeef-29faf117aeff <br> - Editar cidade: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/44654e23-f87e-4990-bcef-d71776abae20 <br> - Detalhes da cidade: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/47056eca-e44f-48c1-8bb1-0ef59db20ff5 <br> Exportar dados da cidade: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/07b86686-9995-4c2d-b9d4-0a88f29907cb <br> Excluir cidade: FALTA IMPLEMENTAR|
 
-
-
-
-
-
-
 ## Avaliação
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Todas as funções implementadas até o presente momento encontram-se funcionais. Ainda há a necessidade de implementar as seguintes funcionalidades: (i) Administrador excluir cidade; (ii) Administrador excluir usuário. 
+
+O cadastro de usuários está funcionando somente com o perfil logado. Caso o cliente ainda não seja usuário cadastrado, está havendo uma inconsistência no cadastro. Isso será averiguado nos próximos dias. Ademais, seguindo o planejamento inicial, há que se implementar diversas funcionalidades, tais como: possibilidade de o usuário favoritar cidades; possibilidade de o usuário comentar na aba das cidades entre outros. Deve-se avaliar se haverá tempo para a conclusão dessas funcionalidades.
 
 > **Links Úteis**:
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
