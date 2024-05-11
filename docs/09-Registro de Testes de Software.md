@@ -32,7 +32,10 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | **Caso de Teste** 	| **CT-06 – O administrador poderá criar, editar, excluir e ver detalhes das cidades** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-012 - A aplicação deve permitir que o administrador crie, edite e exclua as cidades |
-|Registro de evidência | - Criar cidade: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/f04f2beb-4d2c-4b20-aeef-29faf117aeff <br> - Editar cidade: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/44654e23-f87e-4990-bcef-d71776abae20|
+|Registro de evidência | - Criar cidade: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/f04f2beb-4d2c-4b20-aeef-29faf117aeff <br> - Editar cidade: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/44654e23-f87e-4990-bcef-d71776abae20 <br> - Detalhes da cidade: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/47056eca-e44f-48c1-8bb1-0ef59db20ff5 <br> Excluir cidade: FALTA IMPLEMENTAR|
+
+
+
 
 
 
