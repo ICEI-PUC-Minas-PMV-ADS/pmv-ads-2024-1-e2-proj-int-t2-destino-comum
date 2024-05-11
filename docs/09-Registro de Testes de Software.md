@@ -27,7 +27,10 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | **Caso de Teste** 	| **CT-05 – O administrador poderá ativar ou inativar o acesso de usuários cadastrados** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-015 - A aplicação deve permitir que o administrador ative ou inative o acesso de usuários cadastrados |
-|Registro de evidência | www.teste.com.br/drive/ct-02 |
+|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/80b2b0b0-12de-4b61-ab0b-7b16d6b98da0|
+
+
+
 
 | **Caso de Teste** 	| **CT-06 – O administrador poderá criar, editar, excluir e ver detalhes das cidades** 	|
 |:---:	|:---:	|
