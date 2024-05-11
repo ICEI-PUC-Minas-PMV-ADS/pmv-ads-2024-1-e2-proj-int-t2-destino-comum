@@ -1,0 +1,62 @@
+﻿body {
+
+    background-image:url(../Imagem/queenstown.jpgb1b778f7-0ba3-4ddb-8857-20fb63146b5e.png);
+    background-repeat:no-repeat;
+  
+}
+
+.container {
+    margin-bottom: 10rem;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20rem;
+    margin-bottom: 3rem;
+   
+}
+h1{
+    font-size:3rem;
+    font-weight:bold;
+}
+.mb-3 label {
+    font-weight: bold;
+  
+}
+.mb-3 input{
+    border-radius:8px;
+    width:100%;
+  
+   
+}
+form {
+    margin-top:5rem;
+
+
+}
+.form-label {
+    font-weight: bold;
+    cursor: pointer;
+}
+#cadastro {
+
+    margin-bottom: 5rem;
+    margin-top:5rem;
+}
+#entrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:10rem;
+    border-radius:5px;
+     
+ 
+}
+#entrar:hover{
+    background-color:white;
+    color:black;
+
+}
