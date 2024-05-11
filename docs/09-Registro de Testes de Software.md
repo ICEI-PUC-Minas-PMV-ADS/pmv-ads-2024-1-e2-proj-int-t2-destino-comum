@@ -26,7 +26,11 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | **Caso de Teste** 	| **CT-04 – O administrador poderá consultar os usuários cadastrados e poderá excluí-los** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-010 - A aplicação deve permitir que o administrador consulte quais usuários estão cadastrados e permitirá excluí-los |
-|Registro de evidência | - Consultar usuários cadastrados: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/5e9277c9-ef92-40d5-b133-046e7a7e50e1 <br> - Exportar dados dos administradores: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/888e4efc-0513-4b77-975b-e33e588acfb7 |
+|Registro de evidência | - Consultar usuários cadastrados: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/5e9277c9-ef92-40d5-b133-046e7a7e50e1 <br> - Exportar dados dos administradores: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/888e4efc-0513-4b77-975b-e33e588acfb7 <br> - Exportar dados dos usuários comuns: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/24ced66c-89ec-45fe-a8e8-13aa2e98f3a1
+|
+
+
+
 
 
 
