@@ -1,5 +1,10 @@
 ﻿@using DestinoComum2.Models
 @model IEnumerable<CidadeModel>
+<link href="index.css" rel="stylesheet" />
+
+
+
+
 
 @{
     Layout = ViewBag.LayoutPagina;
@@ -19,17 +24,22 @@
     </div>
 }
 
-<div class="py-5">
-    <div class="container mt-2 mb-5">
-        <!-- Adicione a classe mt-5 para uma margem superior -->
-        <form method="get" asp-action="Index" asp-controller="Home" class="d-flex justify-content-center">
-            <input name="pesquisar" class="form-control w-50 mx-2" style="border: 1px solid black; border-radius: 10px" />
-            <button type="submit" class="btn btn-primary w-10" style="border-radius:10px">Pesquisar</button>
-        </form>
-    </div>
+<div class="titulo" style=" color:black; font-size:5rem; font-weight:bold; margin-left:36rem; margin-top:2rem;"> Destino comum </div>
 
+<div class="corpo">
 
-    <div class="row row-cols-1 row-cols-2 row-cols-md-3 g-0 ">
+    <div class="py-5">
+        <div class="container mt-2 mb-5">
+            <!-- Adicione a classe mt-5 para uma margem superior -->
+            <form method="get" asp-action="Index" asp-controller="Home" class="d-flex justify-content-center " style="margin-bottom:5rem;">
+                <input name="pesquisar" class="form-control w-50 mx-2" style="border: 1px solid black; border-radius: 10px" />
+                <button type="submit" class="btn btn-primary w-10" style="border-radius:10px">Pesquisar</button>
+            </form>
+        </div>
+
+</div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-0">
         @if (Model != null)
         {
             if (Model.Count() > 0)
@@ -38,20 +48,20 @@
 
                 @foreach (var cidade in cidadesOrdenadas)
                 {
-                    <div class="card" style="width: 18rem; margin-left: 20px; margin-bottom: 20px">
-                        <img src="/Imagem/@cidade.Capa" class="card-img-top" style="width: 100%; height:200px; object-fit: cover;" />
-                        <div class="card-body">
-                            <h5 class="card-title">@cidade.Nome</h5>
-                            <p class="card-text">@cidade.TipoDestino</p>
-                            <a href="@Url.Action("Detalhes", "Home", new { id = cidade.IdCidade })" class="btn btn-primary btn-block" style="font-size: 16px;">Detalhes</a>
+                    <div class="col" style="margin-right:-55px;margin-left:15rem">
+                        <div class="card" style="margin-bottom: 20px; ">
+                            <img src="/Imagem/@cidade.Capa" class="card-img-top" style="width: 100%; height:200px; object-fit: cover;" />
+                            <div class="card-body">
+                                <h5 class="card-title" style="color:black; font-weight:bold; font-size:1.2rem;">@cidade.Nome</h5>
+                                <p class="card-text" style=" font-weight:bold; font-size:12px;">@cidade.TipoDestino</p>
+                                <a href="@Url.Action("Detalhes", "Home", new { id = cidade.IdCidade })" class="btn btn-primary btn-block" style="font-size: 16px; ">Detalhes</a>
+                            </div>
                         </div>
                     </div>
                 }
             }
         }
-
-
-
-
     </div>
+
+ 
 </div>
