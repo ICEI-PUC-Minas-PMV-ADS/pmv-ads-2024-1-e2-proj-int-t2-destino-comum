@@ -21,34 +21,34 @@
     <form method="post" asp-action="Cadastrar" asp-controller="Usuario">
         @if (ViewBag.Perfil == PerfilEnum.Cliente)
         {
-           <h2>Cadastro de Clientes</h2>
+           <h2 style=" letter-spacing:5px; display:flex; justify-content:center; align-items:center; margin-bottom:8rem; margin-top:10rem; font-size:3rem;">Cadastro de Clientes</h2>
         }
         else
         {
-            <h2>Cadastro de Funcionários</h2>
+            <h2 style=" letter-spacing:5px; display:flex; justify-content:center; align-items:center; margin-bottom:8rem; margin-top:10rem; font-size:3rem;">Cadastro de Clientes>Cadastro de Funcionários</h2>
         }
 
         <div class="mb-1">
-            <label>Nome Completo:</label>
-            <input type="text" asp-for="NomeCompleto" class="form-control shadow-none"/>
-            <span class="text-danger" asp-validation-for="NomeCompleto"></span>
+            <label style="font-weight:bold; ">Nome Completo:</label>
+            <input style="border-radius:5px;" type="text" asp-for="NomeCompleto" class="form-control shadow-none"/>
+            <span class="text-danger" asp-validation-for="NomeCompleto"> </span>
         </div>
 
         <div class="mb-1">
-            <label>Usuário:</label>
-            <input type="text" asp-for="Usuario" class="form-control shadow-none" />
+            <label style="font-weight:bold;">Usuário:</label>
+            <input style="border-radius:5px;" type="text" asp-for="Usuario" class="form-control shadow-none" />
             <span class="text-danger" asp-validation-for="Usuario"></span>
         </div>
 
         <div class="mb-1">
-            <label>CPF:</label>
-            <input type="text" asp-for="CPF" class="form-control shadow-none" />
+            <label style="font-weight:bold;">CPF:</label>
+            <input style="border-radius:5px;" style="border-radius:5px;" type="text" asp-for="CPF" class="form-control shadow-none" />
             <span class="text-danger" asp-validation-for="CPF"></span>
         </div>
 
         <div class="mb-1">
-            <label>E-mail:</label>
-            <input type="email" asp-for="Email" class="form-control shadow-none" />
+            <label style="font-weight:bold;" >E-mail:</label>
+            <input style="border-radius:5px;" type="email" asp-for="Email" class="form-control shadow-none" />
             <span class="text-danger" asp-validation-for="Email"></span>
         </div>
 
@@ -63,13 +63,13 @@
             </div>
         }
         <div class="mb-1">
-            <label>Senha:</label>
-            <input type="password" asp-for="Senha" class="form-control shadow-none" />
+            <label style="font-weight:bold;" >Senha:</label>
+            <input style="border-radius:5px;" type="password" asp-for="Senha" class="form-control shadow-none" />
             <span class="text-danger" asp-validation-for="Senha"></span>
         </div>
         <div class="mb-1">
-            <label>Confirmar Senha:</label>
-            <input type="password" asp-for="ConfirmarSenha" class="form-control shadow-none" />
+            <label  style="font-weight:bold;" >Confirmar Senha:</label>
+            <input style="border-radius:5px;" type="password" asp-for="ConfirmarSenha" class="form-control shadow-none" />
             <span class="text-danger" asp-validation-for="ConfirmarSenha"></span>
         </div>
 
