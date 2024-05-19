@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Views\Home\index.css" />
     <None Remove="Views\Home\Style.css" />
+    <None Remove="Views\Usuario\Login.css" />
   </ItemGroup>
 
   <ItemGroup>
