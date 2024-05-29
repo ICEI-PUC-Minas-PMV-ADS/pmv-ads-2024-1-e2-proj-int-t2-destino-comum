@@ -50,8 +50,8 @@
 
                             @if(cidade.Capa != null)
                             {
-                                <td style="border:2px solid purple;">
-                                    <img src="~/Imagem/@cidade.Capa" style="width:50px; height:50 px" />
+                                <td style="border:1px solid black">
+                                    <img src="~/Imagem/@cidade.Capa" style="width:100px; height:100px" />
                                 </td>
                             }
                             else
@@ -61,16 +61,16 @@
                                 </td>
                             }
 
-                            <td >@cidade.Nome</td>
-                            <td >@cidade.Pais</td>
-                            <td>@cidade.Descricao</td>
-                            <td >@cidade.TipoDestino</td>
-                            <td >@cidade.DataUltimaAtualizacao</td>
-                            <td >@cidade.Clima</td>
-                            <td >@cidade.PontoTuristico</td>
-                            <td >@cidade.Alimentacao</td>
-                            <td >@cidade.Transporte</td>
-                            <td >@cidade.Acessibilidade</td>
+                            <td style=" border:1px solid black ;font-size:1.4rem;color:black; ">@cidade.Nome</td>
+                            <td style=" border:1px solid black ;font-size:1.4rem;color:black;">@cidade.Pais</td>
+                            <td style=" border:1px solid black; font-size:1.4rem;color:black;">@cidade.Descricao</td>
+                            <td style=" border:1px solid black; font-size:1.4rem;color:black;">@cidade.TipoDestino</td>
+                            <td style=" border:1px solid black; font-size:1.4rem;color:black;">@cidade.DataUltimaAtualizacao</td>
+                            <td style=" border:1px solid black; font-size:1.4rem;color:black;">@cidade.Clima</td>
+                            <td style=" border:1px solid black; font-size:1.4rem;color:black;">@cidade.PontoTuristico</td>
+                            <td style="border:1px solid black; font-size:1.4rem;color:black;">@cidade.Alimentacao</td>
+                            <td style=" border:1px solid black;  font-size:1.4rem;color:black;">@cidade.Transporte</td>
+                            <td style="border:1px solid black;  font-size:1.4rem;color:black;">@cidade.Acessibilidade</td>
                             <td>
                                 <a asp-controller="Cidade" asp-action="Detalhes" asp-route-id="@cidade.IdCidade" class="btn-warning btn"><i class="bi bi-file-earmark-zip"></i> Detalhes</a>
                                 <a asp-controller="Cidade" asp-action="Editar" asp-route-id="@cidade.IdCidade" class="btn-info btn"><i class="bi bi-pencil"></i> Editar</a>
