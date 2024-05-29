@@ -25,39 +25,39 @@
         }
         else
         {
-            <h2>Editar Funcionário - @Model.Usuario</h2>
+            <h2 style="display:flex; justify-content:center;align-items:center; margin-bottom:8rem; padding-top:2rem;">Editar Funcionário - @Model.Usuario</h2>
         }
 
-        <div class="mb-1">
-            <label>Nome Completo:</label>
-            <input type="text" asp-for="NomeCompleto" class="form-control shadow-none"/>
+        <div class="mb-1" style="margin-left:35rem;">
+            <label style="font-size:1.2rem; font-weight:500;">Nome Completo:</label>
+            <input type="text" asp-for="NomeCompleto" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px; width:50%;  " />
             <span class="text-danger" asp-validation-for="NomeCompleto"></span>
         </div>
 
-        <div class="mb-1">
-            <label>Usuário:</label>
-            <input type="text" asp-for="Usuario" class="form-control shadow-none" />
+        <div class="mb-1" style="margin-left:35rem;">
+            <label style="font-size:1.2rem; font-weight:500;">Usuário:</label>
+            <input type="text" asp-for="Usuario" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px;  width:50%;  " />
             <span class="text-danger" asp-validation-for="Usuario"></span>
         </div>
 
-        <div class="mb-1">
-            <label>CPF:</label>
-            <input type="text" asp-for="CPF" class="form-control shadow-none" />
+        <div class="mb-1" style="margin-left:35rem;">
+            <label style="font-size:1.2rem; font-weight:500;">CPF:</label>
+            <input type="text" asp-for="CPF" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px;   width:50%;  " />
             <span class="text-danger" asp-validation-for="CPF"></span>
         </div>
 
 
-        <div class="mb-1">
-            <label>E-mail:</label>
-            <input type="email" asp-for="Email" class="form-control shadow-none" />
+        <div class="mb-1" style="margin-left:35rem;">
+            <label style="font-size:1.2rem; font-weight:500;">E-mail:</label>
+            <input type="email" asp-for="Email" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px;   width:50%; " />
             <span class="text-danger" asp-validation-for="Email"></span>
         </div>
 
         @if(ViewBag.Perfil != PerfilEnum.Cliente)
         {
-            <div class="mb-1">
-                <label>Perfil:</label>
-                <select asp-for="Perfil" class="form-control shadow-none">
+            <div class="mb-1" style="margin-left:35rem;">
+                <label style="font-size:1.2rem; font-weight:500;">Perfil:</label>
+                <select asp-for="Perfil" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px;  width:50%;  ">
                     <option value="Administrador" selected>Adminsitrador</option>
                 </select>
                 <span class="text-danger" asp-validation-for="Perfil"></span>
