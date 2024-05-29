@@ -18,51 +18,51 @@
 
                 @if(Model.Perfil != PerfilEnum.Cliente)
                 {
-                    <h2>Detalhes do Funcionário - @Model.Usuario</h2>
+                    <h2 style=" letter-spacing:5px; display:flex; justify-content:center; align-items:center; margin-bottom:5rem; margin-top:10rem; font-size:3rem;  color:black;">Detalhes do Funcionário - @Model.Usuario</h2>
                 }
                 else
                 {
-                    <h2>Detalhes do Cliente - @Model.Usuario</h2>
+                    <h2 style=" letter-spacing:5px; display:flex; justify-content:center; align-items:center; margin-bottom:5rem; margin-top:10rem; font-size:3rem;  color:black;">Detalhes do Cliente - @Model.Usuario</h2>
                 }
 
-                <div class="mb-1">
-                    <label>Nome Completo</label>
-                    <input asp-for="NomeCompleto" type="text" class="form-control shadow-none" disabled />
+                <div class="mb-1" style="margin-left:35rem;">
+                    <label style="font-size:1.2rem; font-weight:500;">Nome Completo</label>
+                    <input asp-for="NomeCompleto" type="text" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px;   width:50%;  " disabled />
                 </div>
 
-                <div class="mb-1">
-                    <label>Usuário</label>
-                    <input asp-for="Usuario" type="text" class="form-control shadow-none" disabled />
+                <div class="mb-1" style="margin-left:35rem;">
+                    <label style="font-size:1.2rem; font-weight:500;">Usuário</label>
+                    <input asp-for="Usuario" type="text" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px;   width:50%;  " disabled />
                 </div>
 
-                <div class="mb-1">
-                    <label>CPF</label>
-                    <input asp-for="CPF" type="text" class="form-control shadow-none" disabled />
+                <div class="mb-1" style="margin-left:35rem;">
+                    <label style="font-size:1.2rem; font-weight:500;">CPF</label>
+                    <input asp-for="CPF" type="text" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px;   width:50%;  " disabled />
                 </div>
 
-                <div class="mb-1">
-                    <label>E-mail</label>
-                    <input asp-for="Email" type="email" class="form-control shadow-none" disabled />
+                <div class="mb-1" style="margin-left:35rem;">
+                    <label style="font-size:1.2rem; font-weight:500;">E-mail</label>
+                    <input asp-for="Email" type="email" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px;   width:50%;  " disabled />
                 </div>
 
-                <div class="mb-1">
-                    <label>Perfil</label>
-                    <input asp-for="Perfil" type="text" class="form-control shadow-none" disabled />
+                <div class="mb-1" style="margin-left:35rem;">
+                    <label style="font-size:1.2rem; font-weight:500;">Perfil</label>
+                    <input asp-for="Perfil" type="text" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px;   width:50%;  " disabled />
                 </div>
 
-                <div class="mb-1">
-                    <label>Situação</label>
-                    <input value="@(Model.Situacao == true ? "Ativo": "Inativo")" type="text" class="form-control shadow-none" />
+                <div class="mb-1" style="margin-left:35rem;">
+                    <label style="font-size:1.2rem; font-weight:500;">Situação</label>
+                    <input value="@(Model.Situacao == true ? "Ativo": "Inativo")" type="text" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px;   width:50%;  " />
                 </div>
 
-                <div class="mb-1">
-                    <label>Data de Cadastro</label>
-                    <input asp-for="DataCadastro" type="text" class="form-control shadow-none" disabled />
+                <div class="mb-1" style="margin-left:35rem;">
+                    <label style="font-size:1.2rem; font-weight:500;">Data de Cadastro</label>
+                    <input asp-for="DataCadastro" type="text" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px;   width:50%;  " disabled />
                 </div>
 
-                <div class="mb-1">
-                    <label>Data de Alteração do Cadastro</label>
-                    <input asp-for="DataUltimaAtualizacao" type="text" class="form-control shadow-none" disabled />
+                <div class="mb-1" style="margin-left:35rem;">
+                    <label style="font-size:1.2rem; font-weight:500;">Data de Alteração do Cadastro</label>
+                    <input asp-for="DataUltimaAtualizacao" type="text" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px;   width:50%;  " disabled />
                 </div>
 
 
