@@ -20,12 +20,12 @@
         <a class="btn btn-success" asp-controller="Cidade" asp-action="Cadastrar"><i class="bi bi-plus-circle"></i>Cadastrar Cidade</a>
     </div>
 
-    <table class="table table-hover" >
+    <table class="table table-hover">
     
-        <table id="cidades" class="table">
+        <table id="cidades" class="table" style=" width:100%; margin-left:-10rem;">
             <thead >
                 <tr>
-                    <th scope="col">ID</th>
+                    <th scope="col" >ID</th>
                     <th scope="col">Capa</th>
                     <th scope="col">Nome</th>
                     <th scope="col">País</th>
@@ -45,13 +45,13 @@
                 {
                     @foreach(var cidade in Model)
                     {
-                        <tr >
+                        <tr style="border:1px solid black; ">
                             <th scope="row">@cidade.IdCidade</th>
 
                             @if(cidade.Capa != null)
                             {
-                                <td style="border:1px solid black">
-                                    <img src="~/Imagem/@cidade.Capa" style="width:100px; height:100px" />
+                                <td style="border:1px solid black; ">
+                                    <img src="~/Imagem/@cidade.Capa" style="width:180px;; height:auto;" />
                                 </td>
                             }
                             else
@@ -72,9 +72,9 @@
                             <td style=" border:1px solid black;  font-size:1.4rem;color:black;">@cidade.Transporte</td>
                             <td style="border:1px solid black;  font-size:1.4rem;color:black;">@cidade.Acessibilidade</td>
                             <td>
-                                <a asp-controller="Cidade" asp-action="Detalhes" asp-route-id="@cidade.IdCidade" class="btn-warning btn"><i class="bi bi-file-earmark-zip"></i> Detalhes</a>
-                                <a asp-controller="Cidade" asp-action="Editar" asp-route-id="@cidade.IdCidade" class="btn-info btn"><i class="bi bi-pencil"></i> Editar</a>
-                                <a asp-controller="Cidade" asp-action="Excluir" asp-route-id="@cidade.IdCidade" class="btn btn-danger">Excluir</a>
+                                <a asp-controller="Cidade" asp-action="Detalhes" asp-route-id="@cidade.IdCidade" class="btn-warning btn" style="margin-bottom:4rem; margin-top:5rem;"><i class="bi bi-file-earmark-zip"></i> Detalhes</a>
+                                <a asp-controller="Cidade" asp-action="Editar" asp-route-id="@cidade.IdCidade" class="btn-info btn" style="margin-bottom:5rem;"><i class="bi bi-pencil"></i> Editar</a>
+                                <a asp-controller="Cidade" asp-action="Excluir" asp-route-id="@cidade.IdCidade" class="btn btn-danger" style="margin-left:5px;">Excluir</a>
                             </td>
                         </tr>
                     }
