@@ -16,76 +16,79 @@
         @TempData["MensagemErro"]
     </div>
 }
+<body style="background:#F5F5F5 ">
 
-<div class="container mt-5">
-    <form method="post" asp-action="Editar" asp-controller="Usuario">
-        @if (ViewBag.Perfil == PerfilEnum.Cliente)
-        {
-            <h2 >Editar Cliente - @Model.Usuario</h2>
-        }
-        else
-        {
-            <h2 style="display:flex; justify-content:center;align-items:center; margin-bottom:3rem; padding-top:12rem; font-size:2.5rem;">Editar Funcionário - @Model.Usuario</h2>
-        }
-
-        <div class="mb-1" style="margin-left:35rem;">
-            <label style="font-size:1.2rem; font-weight:500;">Nome Completo:</label>
-            <input type="text" asp-for="NomeCompleto" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px; width:50%;  " />
-            <span class="text-danger" asp-validation-for="NomeCompleto"></span>
-        </div>
-
-        <div class="mb-1" style="margin-left:35rem;">
-            <label style="font-size:1.2rem; font-weight:500;">Usuário:</label>
-            <input type="text" asp-for="Usuario" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px;  width:50%;  " />
-            <span class="text-danger" asp-validation-for="Usuario"></span>
-        </div>
-
-        <div class="mb-1" style="margin-left:35rem;">
-            <label style="font-size:1.2rem; font-weight:500;">CPF:</label>
-            <input type="text" asp-for="CPF" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px;   width:50%;  " />
-            <span class="text-danger" asp-validation-for="CPF"></span>
-        </div>
-
-
-        <div class="mb-1" style="margin-left:35rem;">
-            <label style="font-size:1.2rem; font-weight:500;">E-mail:</label>
-            <input type="email" asp-for="Email" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px;   width:50%; " />
-            <span class="text-danger" asp-validation-for="Email"></span>
-        </div>
-
-        @if(ViewBag.Perfil != PerfilEnum.Cliente)
-        {
-            <div class="mb-1" style="margin-left:35rem;">
-                <label style="font-size:1.2rem; font-weight:500;">Perfil:</label>
-                <select asp-for="Perfil" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px; margin-bottom:3rem; width:50%;  ">
-                    <option value="Administrador" selected>Adminsitrador</option>
-                </select>
-                <span class="text-danger" asp-validation-for="Perfil"></span>
-            </div>
-        }
-
-        <div class="d-flex mt-3">
-            <button type="submit" class="btn btn-success w-50 mx-1"><i class="bi bi-plus-circle"></i>Editar</button>
-
-            @if(ViewBag.Perfil == PerfilEnum.Cliente)
+    <div class="container mt-5">
+        <form method="post" asp-action="Editar" asp-controller="Usuario">
+            @if (ViewBag.Perfil == PerfilEnum.Cliente)
             {
-                <a class="btn btn-info w-50" asp-controller="Cliente" asp-action="Index" asp-route-id="0"><i class="bi bi-arrow-left-circle"></i>Voltar</a>
+                <h2>Editar Cliente - @Model.Usuario</h2>
             }
             else
             {
-                <a class="btn btn-info w-50" asp-controller="Funcionario" asp-action="Index" asp-route-id="0"><i class="bi bi-arrow-left-circle"></i>Voltar</a>
+                <h2 style="display:flex; justify-content:center;align-items:center; margin-bottom:3rem; padding-top:18rem; font-size:2.5rem;">Editar Funcionário - @Model.Usuario</h2>
             }
 
+            <div class="mb-1" style="margin-left:35rem;">
+                <label style="font-size:1.2rem; font-weight:500;">Nome Completo:</label>
+                <input type="text" asp-for="NomeCompleto" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px; width:50%;  " />
+                <span class="text-danger" asp-validation-for="NomeCompleto"></span>
+            </div>
+
+            <div class="mb-1" style="margin-left:35rem;">
+                <label style="font-size:1.2rem; font-weight:500;">Usuário:</label>
+                <input type="text" asp-for="Usuario" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px;  width:50%;  " />
+                <span class="text-danger" asp-validation-for="Usuario"></span>
+            </div>
+
+            <div class="mb-1" style="margin-left:35rem;">
+                <label style="font-size:1.2rem; font-weight:500;">CPF:</label>
+                <input type="text" asp-for="CPF" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px;   width:50%;  " />
+                <span class="text-danger" asp-validation-for="CPF"></span>
+            </div>
 
 
-        </div>
+            <div class="mb-1" style="margin-left:35rem;">
+                <label style="font-size:1.2rem; font-weight:500;">E-mail:</label>
+                <input type="email" asp-for="Email" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px;   width:50%; " />
+                <span class="text-danger" asp-validation-for="Email"></span>
+            </div>
+
+            @if (ViewBag.Perfil != PerfilEnum.Cliente)
+            {
+                <div class="mb-1" style="margin-left:35rem;">
+                    <label style="font-size:1.2rem; font-weight:500;">Perfil:</label>
+                    <select asp-for="Perfil" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px; margin-bottom:3rem; width:50%;  ">
+                        <option value="Administrador" selected>Adminsitrador</option>
+                    </select>
+                    <span class="text-danger" asp-validation-for="Perfil"></span>
+                </div>
+            }
+
+            <div class="d-flex mt-3">
+                <button type="submit" class="btn btn-success w-50 mx-1"><i class="bi bi-plus-circle"></i>Editar</button>
+
+                @if (ViewBag.Perfil == PerfilEnum.Cliente)
+                {
+                    <a class="btn btn-info w-50" asp-controller="Cliente" asp-action="Index" asp-route-id="0"><i class="bi bi-arrow-left-circle"></i>Voltar</a>
+                }
+                else
+                {
+                    <a class="btn btn-info w-50" asp-controller="Funcionario" asp-action="Index" asp-route-id="0"><i class="bi bi-arrow-left-circle"></i>Voltar</a>
+                }
+
+
+
+            </div>
 
 
 
 
 
-    </form>
+        </form>
 
 
 
-</div>
+    </div>
+
+</body>
