@@ -18,7 +18,7 @@
 
                 @if(Model.Perfil != PerfilEnum.Cliente)
                 {
-                    <h2 style=" letter-spacing:5px; display:flex; justify-content:center; align-items:center; margin-bottom:5rem; margin-top:10rem; font-size:3rem;  color:black;">Detalhes do Funcionário - @Model.Usuario</h2>
+                    <h2 style=" letter-spacing:5px; display:flex; justify-content:center; align-items:center; margin-bottom:3rem; margin-top:8rem; font-size:3rem;  color:black;">Detalhes do Funcionário - @Model.Usuario</h2>
                 }
                 else
                 {
@@ -62,14 +62,14 @@
 
                 <div class="mb-1" style="margin-left:35rem;">
                     <label style="font-size:1.2rem; font-weight:500;">Data de Alteração do Cadastro</label>
-                    <input asp-for="DataUltimaAtualizacao" type="text" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px;   width:50%;  " disabled />
+                    <input asp-for="DataUltimaAtualizacao" type="text" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px; margin-bottom:3rem; width:50%;  " disabled />
                 </div>
 
 
                 <div class="d-flex mt-3">
                     @if (Model.Perfil == PerfilEnum.Cliente)
                     {
-                        <a asp-controller="Cliente" asp-action="Index" asp-route-id="0" class="btn btn-info w-100 mt-2"><i class="bi bi-arrow-left-circle"></i>Voltar</a>
+                        <a asp-controller="Cliente" asp-action="Index" asp-route-id="0" class="btn btn-info w-100 mt-2"><i class="bi bi-arrow-left-circle" ></i>Voltar</a>
                     }
                     else
                     {
