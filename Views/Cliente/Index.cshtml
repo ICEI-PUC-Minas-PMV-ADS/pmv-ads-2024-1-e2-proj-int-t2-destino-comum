@@ -17,20 +17,20 @@
 
 <div class="container mt-5">
     <div class="d-flex justify-content-between align-items-center mb-3">
-        <h2>Cadastro de Clientes</h2>
+        <h2 style="margin-right:22rem; margin-left:30rem; font-size:2rem; ">Cadastro de Clientes</h2>
         <a asp-controller="Usuario" asp-action="Cadastrar" asp-route-id="0" class="btn-success btn"><i class="bi bi-plus-circle"></i>Cadastrar Novo Cliente</a>
     </div>
 
-    <table class="table table-hover" id="registros">
+    <table class="table table-hover" id="registros" style="margin-top:10rem;">
         <thead>
             <tr>
-                <th></th>
-                <th>Usuário</th>
-                <th>Nome</th>
-                <th>Email</th>
-                <th>Data de Criação</th>
-                <th>CPF</th>
-                <th></th>
+                <th style="border:1px solid black; background-color:#D3D3D3;" ></th>
+                <th style="border:1px solid black; background-color:#D3D3D3;">Usuário</th>
+                <th style="border:1px solid black; background-color:#D3D3D3;">Nome</th>
+                <th style="border:1px solid black; background-color:#D3D3D3;">Email</th>
+                <th style="border:1px solid black; background-color:#D3D3D3;">Data de Criação</th>
+                <th style="border:1px solid black; background-color:#D3D3D3;">CPF</th>
+                <th style="border:1px solid black; background-color:#D3D3D3;"></th>
             </tr>
         </thead>
         <tbody>
@@ -40,7 +40,7 @@
                 {
                     @foreach(var funcionario in Model)
                     {
-                        <tr>
+                        <tr style="border:2px solid black;">
 
                             @if(funcionario.Situacao == true)
                             {
@@ -56,11 +56,11 @@
                             }
 
 
-                            <td>@funcionario.Usuario</td>
-                            <td>@funcionario.NomeCompleto</td>
-                            <td>@funcionario.Email</td>
-                            <td>@funcionario.DataCadastro</td>
-                            <td>@funcionario.CPF</td>
+                            <td style="border:2px solid black;">@funcionario.Usuario</td>
+                            <td style="border:2px solid black;">@funcionario.NomeCompleto</td>
+                            <td style="border:2px solid black;">@funcionario.Email</td>
+                            <td style="border:2px solid black;">@funcionario.DataCadastro</td>
+                            <td style="border:2px solid black;">@funcionario.CPF</td>
                             <td>
                                 <a asp-controller="Usuario" asp-action="Detalhes" asp-route-id="@funcionario.Id" class="btn-info btn"><i class="bi bi-file-earmark-zip"></i>Detalhes</a>
                                 <a asp-controller="Usuario" asp-action="Editar" asp-route-id="@funcionario.Id" class="btn-warning btn"><i class="bi bi-pencil"></i>Editar</a>
