@@ -22,7 +22,7 @@
         <form method="post" asp-action="Editar" asp-controller="Usuario">
             @if (ViewBag.Perfil == PerfilEnum.Cliente)
             {
-                <h2>Editar Cliente - @Model.Usuario</h2>
+                <h2 style=" margin-left:35rem; margin-bottom:3rem; padding-top:15rem; font-size:2.5rem;">Editar Cliente - @Model.Usuario</h2>
             }
             else
             {
@@ -50,7 +50,7 @@
 
             <div class="mb-1" style="margin-left:35rem;">
                 <label style="font-size:1.2rem; font-weight:500;">E-mail:</label>
-                <input type="email" asp-for="Email" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px;   width:50%; " />
+                <input type="email" asp-for="Email" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px;  margin-bottom:5rem;  width:50%; " />
                 <span class="text-danger" asp-validation-for="Email"></span>
             </div>
 
@@ -58,7 +58,7 @@
             {
                 <div class="mb-1" style="margin-left:35rem;">
                     <label style="font-size:1.2rem; font-weight:500;">Perfil:</label>
-                    <select asp-for="Perfil" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px; margin-bottom:3rem; width:50%;  ">
+                    <select asp-for="Perfil" class="form-control shadow-none" style=" background-color:#D3D3D3; border-radius:5px; width:50%;  ">
                         <option value="Administrador" selected>Adminsitrador</option>
                     </select>
                     <span class="text-danger" asp-validation-for="Perfil"></span>
