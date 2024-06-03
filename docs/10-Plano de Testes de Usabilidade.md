@@ -11,10 +11,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Test
 Um plano de teste de usabilidade foi elaborado para a detecção de eventuais problemas e aprimorar a experiência do usuário na presente aplicação. A seguir, apresentamos um exemplo prático deste plano.
 
 ## Objetivo do Teste de Usabilidade:
-O objetivo principal deste teste de usabilidade é avaliar a facilidade de uso e a eficácia do processo de execução das tarefas associadas aos casos de uso propostos na aplicação.
-
-### Metodologia
-Para conduzir essa avaliação foi adotado o "plano de testes" como roteiro e utilizado o método de observação direta para medição das variáveis previamente estabelecidas.
+O objetivo principal deste teste de usabilidade é avaliar a facilidade de uso e a eficácia do processo de execução das tarefas associadas aos casos de uso propostos na aplicação. Dessa forma, para conduzir essa avaliação foi adotado o "plano de testes" como roteiro e utilizado o método de observação direta para medição das variáveis previamente estabelecidas.
 
 ### Variáveis para Análise:
 
@@ -29,6 +26,14 @@ Para conduzir essa avaliação foi adotado o "plano de testes" como roteiro e ut
 - Duração Média: O tempo médio requerido pelos usuários para finalizar uma tarefa.
 - Quantidade de Erros: A frequência de erros feitos pelos usuários durante o teste.
 - Contentamento do Usuário: O grau de satisfação dos usuários, medido através da observação de suas interações e feedback direto após a realização das tarefas.
+
+### Abordagem Metodológica:
+
+- Introdução ao Cenário: apresentar aos participantes o contexto detalhado da tarefa conforme descrito no documento de teste. Instruir os participantes a seguirem as etapas delineadas.
+- Monitoramento do Tempo e Dificuldades: documentar o tempo gasto pelos participantes em cada tarefa, bem como quaisquer obstáculos que eles enfrentem.
+- Contagem de Interações e Erros: anotar a quantidade de vezes que os participantes interagem com a tarefa e registrar quaisquer equívocos cometidos durante o processo.
+- Feedback Pós-Tarefa: solicitar que os participantes forneçam feedback após completarem a tarefa, com foco em apontar partes da interface que acharam intuitivas ou confusas.
+- Análise de Usabilidade: examinar as informações coletadas para detectar pontos que necessitam de aprimoramento na usabilidade da plataforma.
 
                                                            
 | Relatório do Teste de Usabilidade do usuário 1|
