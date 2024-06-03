@@ -8,6 +8,28 @@ Para cada voluntário do teste, é fundamental coletar e apresentar todos os dad
 
 As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
 
+Um plano de teste de usabilidade foi elaborado para a detecção de eventuais problemas e aprimorar a experiência do usuário na presente aplicação. A seguir, apresentamos um exemplo prático deste plano.
+
+## Objetivo do Teste de Usabilidade:
+O objetivo principal deste teste de usabilidade é avaliar a facilidade de uso e a eficácia do processo de execução das tarefas associadas aos casos de uso propostos na aplicação.
+
+### Metodologia
+Para conduzir essa avaliação foi adotado o "plano de testes" como roteiro e utilizado o método de observação direta para medição das variáveis previamente estabelecidas.
+
+### Variáveis para Análise:
+
+- Navegabilidade: A facilidade com que os usuários podem transitar entre diferentes funcionalidades na plataforma.
+- Compreensão da Interface: A habilidade dos usuários em entender e utilizar a interface da plataforma.
+- Eficiência Temporal: O tempo necessário para realizar uma tarefa específica.
+- Efetividade das Tarefas: A capacidade dos usuários de completar as tarefas com sucesso.
+
+### Critérios de Avaliação:
+
+- Índice de Êxito: A proporção de tarefas concluídas com sucesso pelos usuários.
+- Duração Média: O tempo médio requerido pelos usuários para finalizar uma tarefa.
+- Quantidade de Erros: A frequência de erros feitos pelos usuários durante o teste.
+- Contentamento do Usuário: O grau de satisfação dos usuários, medido através da observação de suas interações e feedback direto após a realização das tarefas.
+
                                                            
 | Relatório do Teste de Usabilidade do usuário 1|
 |-----------------------------------|
