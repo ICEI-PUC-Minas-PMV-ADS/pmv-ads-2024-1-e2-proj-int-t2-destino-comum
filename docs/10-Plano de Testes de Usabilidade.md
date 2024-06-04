@@ -36,15 +36,16 @@ O objetivo principal deste teste de usabilidade é avaliar a facilidade de uso e
 - Análise de Usabilidade: examinar as informações coletadas para detectar pontos que necessitam de aprimoramento na usabilidade da plataforma.
 
                                                            
-| Relatório do Teste de Usabilidade do usuário 1|
-|-----------------------------------|
-| **Projeto:**   Destino Comum                   |
-| **Fase:**            1             |
-| **Data:**        00/00/0000                 |
-| **Moderador:**  Gabriel Oliveira   |
-| **Usuário:**       |
-| **Quantidade de Tarefas:** 8|
-| **Remoto ou Presencial:** |
+| RTU 1 - Realizar cadastro de Usuário |
+|-------------------------------------|
+| **Usuário:**                   Todos |
+| **Objetivo do teste:**         Examinar a forma como o usuário utiliza a tela de cadastro |
+| **Ações essenciais:**          |
+| 1. Acessar a tela home do site pelo navegador; |
+| 2. Clicar em “Cadastre-se”; |
+| 3. Preencher o formulário com as informações solicitadas nos campos; |
+| 4. Clicar em “Cadastrar”. |
+
 
 
 
