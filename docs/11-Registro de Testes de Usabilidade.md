@@ -4,10 +4,15 @@
 | Usuário | Caso de teste | Tempo | Cliques | Número de Erros | Facilidade de Uso (1-5) | Feedback Detalhado |
 |----------|----------|----------|----------|----------|----------|----------|
 | Usuário 1  | CT02 – Cadastrar perfil  | 00:01:42  | 9  | 0  | 5 | O usuário achou a experiência de cadastro intuitiva e realizou a tarefa sem grandes dificuldades  |
-| Usuário 2  | CT02 – Cadastrar perfil | 00:03:27 | 16  | 5  | 5  | O usuário, desatento, clicou em "voltar", em vez de "cadastrar". Dessa forma, ele teve que entrar na página de cadastro novamente e fornecer todas as informações  |
+| Usuário 2  | CT02 – Cadastrar perfil | 00:03:27 | 16  | 1 | 5  | O usuário, desatento, clicou em "voltar", em vez de "cadastrar". Dessa forma, ele teve que entrar na página de cadastro novamente e fornecer todas as informações  |
 | Usuário 3  | CT02 – Cadastrar perfil  | 00:01:57   | 9  | 0  | 5  | O usuário achou o processo de cadastro bem simples  |
 
-
+## RTU 2 - Realizar Login
+| Usuário | Caso de teste | Tempo | Cliques | Número de Erros | Facilidade de Uso (1-5) | Feedback Detalhado |
+|----------|----------|----------|----------|----------|----------|----------|
+| Usuário 1  | CT03 – Efetuar login  | 00:00:18  | 4  | 0  | 5 | O usuário realizou o processo rapidamente. Não houve dúvida de como executar a tarefa  |
+| Usuário 2  | CT03 – Efetuar login | 00:00:25 | 4  | 0  | 5  | O usuário achou a tarefa simples de ser realizada  |
+| Usuário 3  | CT03 – Efetuar login  | 00:00:21   | 4  | 0  | 5  | O usuário achou o processo de login bem simples  |
 
 
 
