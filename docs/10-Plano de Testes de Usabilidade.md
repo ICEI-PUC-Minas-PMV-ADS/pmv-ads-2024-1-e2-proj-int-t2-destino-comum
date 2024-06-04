@@ -46,6 +46,30 @@ O objetivo principal deste teste de usabilidade é avaliar a facilidade de uso e
 | 3. Preencher o formulário com as informações solicitadas nos campos; |
 | 4. Clicar em “Cadastrar”. |
 
+| RTU 2 - Realizar Login |
+|-------------------------------------|
+| **Usuário:**                   Todos |
+| **Objetivo do teste:**         Examinar a forma como o usuário realiza o login |
+| **Ações essenciais:**          |
+| 1. Acessar a tela home do site pelo navegador; |
+| 2. Clicar em “Login”; |
+| 3. Preencher e-mail cadastrado no campo indicado; |
+| 4. Preencher a senha no campo indicado; |
+| 5. Clicar em "Entrar". |
+
+| RTU 3 - Cadastrar Cidade |
+|-------------------------------------|
+| **Usuário:**                   Todos |
+| **Objetivo do teste:**         Examinar a forma como o usuário utiliza a tela de cadastrar cidade |
+| **Ações essenciais:**          |
+| 1. Acessar a tela home do site pelo navegador; |
+| 2. Clicar em “Login”; |
+| 3. Preencher e-mail e senha de perfil "Administrador"|
+| 4. Uma vez logado como perfil de administrador na tela home, clicar em "Painel Administrativo > Cidades"; |
+| 5. Clicar em "Cadastrar Cidade"; |
+| 6. Preencher o formulário com as informações solicitadas nos campos; |
+| 7. Clicar em "Cadastrar". |
+
 
 
 
