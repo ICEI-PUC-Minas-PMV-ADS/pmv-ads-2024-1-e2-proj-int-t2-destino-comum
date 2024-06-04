@@ -84,7 +84,18 @@ O objetivo principal deste teste de usabilidade é avaliar a facilidade de uso e
 | 4. Uma vez logado como perfil de administrador na tela home, clicar em "Painel Administrativo > Clientes"; |
 | 5. Visualizar os usuários e identificar as opções "detalhes" e "editar"; |
 
-| RTU 5 - Gerar relatórios sobre cidades, funcionários e usuários |
+| RTU 5 - Gerenciar Administradores Cadastrados |
+|-------------------------------------|
+| **Usuário:**                   Todos |
+| **Objetivo do teste:**         Examinar a forma como o usuário utiliza a tela "Cadastro de Funcionários" |
+| **Ações essenciais:**          |
+| 1. Acessar a tela home do site pelo navegador; |
+| 2. Clicar em “Login”; |
+| 3. Preencher e-mail e senha de perfil "Administrador"|
+| 4. Uma vez logado como perfil de administrador na tela home, clicar em "Painel Administrativo > Administradores"; |
+| 5. Visualizar os usuários-administradores e identificar as opções "detalhes" e "editar"; |
+
+| RTU 6 - Gerar relatórios sobre cidades, funcionários e usuários |
 |-------------------------------------|
 | **Usuário:**                   Todos |
 | **Objetivo do teste:**         Examinar a forma como o usuário utiliza a tela "Relatórios" |
