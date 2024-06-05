@@ -14,18 +14,19 @@
     </div>
 }
 
-<div class="container mt-5" > 
+<div class="container mt-5">
     <div class="d-flex justify-content-between align-itens-center mb-3">
         <h1>Lista de Cidades</h1>
+        <a class="btn btn-success" asp-controller="Cidade" asp-action="Exportar">Exportar</a>
         <a class="btn btn-success" asp-controller="Cidade" asp-action="Cadastrar"><i class="bi bi-plus-circle"></i>Cadastrar Cidade</a>
     </div>
 
     <table class="table table-hover">
     
-        <table id="cidades" class="table" style=" width:100%; margin-left:-9.9rem;">
-            <thead >
+        <table id="cidades" class="table">
+            <thead>
                 <tr>
-                    <th scope="col" >ID</th>
+                    <th scope="col">ID</th>
                     <th scope="col">Capa</th>
                     <th scope="col">Nome</th>
                     <th scope="col">País</th>
@@ -45,36 +46,36 @@
                 {
                     @foreach(var cidade in Model)
                     {
-                        <tr style="border:1px solid black; ">
+                    <tr>
                             <th scope="row">@cidade.IdCidade</th>
 
                             @if(cidade.Capa != null)
                             {
-                                <td style="border:1px solid black; ">
-                                    <img src="~/Imagem/@cidade.Capa" style="width:180px;; height:auto;" />
+                                <td>
+                                    <img src="~/Imagem/@cidade.Capa" style="width:50px; height:50 px" />
                                 </td>
                             }
                             else
                             {
-                                <td >
+                                <td>
                                     <img src="~/Img/@cidade.Capa" style="width=50px; height =50 px" />
                                 </td>
                             }
 
-                            <td style=" border:1px solid black ;font-size:1.4rem;color:black; ">@cidade.Nome</td>
-                            <td style=" border:1px solid black ;font-size:1.4rem;color:black;">@cidade.Pais</td>
-                            <td style=" border:1px solid black; font-size:1.4rem;color:black;">@cidade.Descricao</td>
-                            <td style=" border:1px solid black; font-size:1.4rem;color:black;">@cidade.TipoDestino</td>
-                            <td style=" border:1px solid black; font-size:1.4rem;color:black;">@cidade.DataUltimaAtualizacao</td>
-                            <td style=" border:1px solid black; font-size:1.4rem;color:black;">@cidade.Clima</td>
-                            <td style=" border:1px solid black; font-size:1.4rem;color:black;">@cidade.PontoTuristico</td>
-                            <td style="border:1px solid black; font-size:1.4rem;color:black;">@cidade.Alimentacao</td>
-                            <td style=" border:1px solid black;  font-size:1.4rem;color:black;">@cidade.Transporte</td>
-                            <td style="border:1px solid black;  font-size:1.4rem;color:black;">@cidade.Acessibilidade</td>
+                            <td>@cidade.Nome</td>
+                            <td>@cidade.Pais</td>
+                            <td>@cidade.Descricao</td>
+                            <td>@cidade.TipoDestino</td>
+                            <td>@cidade.DataUltimaAtualizacao</td>
+                            <td>@cidade.Clima</td>
+                            <td>@cidade.PontoTuristico</td>
+                            <td>@cidade.Alimentacao</td>
+                            <td>@cidade.Transporte</td>
+                            <td>@cidade.Acessibilidade</td>
                             <td>
-                                <a asp-controller="Cidade" asp-action="Detalhes" asp-route-id="@cidade.IdCidade" class="btn-warning btn" style="margin-bottom:4rem; margin-top:5rem;"><i class="bi bi-file-earmark-zip"></i> Detalhes</a>
-                                <a asp-controller="Cidade" asp-action="Editar" asp-route-id="@cidade.IdCidade" class="btn-info btn" style="margin-bottom:5rem;"><i class="bi bi-pencil"></i> Editar</a>
-                                <a asp-controller="Cidade" asp-action="Excluir" asp-route-id="@cidade.IdCidade" class="btn btn-danger" style="margin-left:5px;">Excluir</a>
+                                <a asp-controller="Cidade" asp-action="Detalhes" asp-route-id="@cidade.IdCidade" class="btn-warning btn"><i class="bi bi-file-earmark-zip"></i> Detalhes</a>
+                                <a asp-controller="Cidade" asp-action="Editar" asp-route-id="@cidade.IdCidade" class="btn-info btn"><i class="bi bi-pencil"></i> Editar</a>
+                                <a asp-controller="Cidade" asp-action="Excluir" asp-route-id="@cidade.IdCidade" class="btn btn-danger">Excluir</a>
                             </td>
                         </tr>
                     }
