@@ -17,10 +17,73 @@
     </div>
 }
 
+<<<<<<< mariana-layouts
 <body style="background:#F5F5F5 ">
     <div class="container mt-5">
         <form method="post" asp-action="Cadastrar" asp-controller="Usuario">
             @if (ViewBag.Perfil == PerfilEnum.Cliente)
+=======
+<div class="container mt-5">
+    <form method="post" asp-action="Cadastrar" asp-controller="Usuario">
+        @if (ViewBag.Perfil == PerfilEnum.Cliente)
+        {
+           <h2>Cadastro de Clientes</h2>
+        }
+        else
+        {
+            <h2>Cadastro de Funcionários</h2>
+        }
+
+        <div class="mb-1">
+            <label>Nome Completo:</label>
+            <input type="text" asp-for="NomeCompleto" class="form-control shadow-none"/>
+            <span class="text-danger" asp-validation-for="NomeCompleto"></span>
+        </div>
+
+        <div class="mb-1">
+            <label>Usuário:</label>
+            <input type="text" asp-for="Usuario" class="form-control shadow-none" />
+            <span class="text-danger" asp-validation-for="Usuario"></span>
+        </div>
+
+        <div class="mb-1">
+            <label>CPF:</label>
+            <input type="text" asp-for="CPF" class="form-control shadow-none" />
+            <span class="text-danger" asp-validation-for="CPF"></span>
+        </div>
+
+        <div class="mb-1">
+            <label>E-mail:</label>
+            <input type="email" asp-for="Email" class="form-control shadow-none" />
+            <span class="text-danger" asp-validation-for="Email"></span>
+        </div>
+
+        @if(ViewBag.Perfil != PerfilEnum.Cliente)
+        {
+            <div class="mb-1">
+                <label>Perfil:</label>
+                <select asp-for="Perfil" class="form-control shadow-none">
+                    <option value="Administrador" selected>Adminsitrador</option>
+                </select>
+                <span class="text-danger" asp-validation-for="Perfil"></span>
+            </div>
+        }
+        <div class="mb-1">
+            <label>Senha:</label>
+            <input type="password" asp-for="Senha" class="form-control shadow-none" />
+            <span class="text-danger" asp-validation-for="Senha"></span>
+        </div>
+        <div class="mb-1">
+            <label>Confirmar Senha:</label>
+            <input type="password" asp-for="ConfirmarSenha" class="form-control shadow-none" />
+            <span class="text-danger" asp-validation-for="ConfirmarSenha"></span>
+        </div>
+
+        <div class="d-flex mt-3">
+            <button type="submit" class="btn btn-success w-50 mx-1"><i class="bi bi-plus-circle"></i>Cadastrar</button>
+
+            @if (ViewBag.Perfil == PerfilEnum.Cliente && ViewBag.Id == 0)
+>>>>>>> mariana-teste02
             {
                 <h2 style=" letter-spacing:5px; display:flex; justify-content:center; align-items:center; margin-bottom:5rem; margin-top:10rem; font-size:3rem;  color:black;">Cadastro de Clientes</h2>
             }
@@ -28,6 +91,7 @@
             {
                 <h2 style=" letter-spacing:5px; display:flex; justify-content:center; align-items:center; margin-bottom:5rem; margin-top:10rem; font-size:3rem;">Cadastro de Clientes>Cadastro de Funcionários</h2>
             }
+<<<<<<< mariana-layouts
 
             <div style=" display:block; padding-left:40rem; " class="mb-1">
                 <label style="font-weight:bold; margin-bottom:5px; ">Nome Completo:</label>
@@ -93,3 +157,8 @@
         </form>
     </div>
 </body>
+=======
+        </div>
+    </form>
+</div>
+>>>>>>> mariana-teste02

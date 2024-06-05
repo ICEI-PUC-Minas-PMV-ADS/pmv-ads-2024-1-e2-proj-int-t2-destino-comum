@@ -91,7 +91,6 @@ namespace DestinoComum2.Controllers
                 {
                     TempData["MensagemErro"] = "Já existe e-mail/usuário cadastrado";
                     return View(usuarioCriacaoDto);
-
                 }
 
                 //Cadastra o usuário
