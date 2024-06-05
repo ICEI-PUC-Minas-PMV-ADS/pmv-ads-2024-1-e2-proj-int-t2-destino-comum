@@ -14,6 +14,13 @@
 | Usuário 2  | CT03 – Efetuar login | 00:00:25 | 4  | 0  | 5  | O usuário achou a tarefa simples de ser realizada  |
 | Usuário 3  | CT03 – Efetuar login  | 00:00:21   | 4  | 0  | 5  | O usuário achou o processo de login bem simples  |
 
+## RTU 3 - Cadastrar Cidade
+| Usuário | Caso de teste | Tempo | Cliques | Número de Erros | Facilidade de Uso (1-5) | Feedback Detalhado |
+|----------|----------|----------|----------|----------|----------|----------|
+| Usuário 1  | CT11 – criar, editar e excluir as cidades  | 00:02:35  | 15  | 0  | 5 | O usuário não teve dificuldade em concluir a tarefa|
+| Usuário 2  | CT11 – criar, editar e excluir as cidades   | 00:03:18 | 20 | 1  | 4  | O usuário falou que se pode realizar a tarefa sem grande dificuldade. O usuário havia clicado em "editar". Depois, voltou à página de criação da cidade e conseguiu cadastrar corretamente. |
+| Usuário 3  | CT11 – criar, editar e excluir as cidades    | 00:02:52   17| 4  | 0  | 5  | O usuário achou o processo claro e não encontrou muita dificuldade |
+
 
 
 | Relatório do Teste de Usabilidade do usuário 2|
