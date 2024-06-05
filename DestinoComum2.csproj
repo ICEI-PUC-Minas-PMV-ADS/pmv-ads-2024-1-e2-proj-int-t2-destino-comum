@@ -7,11 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< mariana-layouts
+    <None Remove="Views\Home\index.css" />
+    <None Remove="Views\Home\Style.css" />
+    <None Remove="Views\Usuario\Login.css" />
+=======
     <Content Remove="wwwroot\css\StyleSheet.css" />
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="Views\Home\Login.css" />
+>>>>>>> mariana-teste02
   </ItemGroup>
 
   <ItemGroup>
