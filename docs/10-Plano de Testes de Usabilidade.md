@@ -119,6 +119,17 @@ O objetivo principal deste teste de usabilidade é avaliar a facilidade de uso e
 | 5. Visualizar os tipos de relatórios ("Cidades", "Clientes", "Funcionários") e clicar na opção desejada para baixar o relatório em formato ".xls" |
 | 6. Abrir o arquivo baixado e visualizar as informações desejadas|
 
+| RTU 8 - Buscar cidades por meio de filtro de pesquisa |
+|-------------------------------------|
+| **Usuário:**                   Todos |
+| **Objetivo do teste:**         Examinar a forma como o usuário utiliza a tela "Cidades" |
+| **Ações essenciais:**          |
+| 1. Acessar a tela home do site pelo navegador; |
+| 2. Clicar em “Login”; |
+| 3. Preencher e-mail e senha de perfil "Administrador"|
+| 4. Uma vez logado como perfil de administrador na tela home, clicar em "Painel Administrativo > Cidades"; |
+| 5. Buscar a cidade utilizando o filtro de pesquisa |
+
 
 
 
