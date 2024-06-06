@@ -1,4 +1,4 @@
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/91eb90ff-88ff-4d0f-8af5-11e6593a51db)# Plano de Testes de Usabilidade
+# Plano de Testes de Usabilidade
 
 Um plano de teste de usabilidade foi elaborado para a detecção de eventuais problemas e aprimorar a experiência do usuário na presente aplicação. A seguir, apresentamos um exemplo prático deste plano.
 
