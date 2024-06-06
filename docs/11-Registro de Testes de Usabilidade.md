@@ -56,6 +56,12 @@
 | Usuário 2  | CT-04; CT-05; CT-06 | 00:00:00|   |   |   |  |
 | Usuário 3  | CT-04; CT-05; CT-06 | 00:00:00|   |   |   |  |
 
+## RTU 8 - Buscar cidades por meio de filtro de pesquisa
+| Usuário | Caso de teste | Tempo | Cliques | Número de Erros | Facilidade de Uso (1-5) | Feedback Detalhado |
+|----------|----------|----------|----------|----------|----------|----------|
+| Usuário 1  | CT-07 – Buscar Cidade | 00:00:00|   |   |   |  |
+| Usuário 2  | CT-07 – Buscar Cidade | 00:00:00|   |   |   |  |
+| Usuário 3  | CT-07 – Buscar Cidade | 00:00:00|   |   |   |  |
 
 
 | Relatório do Teste de Usabilidade do usuário 2|
