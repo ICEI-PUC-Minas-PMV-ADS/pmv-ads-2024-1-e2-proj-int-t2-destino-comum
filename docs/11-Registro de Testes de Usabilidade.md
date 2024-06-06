@@ -35,7 +35,7 @@
 | Usuário 2  | CT-04 – O administrador poderá consultar os usuários cadastrados   | 00:00:00|   |   |   |  |
 | Usuário 3  | CT-04 – O administrador poderá consultar os usuários cadastrados   | 00:00:00|   |   |   |  |
 
-## RTU 5 - Gerenciar Usuários Cadastrados
+## RTU 6 - Gerenciar Usuários Cadastrados
 | Usuário | Caso de teste | Tempo | Cliques | Número de Erros | Facilidade de Uso (1-5) | Feedback Detalhado |
 |----------|----------|----------|----------|----------|----------|----------|
 | Usuário 1  | CT-10 – Ativar ou inativar Usúario   | 00:00:00|   |   |   |  |
