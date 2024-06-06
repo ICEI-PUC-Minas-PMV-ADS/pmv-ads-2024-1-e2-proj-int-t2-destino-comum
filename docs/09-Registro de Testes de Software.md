@@ -24,7 +24,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-010 - A aplicação deve permitir que o administrador consulte quais usuários estão cadastrados e permitirá excluí-los |
 |Registro de evidência | - Consultar usuários cadastrados: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/5e9277c9-ef92-40d5-b133-046e7a7e50e1 <br> - Exportar dados dos administradores: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/888e4efc-0513-4b77-975b-e33e588acfb7 <br> - Exportar dados dos usuários comuns: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/24ced66c-89ec-45fe-a8e8-13aa2e98f3a1
-|
+
 
 
 | **Caso de Teste** 	| **CT-05 – O administrador poderá ativar ou inativar o acesso de usuários cadastrados** 	|
@@ -37,6 +37,11 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-012 - A aplicação deve permitir que o administrador crie, edite e exclua as cidades |
 |Registro de evidência | - Criar cidade: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/ff77f8be-c16c-4b61-ab15-5b39ffed735e <br> - Editar cidade: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/44654e23-f87e-4990-bcef-d71776abae20 <br> - Detalhes da cidade: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/47056eca-e44f-48c1-8bb1-0ef59db20ff5 <br> Exportar dados da cidade: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/07b86686-9995-4c2d-b9d4-0a88f29907cb <br> Excluir cidade: FALTA IMPLEMENTAR|
+
+| **Caso de Teste** 	| **CT-07 – Buscar Cidade** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-001 - A aplicação deve apresentar, na página principal, a funcionalidade de pesquisa de cidades e receber informações das cidades. |
+|Registro de evidência | FALTA GRAVAR |
 
 ## Avaliação
 
