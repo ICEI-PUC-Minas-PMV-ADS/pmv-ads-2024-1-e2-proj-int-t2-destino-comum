@@ -62,7 +62,7 @@ O objetivo principal deste teste de usabilidade é avaliar a facilidade de uso e
 | 6. Preencher o formulário com as informações solicitadas nos campos; |
 | 7. Clicar em "Cadastrar". |
 
-| RTU 3 - Gerenciar Cidades Cadastradas |
+| RTU 4 - Gerenciar Cidades Cadastradas |
 |-------------------------------------|
 | **Usuário:**                   Todos |
 | **Objetivo do teste:**         Examinar a forma como o usuário utiliza a tela "Lista de Cidades" |
@@ -73,7 +73,7 @@ O objetivo principal deste teste de usabilidade é avaliar a facilidade de uso e
 | 4. Uma vez logado como perfil de administrador na tela home, clicar em "Painel Administrativo > Cidades"; |
 | 5. Visualizar as cidades e identificar as opções de editar, detalhes, e excluir; |
 
-| RTU 4 - Gerenciar Usuários Cadastrados |
+| RTU 5 - Gerenciar Usuários Cadastrados |
 |-------------------------------------|
 | **Usuário:**                   Todos |
 | **Objetivo do teste:**         Examinar a forma como o usuário utiliza a tela "Lista de Usuários" |
@@ -84,7 +84,19 @@ O objetivo principal deste teste de usabilidade é avaliar a facilidade de uso e
 | 4. Uma vez logado como perfil de administrador na tela home, clicar em "Painel Administrativo > Clientes"; |
 | 5. Visualizar os usuários e identificar as opções "detalhes" e "editar"; |
 
-| RTU 5 - Gerenciar Administradores Cadastrados |
+| RTU 6 - Gerenciar Usuários Cadastrados |
+|-------------------------------------|
+| **Usuário:**                   Todos |
+| **Objetivo do teste:**         Examinar a forma como o usuário utiliza a função "ativar/inativar" usuário |
+| **Ações essenciais:**          |
+| 1. Acessar a tela home do site pelo navegador; |
+| 2. Clicar em “Login”; |
+| 3. Preencher e-mail e senha de perfil "Administrador"|
+| 4. Uma vez logado como perfil de administrador na tela home, clicar em "Painel Administrativo > Clientes"; |
+| 5. Visualizar os usuários e clicar na opção "detalhes" |
+| 6. Encontrar o usuário e clicar em "ativar usuário" se ele estiver inativo ou clicar em "inativar usuário" se ele estiver ativo |
+
+| RTU 7 - Gerenciar Administradores Cadastrados |
 |-------------------------------------|
 | **Usuário:**                   Todos |
 | **Objetivo do teste:**         Examinar a forma como o usuário utiliza a tela "Cadastro de Funcionários" |
@@ -95,7 +107,7 @@ O objetivo principal deste teste de usabilidade é avaliar a facilidade de uso e
 | 4. Uma vez logado como perfil de administrador na tela home, clicar em "Painel Administrativo > Administradores"; |
 | 5. Visualizar os usuários-administradores e identificar as opções "detalhes" e "editar"; |
 
-| RTU 6 - Gerar relatórios sobre cidades, funcionários e usuários |
+| RTU 8 - Gerar relatórios sobre cidades, funcionários e usuários |
 |-------------------------------------|
 | **Usuário:**                   Todos |
 | **Objetivo do teste:**         Examinar a forma como o usuário utiliza a tela "Relatórios" |
