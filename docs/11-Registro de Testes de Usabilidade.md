@@ -17,10 +17,30 @@
 ## RTU 3 - Cadastrar Cidade
 | Usuário | Caso de teste | Tempo | Cliques | Número de Erros | Facilidade de Uso (1-5) | Feedback Detalhado |
 |----------|----------|----------|----------|----------|----------|----------|
-| Usuário 1  | CT11 – criar, editar e excluir as cidades  | 00:02:35  | 15  | 0  | 5 | O usuário não teve dificuldade em concluir a tarefa|
-| Usuário 2  | CT11 – criar, editar e excluir as cidades   | 00:03:18 | 20 | 1  | 4  | O usuário falou que se pode realizar a tarefa sem grande dificuldade. O usuário havia clicado em "editar". Depois, voltou à página de criação da cidade e conseguiu cadastrar corretamente. |
-| Usuário 3  | CT11 – criar, editar e excluir as cidades    | 00:02:52   17| 4  | 0  | 5  | O usuário achou o processo claro e não encontrou muita dificuldade |
+| Usuário 1  | CT06 – O administrador poderá criar, editar, excluir e ver detalhes das cidades  | 00:02:35  | 15  | 0  | 5 | O usuário não teve dificuldade em concluir a tarefa|
+| Usuário 2  | CT06 – O administrador poderá criar, editar, excluir e ver detalhes das cidades   | 00:03:18 | 20 | 1  | 4  | O usuário falou que se pode realizar a tarefa sem grande dificuldade. O usuário havia clicado em "editar". Depois, voltou à página de criação da cidade e conseguiu cadastrar corretamente. |
+| Usuário 3  | CT06 – O administrador poderá criar, editar, excluir e ver detalhes das cidades    | 00:02:52   17| 4  | 0  | 5  | O usuário achou o processo claro e não encontrou muita dificuldade |
 
+## RTU 4 - Gerenciar Cidades Cadastradas
+| Usuário | Caso de teste | Tempo | Cliques | Número de Erros | Facilidade de Uso (1-5) | Feedback Detalhado |
+|----------|----------|----------|----------|----------|----------|----------|
+| Usuário 1  | CT06 - O administrador poderá criar, editar, excluir e ver detalhes das cidades   | 00:00:00|   |   |   |  |
+| Usuário 2  | CT06 – O administrador poderá criar, editar, excluir e ver detalhes das cidades   | 00:00:00|   |   |   |  |
+| Usuário 3  | CT06 – O administrador poderá criar, editar, excluir e ver detalhes das cidades   | 00:00:00|   |   |   |  |
+
+## RTU 5 - Gerenciar Usuários Cadastrados
+| Usuário | Caso de teste | Tempo | Cliques | Número de Erros | Facilidade de Uso (1-5) | Feedback Detalhado |
+|----------|----------|----------|----------|----------|----------|----------|
+| Usuário 1  | CT-04 – O administrador poderá consultar os usuários cadastrados   | 00:00:00|   |   |   |  |
+| Usuário 2  | CT-04 – O administrador poderá consultar os usuários cadastrados   | 00:00:00|   |   |   |  |
+| Usuário 3  | CT-04 – O administrador poderá consultar os usuários cadastrados   | 00:00:00|   |   |   |  |
+
+## RTU 6 - Gerenciar Usuários Cadastrados
+| Usuário | Caso de teste | Tempo | Cliques | Número de Erros | Facilidade de Uso (1-5) | Feedback Detalhado |
+|----------|----------|----------|----------|----------|----------|----------|
+| Usuário 1  | CT-10 – Ativar ou inativar Usúario   | 00:00:00|   |   |   |  |
+| Usuário 2  | CT-10 – Ativar ou inativar Usúario   | 00:00:00|   |   |   |  |
+| Usuário 3  | CT-10 – Ativar ou inativar Usúario   | 00:00:00|   |   |   |  |
 
 
 | Relatório do Teste de Usabilidade do usuário 2|
