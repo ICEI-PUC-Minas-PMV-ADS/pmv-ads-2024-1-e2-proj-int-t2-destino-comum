@@ -35,12 +35,27 @@
 | Usuário 2  | CT-04 – O administrador poderá consultar os usuários cadastrados   | 00:00:00|   |   |   |  |
 | Usuário 3  | CT-04 – O administrador poderá consultar os usuários cadastrados   | 00:00:00|   |   |   |  |
 
-## RTU 6 - Gerenciar Usuários Cadastrados
+## RTU 6 - Gerenciar Usuários Cadastrados (Ativar ou inativar Usúario)
 | Usuário | Caso de teste | Tempo | Cliques | Número de Erros | Facilidade de Uso (1-5) | Feedback Detalhado |
 |----------|----------|----------|----------|----------|----------|----------|
 | Usuário 1  | CT-10 – Ativar ou inativar Usúario   | 00:00:00|   |   |   |  |
 | Usuário 2  | CT-10 – Ativar ou inativar Usúario   | 00:00:00|   |   |   |  |
 | Usuário 3  | CT-10 – Ativar ou inativar Usúario   | 00:00:00|   |   |   |  |
+
+## RTU 7 - Gerenciar Administradores Cadastrados
+| Usuário | Caso de teste | Tempo | Cliques | Número de Erros | Facilidade de Uso (1-5) | Feedback Detalhado |
+|----------|----------|----------|----------|----------|----------|----------|
+| Usuário 1  | CT-04 – O administrador poderá consultar os usuários cadastrados   | 00:00:00|   |   |   |  |
+| Usuário 2  | CT-04 – O administrador poderá consultar os usuários cadastrados   | 00:00:00|   |   |   |  |
+| Usuário 3  | CT-04 – O administrador poderá consultar os usuários cadastrados   | 00:00:00|   |   |   |  |
+
+## RTU 8 - Gerar relatórios sobre cidades, funcionários e usuários
+| Usuário | Caso de teste | Tempo | Cliques | Número de Erros | Facilidade de Uso (1-5) | Feedback Detalhado |
+|----------|----------|----------|----------|----------|----------|----------|
+| Usuário 1  | CT-04; CT-05; CT-06 | 00:00:00|   |   |   |  |
+| Usuário 2  | CT-04; CT-05; CT-06 | 00:00:00|   |   |   |  |
+| Usuário 3  | CT-04; CT-05; CT-06 | 00:00:00|   |   |   |  |
+
 
 
 | Relatório do Teste de Usabilidade do usuário 2|
