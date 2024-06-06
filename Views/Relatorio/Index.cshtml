@@ -14,29 +14,16 @@
     </div>
 }
 
-<<<<<<< mariana-layouts
-<div class="py-5" style="margin-top:15rem;">
-    <div class="container" style="  display:flex;flex-direction:column;align-items:center;">
-        <h2 class="text-center mb-5" style="  font-size:4rem; font-weight:bold;  ">Relatórios</h2>
-        <div class="row row-cols-1 rol-cols-sm-2 rol-cols-md-3 g-0"></div>
-        @foreach(var relatorio in Enum.GetValues(typeof(RelatorioEnum)))
-        {
-            <div class="card" style=" width:50%;" >
-                <div class="card-body" style=" margin-top:1rem;" >
-                <h2 class="card-title text-center" style="font-size:1rem ; font-weight:bold; color:black;">@relatorio.ToString()</h2>
-                    <a class="btn btn-success w-100" style="font-size: 1rem" asp-controller="Relatorio" asp-action="Gerar" asp-route-id="@relatorio.GetHashCode()">Exportar</a>
-=======
 <div class="py-5">
     <div class="container">
         <h2 class="text-center mb-5">Relatórios</h2>
         <div class="row row-cols-1 rol-cols-sm-2 rol-cols-md-3 g-0"></div>
-        @foreach(var relatorio in Enum.GetValues(typeof(RelatorioEnum)))
+        @foreach (var relatorio in Enum.GetValues(typeof(RelatorioEnum)))
         {
             <div class="card" style="width: 40rem; margin-left: 20px; margin-bottom: 20px">
-                <div class="card-body"> 
+                <div class="card-body">
                     <h5 class="card-title text-center" style="font-size:11px">@relatorio.ToString()</h5>
                     <a class="btn btn-success w-100" style="font-size: 12px" asp-controller="Relatorio" asp-action="Gerar" asp-route-id="@relatorio.GetHashCode()">Exportar</a>
->>>>>>> mariana-teste02
                 </div>
             </div>
         }

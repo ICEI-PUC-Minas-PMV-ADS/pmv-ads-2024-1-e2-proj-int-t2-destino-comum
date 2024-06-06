@@ -7,7 +7,7 @@
 
 <div class="container d-flex gap-5 justify-content-center align-items-center mt-5">
     <div class="img">
-        <img src="/Imagem/@Model.Cidade.Capa" style="width: 350px; height: 550px; border-radius:10px"/>
+        <img src="/Imagem/@Model.Cidade.Capa" style="width: 350px; height: 550px; border-radius:10px" />
     </div>
 
     <div>
@@ -15,15 +15,15 @@
         <p>@Model.Cidade.Descricao</p>
 
         <div>
-            @if(Model.Usuario != null)
+            @if (Model.Usuario != null)
             {
                 @if (Model.Usuario.Perfil == DestinoComum2.Enum.PerfilEnum.Cliente)
                 {
                     @if (ViewBag.Comentarios != "SemComentarios")
                     {
-                        @if(Model.Usuario.Comentarios
-                        .Where(comentario => comentario.CidadeComentarioId == Model.CidadeComentarioId
-                        && comentario.Usuario.Id == ViewBag.UsuarioLogado).Count()>0)
+                        @if (Model.Usuario.Comentarios
+                       .Where(comentario => comentario.CidadeComentarioId == Model.CidadeComentarioId
+                       && comentario.Usuario.Id == ViewBag.UsuarioLogado).Count() > 0)
                         {
                             <button class="btn btn-primary w-10" style="border-radius: 10px" disabled>
                                 Você tem um comentário sobre essa cidade
