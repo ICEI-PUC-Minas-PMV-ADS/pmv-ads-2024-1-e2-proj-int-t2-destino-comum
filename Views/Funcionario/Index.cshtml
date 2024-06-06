@@ -16,21 +16,21 @@
 }
 
 <div class="container mt-5">
-    <div class="d-flex justify-content-center align-items-center mb-3"  >
-        <h2 style="margin-right:22rem; margin-left:30rem; font-size:2rem; ">Cadastro de Funcionários</h2>
-        <a asp-controller="Usuario" asp-action="Cadastrar" class="btn-success btn"><i class="bi bi-plus-circle" ></i>Cadastrar Novo Funcionário</a>
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2>Cadastro de Funcionários</h2>
+        <a asp-controller="Usuario" asp-action="Cadastrar" class="btn-success btn"><i class="bi bi-plus-circle"></i>Cadastrar Novo Funcionário</a>
     </div>
 
-    <table class="table table-hover" id="registros" style="margin-top:15rem;">
+    <table class="table table-hover" id="registros">
         <thead>
-            <tr >
-                <th style="border:1px solid black; background-color:#D3D3D3; "></th>
-                <th style="border:1px solid  black; background-color:#D3D3D3; font-size:1rem;">Usuário</th>
-                <th style="border:1px solid  black; background-color:#D3D3D3; font-size:1rem; ">Nome</th>
-                <th style="border:1px solid  black; background-color:#D3D3D3; font-size:1rem; ">Email</th>
-                <th style="border:1px solid  black; background-color:#D3D3D3; font-size:1rem;">Data de Criação</th>
-                <th style="border:1px solid  black;  background-color:#D3D3D3; font-size:1rem;">CPF</th>
-                <th style="border:1px solid  black; background-color:#D3D3D3;"></th>
+            <tr>
+                <th></th>
+                <th>Usuário</th>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Data de Criação</th>
+                <th>CPF</th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -40,7 +40,7 @@
                 {
                     @foreach (var clientes in Model)
                     {
-                        <tr style="border:2px solid black;">
+                        <tr>
 
                             @if (clientes.Situacao == true)
                             {
@@ -56,12 +56,12 @@
                             }
 
 
-                            <td style="border:2px solid black;">@clientes.Usuario</td>
-                            <td style="border:2px solid black;">@clientes.NomeCompleto</td>
-                            <td style="border:2px solid black;">@clientes.Email</td>
-                            <td style="border:2px solid black;">@clientes.DataCadastro</td>
-                            <td style="border:2px solid black;">@clientes.CPF</td>
-                            <td style="border:2px solid black;">
+                            <td>@clientes.Usuario</td>
+                            <td>@clientes.NomeCompleto</td>
+                            <td>@clientes.Email</td>
+                            <td>@clientes.DataCadastro</td>
+                            <td>@clientes.CPF</td>
+                            <td>
                                 <a asp-controller="Usuario" asp-action="Detalhes" asp-route-id="@clientes.Id" class="btn-info btn"><i class="bi bi-file-earmark-zip"></i>Detalhes</a>
                                 <a asp-controller="Usuario" asp-action="Editar" asp-route-id="@clientes.Id" class="btn-warning btn"><i class="bi bi-pencil"></i>Editar</a>
 
