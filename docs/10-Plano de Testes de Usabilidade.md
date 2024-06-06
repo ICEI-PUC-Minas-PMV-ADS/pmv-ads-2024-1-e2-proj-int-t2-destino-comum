@@ -1,4 +1,4 @@
-# Plano de Testes de Usabilidade
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/91eb90ff-88ff-4d0f-8af5-11e6593a51db)# Plano de Testes de Usabilidade
 
 Um plano de teste de usabilidade foi elaborado para a detecção de eventuais problemas e aprimorar a experiência do usuário na presente aplicação. A seguir, apresentamos um exemplo prático deste plano.
 
@@ -84,7 +84,7 @@ O objetivo principal deste teste de usabilidade é avaliar a facilidade de uso e
 | 4. Uma vez logado como perfil de administrador na tela home, clicar em "Painel Administrativo > Clientes"; |
 | 5. Visualizar os usuários e identificar as opções "detalhes" e "editar"; |
 
-| RTU 6 - Gerenciar Usuários Cadastrados |
+| RTU 6 - Gerenciar Usuários Cadastrados (Ativar ou inativar Usúario)|
 |-------------------------------------|
 | **Usuário:**                   Todos |
 | **Objetivo do teste:**         Examinar a forma como o usuário utiliza a função "ativar/inativar" usuário |
