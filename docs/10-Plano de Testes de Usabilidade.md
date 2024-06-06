@@ -119,7 +119,7 @@ O objetivo principal deste teste de usabilidade é avaliar a facilidade de uso e
 | 5. Visualizar os tipos de relatórios ("Cidades", "Clientes", "Funcionários") e clicar na opção desejada para baixar o relatório em formato ".xls" |
 | 6. Abrir o arquivo baixado e visualizar as informações desejadas|
 
-| RTU 8 - Buscar cidades por meio de filtro de pesquisa |
+| RTU 9 - Buscar cidades por meio de filtro de pesquisa |
 |-------------------------------------|
 | **Usuário:**                   Todos |
 | **Objetivo do teste:**         Examinar a forma como o usuário utiliza a tela "Cidades" |
