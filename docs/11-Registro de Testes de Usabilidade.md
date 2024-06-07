@@ -63,82 +63,33 @@
 | Usuário 2  | CT-07 – Buscar Cidade | 00:00:00|   |   |   |  |
 | Usuário 3  | CT-07 – Buscar Cidade | 00:00:00|   |   |   |  |
 
+# Relatório dos Testes de Usabilidade
 
-| Relatório do Teste de Usabilidade do usuário 2|
-|-----------------------------------|
-| **Projeto:**   Destino Comum                   |
-| **Fase:**            1             |
-| **Data:**        12/05/2024                 |
-| **Moderador:**  Gabriel de Oliveira   |
-| **Usuário:**   Natalia Oliveira Dressler    |
-| **Quantidade de Tarefas:** 6|
-| **Remoto ou Presencial:** Presencial|
+## Observações
+O presente relatório destaca as principais descobertas e recomendações derivados das avaliações realizadas.
+
+Durante a execução dos testes RTU-03 foi identificada uma pequena dificuldade na usabilidade da aplicação. Como o campo "imagem da cidade" e "descrição da cidade" são obrigatórios, os usuários tinham que, ou previamente baixar uma imagem e obter uma descrição daquela localidade ou obter essas informações no exato momento em que a cidade é cadasrada. Dessa forma, o tempo de cadastro da cidade foi um pouco maior do que o esperado.
+
+Este pequeno problema poderia ser resolvido retirando a obrigatoriedade de preenchimento dos campos citados. Contudo, se esse preenchimento se tornar facultativo, a página principal, a qual disponibiliza as cidades e suas imagens, ficará sem as fotos das cidades, impactando na estética da aplicação. Por esse motivo, foi decidido manter os campos como de preenchimento obrigatório.
 
 
 
-| Tarefas                                             | Facilidade de Uso (1-5) | Feedback Detalhado                                                                                        | Tempo (min) | Cliques | Número de Erros |
-|----------------------------------------------------|-------------------------|------------------------------------------------------------------------------------------------------------|-------------|---------|-----------------|
-| Criar nova conta de usuário na aplicação          | 5                       | O processo de criação de conta tranquilo. | Menos de 1 minuto           | 6      | 0               |
-| Realizar o login na aplicação                     | 5                       | O login foi fácil e com poucos cliques.                                                     | Menos de 1 minuto           | 3       | 0               |
-| Votar em perguntas ou dicas favoritas            | Nullo                       | A funcionalidade não existe ainda.                                           | Nullo            | Nullo        | Nullo                |
-| Definir destinos favoritos                        | Nullo                       | A funcionalidade não existe ainda.             | Nullo            | Nullo        | Nullo                |
-| Reportar comentários impróprios                   | Nullo                       | A funcionalidade não existe ainda.                                         | Nullo            | Nullo        | Nullo                |
-| Receber notificações                              | Nullo                       | A funcionalidade não existe ainda.              | Nullo            | Nullo        | Nullo                |
+## Relatório:
+Na condução dos testes, levaram-se em consideração os parâmetros de tempo de execução, quantidade de ações necessárias para a conclusão da tarefa, incidência de erros e avaliação da experiência do usuário.
+
+### Testes que obtiveram resultados satisfatórios
+
+Nos testes de **RTU-01**: Realizar cadastro de Usuário; **RTU-02**: Realizar Login; RTU-04: Gerenciar Cidades Cadastradas; **RTU-5**: Gerenciar Usuários Cadastrados; **RTU-6**: Gerenciar Usuários Cadastrados (Ativar ou inativar Usúario); **RTU-7**: Gerenciar Administradores Cadastrados; **RTU-8**: Gerar relatórios sobre cidades, funcionários e usuários e **RTU-9**: Buscar cidades por meio de filtro de pesquisa. Todos as métricas avaliadas como quantidade de ações, tempo de execução e numero de erros tiveram resultados sem grandes variações e receberam feedback positivo dos usuários. Nestes casos de testes não foram identificadas necessidades de aprimoramento na interface da aplicação. Ressalta-se que, em relação ao **RTU-08**, os usuários 1 e 3 apontaram que seria interessante que o arquivo baixado fosse identificado conforme o nome do arquivo gerado. Isto é, se o usuário baixar um relatório sobre cidade, ou funcionário ou usuário o nome do arquivo deveria ser, respectivamente, "cidade.xls", "funcionário.xls" e "usuário.xls".
+
+### Testes que obtiveram resultados não satisfatórios
+#### RTU-03: Cadastrar Cidade
+Conforme previamente apontado (na seção "observações"), esse teste gerou um tempo de conclusão maior do que o esperado. A tabela abaixo sintetiza as principais métrica de avaliação utilizada:
+
+| Média de tempo| Média de cliques| Quantidade de Erros|
+|----------|----------|----------|
+| 00:02:55 |     17   |      1   |
 
 
-| Relatório do Teste de Usabilidade do usuário 3|
-|-----------------------------------|
-| **Projeto:**   Destino Comum                   |
-| **Fase:**            1             |
-| **Data:**        12/05/2024                 |
-| **Moderador:**  Gabriel de Oliveira   |
-| **Usuário:**   Felipe Dressler    |
-| **Quantidade de Tarefas:** 6|
-| **Remoto ou Presencial:** Presencial|
-
-
-
-| Tarefas                                             | Facilidade de Uso (1-5) | Feedback Detalhado                                                                                        | Tempo (min) | Cliques | Número de Erros |
-|----------------------------------------------------|-------------------------|------------------------------------------------------------------------------------------------------------|-------------|---------|-----------------|
-| Criar nova conta de usuário na aplicação          | 5                       | O registro do usuário foi rápido. | Menos de 1 minuto           | 8      | 0               |
-| Realizar o login na aplicação                     | 5                       | O login foi rápido.                                                     | Menos de 1 minuto           | 3       | 0               |
-| Votar em perguntas ou dicas favoritas            | Nullo                       | A funcionalidade não existe ainda.                                           | Nullo            | Nullo        | Nullo                |
-| Definir destinos favoritos                        | Nullo                       | A funcionalidade não existe ainda.             | Nullo            | Nullo        | Nullo                |
-| Reportar comentários impróprios                   | Nullo                       | A funcionalidade não existe ainda.                                         | Nullo            | Nullo        | Nullo                |
-| Receber notificações                              | Nullo                       | A funcionalidade não existe ainda.              | Nullo            | Nullo        | Nullo                |
-
-
-| Relatório do Teste de Usabilidade do usuário 4|
-|-----------------------------------|
-| **Projeto:**   Destino Comum                   |
-| **Fase:**            1             |
-| **Data:**        12/05/2024                 |
-| **Moderador:**  Gabriel de Oliveira   |
-| **Usuário:**   Lorena Oliveira Santana    |
-| **Quantidade de Tarefas:** 6|
-| **Remoto ou Presencial:** Presencial|
-
-
-
-| Tarefas                                             | Facilidade de Uso (1-5) | Feedback Detalhado                                                                                        | Tempo (min) | Cliques | Número de Erros |
-|----------------------------------------------------|-------------------------|------------------------------------------------------------------------------------------------------------|-------------|---------|-----------------|
-| Criar nova conta de usuário na aplicação          | 5                       | O processo de criação completo e tranquilo. | Menos de 1 minuto           | 7      | 0               |
-| Realizar o login na aplicação                     | 5                       | O login foi rápido e fácil.                                                     | Menos de 1 minuto           | 3       | 0               |
-| Votar em perguntas ou dicas favoritas            | Nullo                       | A funcionalidade não existe ainda.                                           | Nullo            | Nullo        | Nullo                |
-| Definir destinos favoritos                        | Nullo                       | A funcionalidade não existe ainda.             | Nullo            | Nullo        | Nullo                |
-| Reportar comentários impróprios                   | Nullo                       | A funcionalidade não existe ainda.                                         | Nullo            | Nullo        | Nullo                |
-| Receber notificações                              | Nullo                       | A funcionalidade não existe ainda.              | Nullo            | Nullo        | Nullo                |
-
-
-| Relatório do Teste de Usabilidade do usuário 5|
-|-----------------------------------|
-| **Projeto:**   Destino Comum                   |
-| **Fase:**            1             |
-| **Data:**        12/05/2024                 |
-| **Moderador:**  Gabriel de Oliveira   |
-| **Usuário:**   Douglas Santana    |
-| **Quantidade de Tarefas:** 6|
-| **Remoto ou Presencial:** Presencial|
 
 
 
