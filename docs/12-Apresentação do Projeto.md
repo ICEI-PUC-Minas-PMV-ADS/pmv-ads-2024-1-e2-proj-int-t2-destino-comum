@@ -6,11 +6,15 @@ Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do proje
 
 ## Título do Projeto
 
-Nome e marca do projeto
+Destino Comum. Conexão Viajante.
 
 ## Identidade Visual (Marca, Design)
+![Logo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/8ffd49e4-45da-4d80-8cac-dd124afc7336)
 
-O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
+### Paleta de cores
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/145787867/436627a2-f548-4036-b2b8-159f2fcfea83)
+
+
 
 > **Links Úteis**:
 > - [10 dicas de design para slides](https://rockcontent.com/blog/design-para-slides/)
