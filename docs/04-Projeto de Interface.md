@@ -11,20 +11,6 @@ Dessa forma, o projeto visa manter e aderir uma identidade visual consistente em
 
 ## Diagrama de Fluxo
 
-<s>O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo e  muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida.
-
-O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem internamente a indicação dos principais elementos de interface - tais como menus e acessos - e funcionalidades, tais como editar, pesquisar, filtrar, configurar - e a conexão entre esses boxes a partir do processo de interação. Você pode ver mais explicações e exemplos https://www.lucidchart.com/blog/how-to-make-a-user-flow-diagram.
-
-
-
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas de Fluxo”.
-
-> **Links Úteis**:
-> - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
-
-</s>
-
 O diagrama apresentado nas figuras (abaixo) mostram o fluxo de interação do usuário por meio das telas do sistema. Cada uma das telas da figura supramencionada é detalhada na seção de Wireframes a seguir. Destaca-se que o nome escolhido para o portal é "Destino Comum, conexão viajante", pois transmite a ideia de um lugar que todos podem compartilhar experiências de viagens anteriores e explorar juntos novos destinos, independentemente de origens ou interesses diversos, criando uma sensação de inclusão e abertura para todos os viajantes.
 
 ### Diagrama de Fluxo (Busca Cidade e Comentários)
