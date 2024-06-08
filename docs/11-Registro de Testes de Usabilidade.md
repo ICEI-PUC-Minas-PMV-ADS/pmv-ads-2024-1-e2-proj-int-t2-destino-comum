@@ -79,7 +79,7 @@ Na condução dos testes, levaram-se em consideração os parâmetros de tempo d
 
 ### Testes que obtiveram resultados satisfatórios
 
-Nos testes de **RTU-01**: Realizar cadastro de Usuário; **RTU-02**: Realizar Login; RTU-04: Gerenciar Cidades Cadastradas; **RTU-5**: Gerenciar Usuários Cadastrados; **RTU-6**: Gerenciar Usuários Cadastrados (Ativar ou inativar Usúario); **RTU-7**: Gerenciar Administradores Cadastrados; **RTU-8**: Gerar relatórios sobre cidades, funcionários e usuários e **RTU-9**: Buscar cidades por meio de filtro de pesquisa. Todos as métricas avaliadas como quantidade de ações, tempo de execução e numero de erros tiveram resultados sem grandes variações e receberam feedback positivo dos usuários. Nestes casos de testes não foram identificadas necessidades de aprimoramento na interface da aplicação. Ressalta-se que, em relação ao **RTU-08**, os usuários 1 e 3 apontaram que seria interessante que o arquivo baixado fosse identificado conforme o nome do arquivo gerado. Isto é, se o usuário baixar um relatório sobre cidade, ou funcionário ou usuário o nome do arquivo deveria ser, respectivamente, "cidade.xls", "funcionário.xls" e "usuário.xls".
+Nos testes de **RTU-01**: Realizar cadastro de Usuário; **RTU-02**: Realizar Login; RTU-04: Gerenciar Cidades Cadastradas; **RTU-5**: Gerenciar Usuários Cadastrados; **RTU-6**: Gerenciar Usuários Cadastrados (Ativar ou inativar Usúario); **RTU-7**: Gerenciar Administradores Cadastrados; **RTU-8**: Gerar relatórios sobre cidades, funcionários e usuários e **RTU-9**: Buscar cidades por meio de filtro de pesquisa. Todos as métricas avaliadas como quantidade de ações, tempo de execução e numero de erros tiveram resultados sem grandes variações e receberam feedback positivo dos usuários. Nestes casos de testes não foram identificadas necessidades de aprimoramento na interface da aplicação. Ressalta-se que, em relação ao **RTU-08**, os usuários 1 e 3 apontaram que seria interessante que o arquivo baixado fosse identificado conforme o nome do arquivo gerado. Isto é, se o usuário baixar um relatório sobre cidade, ou funcionário ou usuário o nome do arquivo deveria ser, respectivamente, "cidade.xls", "funcionário.xls" e "usuário.xls". Em **RTU-09**, após pesquisa pelo nome da cidade, os usuários sentiram falta de uma seta para voltar à página inicial. Contudo, foi explicado a eles que para voltarem a tela inicial (contendo todas as cidades) bastaria clicar em "home" ou clicar na barra de pesquisa, sem inserir nenhuma informação, e apertar "enter".
 
 ### Testes que obtiveram resultados não satisfatórios
 #### RTU-03: Cadastrar Cidade
@@ -92,16 +92,3 @@ Conforme previamente apontado (na seção "observações"), esse teste gerou um 
 
 
 
-
-| Tarefas                                             | Facilidade de Uso (1-5) | Feedback Detalhado                                                                                        | Tempo (min) | Cliques | Número de Erros |
-|----------------------------------------------------|-------------------------|------------------------------------------------------------------------------------------------------------|-------------|---------|-----------------|
-| Criar nova conta de usuário na aplicação          | 5                       | Cadastro do usuário bem tranquilo de realizar e rápido. | Menos de 1 minuto           | 6      | 0               |
-| Realizar o login na aplicação                     | 5                       | O login foi fácil e rápido de fazer.                                                     | Menos de 1 minuto           | 3       | 0               |
-| Votar em perguntas ou dicas favoritas            | Nullo                       | A funcionalidade não existe ainda.                                           | Nullo            | Nullo        | Nullo                |
-| Definir destinos favoritos                        | Nullo                       | A funcionalidade não existe ainda.             | Nullo            | Nullo        | Nullo                |
-| Reportar comentários impróprios                   | Nullo                       | A funcionalidade não existe ainda.                                         | Nullo            | Nullo        | Nullo                |
-| Receber notificações                              | Nullo                       | A funcionalidade não existe ainda.              | Nullo            | Nullo        | Nullo                |
-
-
-> **Links Úteis**:
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
