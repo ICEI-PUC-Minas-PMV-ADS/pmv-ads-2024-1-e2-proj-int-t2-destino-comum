@@ -24,44 +24,44 @@
 ## RTU 4 - Gerenciar Cidades Cadastradas
 | Usuário | Caso de teste | Tempo | Cliques | Número de Erros | Facilidade de Uso (1-5) | Feedback Detalhado |
 |----------|----------|----------|----------|----------|----------|----------|
-| Usuário 1  | CT06 - O administrador poderá criar, editar, excluir e ver detalhes das cidades   | 00:00:00|   |   |   |  |
-| Usuário 2  | CT06 – O administrador poderá criar, editar, excluir e ver detalhes das cidades   | 00:00:00|   |   |   |  |
-| Usuário 3  | CT06 – O administrador poderá criar, editar, excluir e ver detalhes das cidades   | 00:00:00|   |   |   |  |
+| Usuário 1  | CT06 - O administrador poderá criar, editar, excluir e ver detalhes das cidades   | 00:00:59|   7| 0  | 5  | O usuário achou o processo simples e rápido de ser feito. |
+| Usuário 2  | CT06 – O administrador poderá criar, editar, excluir e ver detalhes das cidades   | 00:01:11|  10| 1  | 5  | O usuário foi desatento e clicou em Painel Administrativo > Clientes em vez de Painel Administrativo > Cidades. Embora isso tenha ocorrido, foi relatado que o processo é claro e simples  |
+| Usuário 3  | CT06 – O administrador poderá criar, editar, excluir e ver detalhes das cidades   | 00:01:03|   7| 0  | 5  | O usuário informou que o processo é intuitivo e simples de ser realizado. |
 
 ## RTU 5 - Gerenciar Usuários Cadastrados
 | Usuário | Caso de teste | Tempo | Cliques | Número de Erros | Facilidade de Uso (1-5) | Feedback Detalhado |
 |----------|----------|----------|----------|----------|----------|----------|
-| Usuário 1  | CT-04 – O administrador poderá consultar os usuários cadastrados   | 00:00:00|   |   |   |  |
-| Usuário 2  | CT-04 – O administrador poderá consultar os usuários cadastrados   | 00:00:00|   |   |   |  |
-| Usuário 3  | CT-04 – O administrador poderá consultar os usuários cadastrados   | 00:00:00|   |   |   |  |
+| Usuário 1  | CT-04 – O administrador poderá consultar os usuários cadastrados   | 00:00:34|   6|   0|   5|  Usuário achou o processo simples e rápido de ser feito|
+| Usuário 2  | CT-04 – O administrador poderá consultar os usuários cadastrados   | 00:00:42|   6|   0|   5|  Por ser ocaminho deste processo parecido com ogerenciamento de cidades, o usuário conseguiu concluir mais rapidamente a tarefa. Ademais, foi relatado que o processo é bem simples e fácil|
+| Usuário 3  | CT-04 – O administrador poderá consultar os usuários cadastrados   | 00:00:40|   6|   0|   5|  O usuário achou o processo intuitivo e simples|
 
 ## RTU 6 - Gerenciar Usuários Cadastrados (Ativar ou inativar Usúario)
 | Usuário | Caso de teste | Tempo | Cliques | Número de Erros | Facilidade de Uso (1-5) | Feedback Detalhado |
 |----------|----------|----------|----------|----------|----------|----------|
-| Usuário 1  | CT-10 – Ativar ou inativar Usúario   | 00:00:00|   |   |   |  |
-| Usuário 2  | CT-10 – Ativar ou inativar Usúario   | 00:00:00|   |   |   |  |
-| Usuário 3  | CT-10 – Ativar ou inativar Usúario   | 00:00:00|   |   |   |  |
+| Usuário 1  | CT-10 – Ativar ou inativar Usúario   | 00:00:47|   7|   0|   5|  O usuário achou o processo simples e claro de ser realizado|
+| Usuário 2  | CT-10 – Ativar ou inativar Usúario   | 00:01:10|   9|   1|   4|  O usuário, erroneamente acessou a página de "editar" o usuário a procura da função "ativar/inativar o usuário". Como observou que não havia essa função em "editar", o usuário clicou em "voltar" e realizou o caminho corretamente (acessou "detalhes" do usuário e clicou em "inativar usuário"|
+| Usuário 3  | CT-10 – Ativar ou inativar Usúario   | 00:00:56|   7|   0|   5|  O usuário achou o processo simples de ser realizado|
 
 ## RTU 7 - Gerenciar Administradores Cadastrados
 | Usuário | Caso de teste | Tempo | Cliques | Número de Erros | Facilidade de Uso (1-5) | Feedback Detalhado |
 |----------|----------|----------|----------|----------|----------|----------|
-| Usuário 1  | CT-04 – O administrador poderá consultar os usuários cadastrados   | 00:00:00|   |   |   |  |
-| Usuário 2  | CT-04 – O administrador poderá consultar os usuários cadastrados   | 00:00:00|   |   |   |  |
-| Usuário 3  | CT-04 – O administrador poderá consultar os usuários cadastrados   | 00:00:00|   |   |   |  |
+| Usuário 1  | CT-04 – O administrador poderá consultar os usuários cadastrados   | 00:00:41|   7|   0|   5|  O usuário achou o processo simples e claro de ser realizado|
+| Usuário 2  | CT-04 – O administrador poderá consultar os usuários cadastrados   | 00:00:55|   7|   0|   5|  O usuário achou o processo simples de ser realizado. Ele relatou também que a função é bastante similar àquela de "Gerenciar Usuários Cadastrados"|
+| Usuário 3  | CT-04 – O administrador poderá consultar os usuários cadastrados   | 00:00:53|   7|   0|   5|  O usuário achou o processo simples de ser realizado|
 
 ## RTU 8 - Gerar relatórios sobre cidades, funcionários e usuários
 | Usuário | Caso de teste | Tempo | Cliques | Número de Erros | Facilidade de Uso (1-5) | Feedback Detalhado |
 |----------|----------|----------|----------|----------|----------|----------|
-| Usuário 1  | CT-04; CT-05; CT-06 | 00:00:00|   |   |   |  |
-| Usuário 2  | CT-04; CT-05; CT-06 | 00:00:00|   |   |   |  |
-| Usuário 3  | CT-04; CT-05; CT-06 | 00:00:00|   |   |   |  |
+| Usuário 1  | CT-04; CT-05; CT-06 | 00:00:49|   7|   0|   5|  O usuário achou o processo simples e rápido.|
+| Usuário 2  | CT-04; CT-05; CT-06 | 00:00:58|   7|   0|   5|  O usuário não encontrou dificuldades na execução desta tarefa|
+| Usuário 3  | CT-04; CT-05; CT-06 | 00:00:47|   7|   0|   5|  O usuário achou o processo simples e claro|
 
-## RTU 9 - Buscar cidades por meio de filtro de pesquisa
+## RTU 9 - Buscar cidades por meio de filtro de pesquisa (na tela home antes de se logar)
 | Usuário | Caso de teste | Tempo | Cliques | Número de Erros | Facilidade de Uso (1-5) | Feedback Detalhado |
 |----------|----------|----------|----------|----------|----------|----------|
-| Usuário 1  | CT-07 – Buscar Cidade | 00:00:00|   |   |   |  |
-| Usuário 2  | CT-07 – Buscar Cidade | 00:00:00|   |   |   |  |
-| Usuário 3  | CT-07 – Buscar Cidade | 00:00:00|   |   |   |  |
+| Usuário 1  | CT-07 – Buscar Cidade | 00:00:12|   2|   0|   5|  Achou o processo muito simples e intuitivo|
+| Usuário 2  | CT-07 – Buscar Cidade | 00:00:18|   2|   0|   5|  Achou o processo muito simples|
+| Usuário 3  | CT-07 – Buscar Cidade | 00:00:13|   2|   0|   5|  Achou o processo muito fácil|
 
 # Relatório dos Testes de Usabilidade
 
