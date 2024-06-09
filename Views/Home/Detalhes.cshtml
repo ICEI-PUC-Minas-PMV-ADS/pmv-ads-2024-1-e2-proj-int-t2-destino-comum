@@ -1,0 +1,59 @@
+﻿@using DestinoComum2.Models
+@model ComentarioModel
+
+@{
+    Layout = ViewBag.LayoutPagina;
+}
+
+<div class="container d-flex gap-5 justify-content-center align-items-center mt-5">
+    <div class="img">
+        <img src="/Imagem/@Model.Cidade.Capa" style="width: 350px; height: 550px; border-radius:10px" />
+    </div>
+
+    <div>
+        <h2 style="font-size: 22px">@Model.Cidade.Nome</h2>
+        <p>@Model.Cidade.Descricao</p>
+
+        <div>
+            @if (Model.Usuario != null)
+            {
+                @if (Model.Usuario.Perfil == DestinoComum2.Enum.PerfilEnum.Cliente)
+                {
+                    @if (ViewBag.Comentarios != "SemComentarios")
+                    {
+                        @if (Model.Usuario.Comentarios
+                       .Where(comentario => comentario.CidadeComentarioId == Model.CidadeComentarioId
+                       && comentario.Usuario.Id == ViewBag.UsuarioLogado).Count() > 0)
+                        {
+                            <button class="btn btn-primary w-10" style="border-radius: 10px" disabled>
+                                Você tem um comentário sobre essa cidade
+                            </button>
+                        }
+                        else
+                        {
+                            <a class="btn btn-success w-10" style="border-radius: 10px" asp-action="Comentar" asp-controller="Comentario" asp-route-id="@Model.Cidade.IdCidade">Comentar</a>
+                        }
+                    }
+                    else
+                    {
+                        <a class="btn btn-success w-10" style="border-radius: 10px" asp-action="Comentar" asp-controller="Comentario" asp-route-id="@Model.Cidade.IdCidade">Comentar</a>
+                    }
+                }
+                else
+                {
+                    <a class="btn btn-success w-10" style="border-radius: 10px" asp-action="Detalhes" asp-controller="Cidade" asp-route-id="@Model.Cidade.IdCidade">Verificar Detalhes</a>
+                }
+            }
+            else
+            {
+                <a class="btn btn-success w-10" style="border-radius: 10px" asp-action="Login" asp-controller="Home">É necessário logar para comentar</a>
+            }
+            <a class="btn btn-primary w-10" style="border-radius: 10px" asp-action="Index" asp-controller="Home">Voltar</a>
+
+        </div>
+
+
+    </div>
+
+
+</div>
