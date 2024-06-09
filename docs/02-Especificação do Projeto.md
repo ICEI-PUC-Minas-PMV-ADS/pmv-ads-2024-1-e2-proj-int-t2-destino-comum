@@ -74,6 +74,32 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 > - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
 > - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
+
+## Requisitos funcionais não implementados
+
+A tabela a seguir apresenta os requisitos funcionais que não foram implementados no projeto.
+
+
+|ID    | Descrição de Requisitos Funcionais não implementados | Motivo |
+|------|-----------------------------------------|----|
+|RF-001| A aplicação deve permitir aos usúarios que possam pesquisar as cidades de seu interesse | ALTA |
+|RF-002| A aplicação permitirá: cadastrar novo usuário | ALTA |
+|RF-003| A aplicação permitirá: usuário e realizar login e logout | ALTA |
+|RF-004| A aplicação deve permitir aos usuários a opção de escrever e editar as suas perguntas ou dicas referentes aos destinos escolhidos | ALTA |
+|RF-005| A aplicação deve permitir que os demais usuários possam votar em suas perguntas ou dicas favoritas | MÉDIA | 
+|RF-006| A aplicação deve automaticamente avaliar os melhores comentário e os evidenciar em "destaque" | MÉDIA |
+|RF-007| A aplicação deve permitir aos usúarios que possam definir seus destinos favoritos | MÉDIA |
+|RF-008| A aplicação deve permitir aos usúarios reportar comentários impróprios | MÉDIA |
+|RF-009| A aplicação deve permitir que os usuários recebam notificações | MÉDIA |
+|RF-010| A aplicação deve permitir que o administrador consulte quais usuários estão cadastrados e exclua usuários | ALTA |
+|RF-011| A aplicação deve permitir que o administrador exclua comentários reportados como impróprios pelos usuários | ALTA |
+|RF-012| A aplicação deve permitir que o administrador crie, edite e exclua as cidades | ALTA |
+|RF-013| A aplicação deve permitir que o usuário consulte as cidades e estas estejam agrupadas segundo o seu tipo de destino e por ordem alfabética| ALTA |
+|RF-014| Quando o usuário clicar na cidade que deseja acessar, a aplicação deve fornecer a descrição detalhada da cidade | ALTA |
+|RF-015| A aplicação deve permitir que o administrador ative ou inative o acesso de usuários cadastrados| ALTA |
+|RF-016| A aplicação deve conter perfis de gestor (administrador) e cliente (usuário comum)| ALTA |
+
+
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
