@@ -82,22 +82,14 @@ A tabela a seguir apresenta os requisitos funcionais que não foram implementado
 
 |ID    | Descrição de Requisitos Funcionais não implementados | Motivo |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir aos usúarios que possam pesquisar as cidades de seu interesse | ALTA |
-|RF-002| A aplicação permitirá: cadastrar novo usuário | ALTA |
-|RF-003| A aplicação permitirá: usuário e realizar login e logout | ALTA |
-|RF-004| A aplicação deve permitir aos usuários a opção de escrever e editar as suas perguntas ou dicas referentes aos destinos escolhidos | ALTA |
-|RF-005| A aplicação deve permitir que os demais usuários possam votar em suas perguntas ou dicas favoritas | MÉDIA | 
-|RF-006| A aplicação deve automaticamente avaliar os melhores comentário e os evidenciar em "destaque" | MÉDIA |
-|RF-007| A aplicação deve permitir aos usúarios que possam definir seus destinos favoritos | MÉDIA |
-|RF-008| A aplicação deve permitir aos usúarios reportar comentários impróprios | MÉDIA |
-|RF-009| A aplicação deve permitir que os usuários recebam notificações | MÉDIA |
-|RF-010| A aplicação deve permitir que o administrador consulte quais usuários estão cadastrados e exclua usuários | ALTA |
-|RF-011| A aplicação deve permitir que o administrador exclua comentários reportados como impróprios pelos usuários | ALTA |
-|RF-012| A aplicação deve permitir que o administrador crie, edite e exclua as cidades | ALTA |
-|RF-013| A aplicação deve permitir que o usuário consulte as cidades e estas estejam agrupadas segundo o seu tipo de destino e por ordem alfabética| ALTA |
-|RF-014| Quando o usuário clicar na cidade que deseja acessar, a aplicação deve fornecer a descrição detalhada da cidade | ALTA |
-|RF-015| A aplicação deve permitir que o administrador ative ou inative o acesso de usuários cadastrados| ALTA |
-|RF-016| A aplicação deve conter perfis de gestor (administrador) e cliente (usuário comum)| ALTA |
+|RF-004| A aplicação deve permitir aos usuários a opção de escrever e editar as suas perguntas ou dicas referentes aos destinos escolhidos | Complexidade Técnica e Foco em Funcionalidades Primárias |
+|RF-005| A aplicação deve permitir que os demais usuários possam votar em suas perguntas ou dicas favoritas | Complexidade Técnica e Foco em Funcionalidades Primárias | 
+|RF-006| A aplicação deve automaticamente avaliar os melhores comentário e os evidenciar em "destaque" | Complexidade Técnica e Foco em Funcionalidades Primárias |
+|RF-007| A aplicação deve permitir aos usúarios que possam definir seus destinos favoritos | Complexidade Técnica e Foco em Funcionalidades Primárias |
+|RF-008| A aplicação deve permitir aos usúarios reportar comentários impróprios | Complexidade Técnica e Foco em Funcionalidades Primárias |
+|RF-009| A aplicação deve permitir que os usuários recebam notificações | Complexidade Técnica e Foco em Funcionalidades Primárias |
+|RF-011| A aplicação deve permitir que o administrador exclua comentários reportados como impróprios pelos usuários | Complexidade Técnica e Foco em Funcionalidades Primárias |
+
 
 
 ## Requisitos
