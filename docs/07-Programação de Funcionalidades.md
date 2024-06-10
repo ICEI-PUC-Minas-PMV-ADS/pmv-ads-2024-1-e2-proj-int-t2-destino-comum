@@ -19,6 +19,8 @@ A tabela a seguir determina a correlação entre o artefato produzido e o requis
 
 # Instruções de acesso
 
+Endereço da aplicação: https://destinocomum220240609223416.azurewebsites.net
+
 ~Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).~
 
 ~Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).~
