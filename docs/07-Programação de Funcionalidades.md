@@ -4,10 +4,13 @@
 
 Durante a etapa de desenvolvimento, os artefatos foram elaborados seguindo os requisitos funcionais.
 
-A tabela a seguir determina a correlação entre o artefato produzido e o requisito funcional respectivo.
+A tabela a seguir determina a correlação entre o artefato produzido e o requisito funcional respectivo:
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
+|RF-001|  A aplicação deve permitir aos usúarios que possam pesquisar as cidades de seu interesse | Index.cshtml / HomeController.cs | 
+|RF-002| 	A aplicação permitirá: cadastrar novo usuário | Cadastrar.cshtml / UsuarioModel.cs / UsuarioController.cs | 
+|RF-003| 	A aplicação permitirá: usuário e realizar login e logout | Login.cshtml / UsuarioModel.cs / UsuarioController.cs | 
 |RF-012|  A aplicação deve permitir que o administrador crie, edite e exclua as cidades | Cidade.shtml / CidadeModel.cs / CidadeController.cs | 
 |RF-013|  A aplicação deve permitir que o usuário consulte as cidades e estas estejam agrupadas segundo o seu tipo de destino e por ordem alfabética  | Destino.shtml / CidadeController.cs |
 |RF-014|  Quando o usuário clicar na cidade que deseja acessar, a aplicação deve fornecer a descrição detalhada da cidade  | DestinoDetalhe.shtml / CidadeController.cs |
@@ -16,11 +19,11 @@ A tabela a seguir determina a correlação entre o artefato produzido e o requis
 
 # Instruções de acesso
 
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
+~Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).~
 
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
+~Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).~
 
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+~O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.~
 
 > **Links Úteis**:
 >
