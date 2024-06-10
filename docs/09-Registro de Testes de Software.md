@@ -7,7 +7,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | **Caso de Teste** 	| **CT-01 – Buscar Cidade** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-001 - A aplicação deve apresentar, na página principal, a funcionalidade de pesquisa de cidades e receber informações das cidades. |
-|Registro de evidência | FALTA GRAVAR |
+|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/144973239/6c319021-f7b2-4657-a352-3248d258662c |
 
 
 | **Caso de Teste** 	| **CT-02 – Cadastrar perfil** 	|
