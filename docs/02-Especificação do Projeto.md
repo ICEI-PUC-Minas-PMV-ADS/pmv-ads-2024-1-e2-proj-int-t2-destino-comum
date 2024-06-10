@@ -2,9 +2,9 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+~Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.~
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+~Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto~
 
 ## Personas
 #### Nome: Amanda Alves <br> 
@@ -47,7 +47,7 @@ História: Gabriela é uma professora de história apaixonada por culturas locai
 > - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
 > - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
 >
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+~Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.~
 
 ## Histórias de Usuários
 
@@ -76,7 +76,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto:
 
 ### Requisitos Funcionais
 
@@ -102,8 +102,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ## Requisitos funcionais não implementados
 
-A tabela a seguir apresenta os requisitos funcionais que não foram implementados no projeto.
-
+A tabela a seguir apresenta os requisitos funcionais que não foram implementados no projeto:
 
 |ID    | Descrição de Requisitos Funcionais não implementados | Motivo |
 |------|-----------------------------------------|----|
@@ -134,7 +133,7 @@ A tabela a seguir apresenta os requisitos funcionais que não foram implementado
 
 
 
-~~Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
+~Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:~
 
 - [Requisitos Funcionais
  (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
@@ -147,11 +146,11 @@ A tabela a seguir apresenta os requisitos funcionais que não foram implementado
   dispositivos iOS e Android).
 Lembre-se que cada requisito deve corresponder à uma e somente uma
 característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.~~
+todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+O projeto está restrito pelos itens apresentados na tabela a seguir:
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
@@ -164,20 +163,20 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |07| Restrições de tempo podem ser impostas por eventos sazonais ou temporários, como feriados, festivais ou eventos esportivos, que podem exigir atualizações específicas no aplicativo ou demandar maior suporte técnico durante esses períodos.       |
 
 
-~~Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
+~Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.~
 
 > **Links Úteis**:
 > - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)~~
+> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
-
+                    
 ![Diagrama de Caso de Uso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/144973239/73d73958-d3f2-4e56-a7fd-718bba0cc925)
 
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
+~O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos.~
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
+~As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”:~
 
 > **Links Úteis**:
 > - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
