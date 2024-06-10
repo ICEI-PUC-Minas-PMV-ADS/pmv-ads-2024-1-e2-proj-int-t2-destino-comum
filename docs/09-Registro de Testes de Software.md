@@ -7,7 +7,11 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-002 - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
-|Registro de evidência | www.teste.com.br/drive/ct-01 |
+|Registro de evidência | Cadastro Usuário Comum (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-destino-comum/assets/144973239/0c46a58f-b4b0-4f49-9563-021a7ead50e0) |
+
+
+
+
 
 | **Caso de Teste** 	| **CT-02 – Tipos de perfil** 	|
 |:---:	|:---:	|
