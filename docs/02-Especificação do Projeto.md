@@ -56,7 +56,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Usuário do sistema  | Encontrar informações sobre destinos turísticos populares em diferentes cidades          | Planejar minha próxima viagem              |
 |Usuário do sistema  | Ler comentários e respostas de outros viajantes sobre atrações turísticas (locais históricos, museus, restaurantes etc) de uma determinada cidade          | Planejar os locais que irei visitar em determinada cidade              |
 |Usuário do sistema  | Escrever perguntas e respostas em seções específicas de cada destino | Esclarecer dúvidas e ajudar outros usuários da página  |
@@ -64,7 +63,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário do sistema  | Definir meus destinos favoritos | facilitar o acesso às paginas destas localidades |
 |Usuário do sistema  | Comentar em seções específicas acerca do local visitado, como alimentação, transporte, hospedagem e clima | fazer perguntas sobre lugares que gostaria de visitar e fornecer feedback dos lugares  que visitei |
 |Usuário do sistema  | Acessar informações básicas sobre a cidade a ser visitada | obter informações resumidas sobre o destino |
-|Usuário do sistema  | Receber notificações | acompanhar respostas aos meus comentários |
+
 
 
 > **Links Úteis**:
@@ -73,23 +72,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 > - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
 > - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
 > - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
-
-
-## Requisitos funcionais não implementados
-
-A tabela a seguir apresenta os requisitos funcionais que não foram implementados no projeto.
-
-
-|ID    | Descrição de Requisitos Funcionais não implementados | Motivo |
-|------|-----------------------------------------|----|
-|RF-004| A aplicação deve permitir aos usuários a opção de escrever e editar as suas perguntas ou dicas referentes aos destinos escolhidos | Complexidade Técnica e Foco em Funcionalidades Primárias |
-|RF-005| A aplicação deve permitir que os demais usuários possam votar em suas perguntas ou dicas favoritas | Complexidade Técnica e Foco em Funcionalidades Primárias | 
-|RF-006| A aplicação deve automaticamente avaliar os melhores comentário e os evidenciar em "destaque" | Complexidade Técnica e Foco em Funcionalidades Primárias |
-|RF-007| A aplicação deve permitir aos usúarios que possam definir seus destinos favoritos | Complexidade Técnica e Foco em Funcionalidades Primárias |
-|RF-008| A aplicação deve permitir aos usúarios reportar comentários impróprios | Complexidade Técnica e Foco em Funcionalidades Primárias |
-|RF-009| A aplicação deve permitir que os usuários recebam notificações | Complexidade Técnica e Foco em Funcionalidades Primárias |
-|RF-011| A aplicação deve permitir que o administrador exclua comentários reportados como impróprios pelos usuários | Complexidade Técnica e Foco em Funcionalidades Primárias |
-
 
 
 ## Requisitos
@@ -118,6 +100,20 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-016| A aplicação deve conter perfis de gestor (administrador) e cliente (usuário comum)| ALTA |
 
 
+## Requisitos funcionais não implementados
+
+A tabela a seguir apresenta os requisitos funcionais que não foram implementados no projeto.
+
+
+|ID    | Descrição de Requisitos Funcionais não implementados | Motivo |
+|------|-----------------------------------------|----|
+|RF-004| A aplicação deve permitir aos usuários a opção de escrever e editar as suas perguntas ou dicas referentes aos destinos escolhidos | Complexidade Técnica e Foco em Funcionalidades Primárias |
+|RF-005| A aplicação deve permitir que os demais usuários possam votar em suas perguntas ou dicas favoritas | Complexidade Técnica e Foco em Funcionalidades Primárias | 
+|RF-006| A aplicação deve automaticamente avaliar os melhores comentário e os evidenciar em "destaque" | Complexidade Técnica e Foco em Funcionalidades Primárias |
+|RF-007| A aplicação deve permitir aos usúarios que possam definir seus destinos favoritos | Complexidade Técnica e Foco em Funcionalidades Primárias |
+|RF-008| A aplicação deve permitir aos usúarios reportar comentários impróprios | Complexidade Técnica e Foco em Funcionalidades Primárias |
+|RF-009| A aplicação deve permitir que os usuários recebam notificações | Complexidade Técnica e Foco em Funcionalidades Primárias |
+|RF-011| A aplicação deve permitir que o administrador exclua comentários reportados como impróprios pelos usuários | Complexidade Técnica e Foco em Funcionalidades Primárias |
 
           
 ### Requisitos não Funcionais
@@ -136,7 +132,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-010| O sistema deve permitir o cadastro do usuário em 10 minutos | MÉDIA |
 |RNF-011| O sistema deve retornar as consultas aos pedidos em menos de 10 segundos | MÉDIA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
+
+
+~~Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
 - [Requisitos Funcionais
  (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
@@ -149,7 +147,7 @@ Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Cla
   dispositivos iOS e Android).
 Lembre-se que cada requisito deve corresponder à uma e somente uma
 característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+todos os aspectos capturados nas Histórias de Usuário foram cobertos.~~
 
 ## Restrições
 
@@ -166,11 +164,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |07| Restrições de tempo podem ser impostas por eventos sazonais ou temporários, como feriados, festivais ou eventos esportivos, que podem exigir atualizações específicas no aplicativo ou demandar maior suporte técnico durante esses períodos.       |
 
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
+~~Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
 > **Links Úteis**:
 > - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)~~
 
 ## Diagrama de Casos de Uso
 
