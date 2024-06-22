@@ -28,104 +28,32 @@ O objetivo principal deste teste de usabilidade é avaliar a facilidade de uso e
 - Análise de Usabilidade: examinar as informações coletadas para detectar pontos que necessitam de aprimoramento na usabilidade da plataforma.
 
                                                            
-| RTU 1 - Realizar cadastro de Usuário |
-|-------------------------------------|
-| **Usuário:**                   Todos |
-| **Objetivo do teste:**         Examinar a forma como o usuário utiliza a tela de cadastro |
-| **Ações essenciais:**          |
-| 1. Acessar a tela home do site pelo navegador; |
-| 2. Clicar em “Cadastre-se”; |
-| 3. Preencher o formulário com as informações solicitadas nos campos; |
-| 4. Clicar em “Cadastrar”. |
+**Teste de Usabilidade**
 
-| RTU 2 - Realizar Login |
-|-------------------------------------|
-| **Usuário:**                   Todos |
-| **Objetivo do teste:**         Examinar a forma como o usuário realiza o login |
-| **Ações essenciais:**          |
-| 1. Acessar a tela home do site pelo navegador; |
-| 2. Clicar em “Login”; |
-| 3. Preencher e-mail cadastrado no campo indicado; |
-| 4. Preencher a senha no campo indicado; |
-| 5. Clicar em "Entrar". |
+| **Caso de Teste 1** 	| **Participante**  | **Critério de Êxito** | **Oque será Avaliado** |
+|-----------------------|-----------------------|------------------------|-------------------|
+| Barra de busca por cidades | Usuario Padrão | O  sistema deve exibir uma lista de cidades utilizando como parâmetro o nome da cidade recebida | Facilidade em realizar a ação. Efetivação da tarefa. Quantidade de erros cometidos. Tempo necessario para se concluir a busca por cidades. Nível de contentamento com a tarefa. |
 
-| RTU 3 - Cadastrar Cidade |
-|-------------------------------------|
-| **Usuário:**                   Todos |
-| **Objetivo do teste:**         Examinar a forma como o usuário utiliza a tela de cadastrar cidade |
-| **Ações essenciais:**          |
-| 1. Acessar a tela home do site pelo navegador; |
-| 2. Clicar em “Login”; |
-| 3. Preencher e-mail e senha de perfil "Administrador"|
-| 4. Uma vez logado como perfil de administrador na tela home, clicar em "Painel Administrativo > Cidades"; |
-| 5. Clicar em "Cadastrar Cidade"; |
-| 6. Preencher o formulário com as informações solicitadas nos campos; |
-| 7. Clicar em "Cadastrar". |
+| **Caso de Teste 2** 	| **Participante**  | **Critério de Êxito** | **Oque será Avaliado** |
+|-----------------------|-----------------------|------------------------|-------------------|
+| Cadastrar na Aplicação | Ao preencher todos os dados presentes na área de cadastro o sistema deve concluir o cadastro, liberar a opção de comentar nas cidades e redirecionar para a página principal  | Efetivação em realizar a ação. Erros comitidos durante a tarefa. Tempo necessário para se concluir o cadastro do usuario. Nível de contentamento com a tarefa.
 
-| RTU 4 - Gerenciar Cidades Cadastradas |
-|-------------------------------------|
-| **Usuário:**                   Todos |
-| **Objetivo do teste:**         Examinar a forma como o usuário utiliza a tela "Lista de Cidades" |
-| **Ações essenciais:**          |
-| 1. Acessar a tela home do site pelo navegador; |
-| 2. Clicar em “Login”; |
-| 3. Preencher e-mail e senha de perfil "Administrador"|
-| 4. Uma vez logado como perfil de administrador na tela home, clicar em "Painel Administrativo > Cidades"; |
-| 5. Visualizar as cidades e identificar as opções de editar, detalhes, e excluir; |
+| **Caso de Teste 3** 	| **Participante**  | **Critério de Êxito** | **Oque será Avaliado** |
+|-----------------------|-----------------------|------------------------|-------------------|
+| Realizar Login | Usuario Padrão | Ao clicar no botão login o usuario irá preencher os campos "Email" e "Senha" e será redirecionado para a página principal com acesso aos comentários presentes nas cidades | Facilidade em acessar página de login. Efetivação em realizar a ação. Erros comitidos durante a tabela. Tempo necessário para se concluir o login no sistema. Nível de contentamento com a tarefa.
 
-| RTU 5 - Gerenciar Usuários Cadastrados |
-|-------------------------------------|
-| **Usuário:**                   Todos |
-| **Objetivo do teste:**         Examinar a forma como o usuário utiliza a tela "Lista de Usuários" |
-| **Ações essenciais:**          |
-| 1. Acessar a tela home do site pelo navegador; |
-| 2. Clicar em “Login”; |
-| 3. Preencher e-mail e senha de perfil "Administrador"|
-| 4. Uma vez logado como perfil de administrador na tela home, clicar em "Painel Administrativo > Clientes"; |
-| 5. Visualizar os usuários e identificar as opções "detalhes" e "editar"; |
+| **Caso de Teste 4** 	| **Participante**  | **Critério de Êxito** | **Oque será Avaliado** |
+|-----------------------|-----------------------|------------------------|-------------------|
+| Acessar página da cidade | Usuario Padrão | Ao clicar na botão "Detalhes" da cidade que gostaria de acessar o usúario será redirecionado para o página da cidade selecionada | Facilidade em acessar página da cidade referenciada no acesso. Efetivação em realizar a ação. Erros comitidos durante a tabela. Nível de contentamento com a tarefa.
 
-| RTU 6 - Gerenciar Usuários Cadastrados (Ativar ou inativar Usúario)|
-|-------------------------------------|
-| **Usuário:**                   Todos |
-| **Objetivo do teste:**         Examinar a forma como o usuário utiliza a função "ativar/inativar" usuário |
-| **Ações essenciais:**          |
-| 1. Acessar a tela home do site pelo navegador; |
-| 2. Clicar em “Login”; |
-| 3. Preencher e-mail e senha de perfil "Administrador"|
-| 4. Uma vez logado como perfil de administrador na tela home, clicar em "Painel Administrativo > Clientes"; |
-| 5. Visualizar os usuários e clicar na opção "detalhes" |
-| 6. Encontrar o usuário e clicar em "ativar usuário" se ele estiver inativo ou clicar em "inativar usuário" se ele estiver ativo |
+| **Caso de Teste 5** 	| **Participante**  | **Critério de Êxito** | **Oque será Avaliado** |
+|-----------------------|-----------------------|------------------------|-------------------|
+| Cadastrar Cidade | Usuario Admin | Ao acessar a página de cadastro de cidades, preencher todos os dados da cidade e anexar foto de "capa" da página de cidade, criar página da cidade e a exibir na home page principal | Efetivação em realizar a ação. Erros comitidos durante a tabela. Nível de contentamento com a tarefa.
 
-| RTU 7 - Gerenciar Administradores Cadastrados |
-|-------------------------------------|
-| **Usuário:**                   Todos |
-| **Objetivo do teste:**         Examinar a forma como o usuário utiliza a tela "Cadastro de Funcionários" |
-| **Ações essenciais:**          |
-| 1. Acessar a tela home do site pelo navegador; |
-| 2. Clicar em “Login”; |
-| 3. Preencher e-mail e senha de perfil "Administrador"|
-| 4. Uma vez logado como perfil de administrador na tela home, clicar em "Painel Administrativo > Administradores"; |
-| 5. Visualizar os usuários-administradores e identificar as opções "detalhes" e "editar"; |
+| **Caso de Teste 6** 	| **Participante**  | **Critério de Êxito** | **Oque será Avaliado** |
+|-----------------------|-----------------------|------------------------|-------------------|
+| Editar Cidades/Excluir | Usuario Admin | Ao acessar a página de detalhes de cidades, selecionar a cidade que gostaria e alterar o atributo que gostaria de mudar ou a cidade que gostaria de excluir, a alteração irá aparecer automaticamente na página principal da aplicação | Efetivação em realizar a ação. Erros comitidos durante a tabela. Nível de contentamento com a tarefa.
 
-| RTU 8 - Gerar relatórios sobre cidades, funcionários e usuários |
-|-------------------------------------|
-| **Usuário:**                   Todos |
-| **Objetivo do teste:**         Examinar a forma como o usuário utiliza a tela "Relatórios" |
-| **Ações essenciais:**          |
-| 1. Acessar a tela home do site pelo navegador; |
-| 2. Clicar em “Login”; |
-| 3. Preencher e-mail e senha de perfil "Administrador"|
-| 4. Uma vez logado como perfil de administrador na tela home, clicar em "Painel Administrativo > Relatórios"; |
-| 5. Visualizar os tipos de relatórios ("Cidades", "Clientes", "Funcionários") e clicar na opção desejada para baixar o relatório em formato ".xls" |
-| 6. Abrir o arquivo baixado e visualizar as informações desejadas|
-
-| RTU 9 - Buscar cidades por meio de filtro de pesquisa |
-|-------------------------------------|
-| **Usuário:**                   Todos |
-| **Objetivo do teste:**         Examinar a forma como o usuário utiliza a tela "Cidades" |
-| **Ações essenciais:**          |
-| 1. Acessar a tela home do site pelo navegador; |
-| 2. Clicar em “Login”; |
-| 3. Preencher e-mail e senha de perfil "Administrador"|
-| 4. Uma vez logado como perfil de administrador na tela home, clicar em "Painel Administrativo > Cidades"; |
-| 5. Buscar a cidade utilizando o filtro de pesquisa |
+| **Caso de Teste 7** 	| **Participante**  | **Critério de Êxito** | **Oque será Avaliado** |
+|-----------------------|-----------------------|------------------------|-------------------|
+| Exibir Relatório | Usuario Admin | Ao realizar login acessar a "Painel Administrativo > Relatórios", será exibido tipos de relatórios ("Cidades", "Clientes", "Funcionários") | Efetivação em realizar a ação. Erros comitidos durante a tabela. Nível de contentamento com a tarefa. Tempo necessário para se concluir a exbibição dos relatórios.
