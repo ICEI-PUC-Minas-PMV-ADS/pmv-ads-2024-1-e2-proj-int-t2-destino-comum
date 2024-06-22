@@ -36,7 +36,7 @@ O objetivo principal deste teste de usabilidade é avaliar a facilidade de uso e
 
 | **Caso de Teste 2** 	| **Participante**  | **Critério de Êxito** | **Oque será Avaliado** |
 |-----------------------|-----------------------|------------------------|-------------------|
-| Cadastrar na Aplicação | Ao preencher todos os dados presentes na área de cadastro o sistema deve concluir o cadastro, liberar a opção de comentar nas cidades e redirecionar para a página principal  | Efetivação em realizar a ação. Erros comitidos durante a tarefa. Tempo necessário para se concluir o cadastro do usuario. Nível de contentamento com a tarefa.
+| Cadastrar na Aplicação | Usuario Padrão |Ao preencher todos os dados presentes na área de cadastro o sistema deve concluir o cadastro, liberar a opção de comentar nas cidades e redirecionar para a página principal  | Efetivação em realizar a ação. Erros comitidos durante a tarefa. Tempo necessário para se concluir o cadastro do usuario. Nível de contentamento com a tarefa.
 
 | **Caso de Teste 3** 	| **Participante**  | **Critério de Êxito** | **Oque será Avaliado** |
 |-----------------------|-----------------------|------------------------|-------------------|
@@ -57,3 +57,4 @@ O objetivo principal deste teste de usabilidade é avaliar a facilidade de uso e
 | **Caso de Teste 7** 	| **Participante**  | **Critério de Êxito** | **Oque será Avaliado** |
 |-----------------------|-----------------------|------------------------|-------------------|
 | Exibir Relatório | Usuario Admin | Ao realizar login acessar a "Painel Administrativo > Relatórios", será exibido tipos de relatórios ("Cidades", "Clientes", "Funcionários") | Efetivação em realizar a ação. Erros comitidos durante a tabela. Nível de contentamento com a tarefa. Tempo necessário para se concluir a exbibição dos relatórios.
+
