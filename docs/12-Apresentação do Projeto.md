@@ -4,6 +4,9 @@
 
 Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do projeto contemplando todos os itens trabalhados nos demais artefatos.
 
+[Destino Comum - Apresentacao Slides.pdf](https://github.com/user-attachments/files/15948833/Destino.Comum.-.Apresentacao.Slides.pdf)
+
+
 ## Título do Projeto
 
 Destino Comum. Conexão Viajante.
